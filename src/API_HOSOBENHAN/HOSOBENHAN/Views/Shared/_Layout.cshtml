@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HOSOBENHAN</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HOSOBENHAN.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header text-center">
+            <div class="frame-22">
+                <img class="image-1 img-fluid" src="image-10.png" alt="Logo" />
+            </div>
+            <div class="ph-n-m-m-qu-n-l-b-nh-n-i-n-t">
+                Phần mềm quản lí bệnh án điện tử
+            </div>
+            <div class="s-c-kh-e-c-a-b-n-t-t-l-ni-m-vui-c-a-ch-ng-t-i">
+                Sức khỏe của bạn tốt
+                <br />
+                là niềm vui của chúng tôi
+            </div>
+            <img class="image img-fluid" src="image0.png" alt="Image" />
+        </div>
+    </header>
+
+    <main class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </main>
+
+    <footer class="border-top footer text-muted">
+        <div class="footer text-center">
+            <div class="frame-22">
+                <img class="image-1 img-fluid" src="image-10.png" alt="Logo" />
+            </div>
+            <div class="hotline-19001001-t-ng-i-vi-n">
+                <span>
+                    <span class="hotline-19001001-t-ng-i-vi-n-span">Hotline:</span>
+                    <span class="hotline-19001001-t-ng-i-vi-n-span2">19001001</span>
+                    <span class="hotline-19001001-t-ng-i-vi-n-span">(Tổng đài viên)</span>
+                </span>
+            </div>
+            <div class="a-ch-48-cao-th-ng-thanh-b-nh-n-ng">
+                Địa chỉ: 48 Cao Thắng, Thanh Bình, Đà Nẵng
+            </div>
+            <div class="a-ch-48-cao-th-ng-thanh-b-nh-n-ng1">
+                Design by: ThuNguyet_CongHieu_NgocDung
+            </div>
+            <img class="image img-fluid" src="image0.png" alt="Footer Image" />
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

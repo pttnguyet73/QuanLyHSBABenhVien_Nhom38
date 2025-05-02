@@ -1,6 +1,0 @@
-@API_HOSOBENHAN_HostAddress = http://localhost:5183
-
-GET {{API_HOSOBENHAN_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

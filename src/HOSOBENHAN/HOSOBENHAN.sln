@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOSOBENHAN", "HOSOBENHAN\HOSOBENHAN.csproj", "{57361316-10FB-4107-A3E6-CB6B50BEBE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_HOSOBENHAN", "API_HOSOBENHAN\API_HOSOBENHAN.csproj", "{4BAE7C7D-4662-4422-9A12-19567068814C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57361316-10FB-4107-A3E6-CB6B50BEBE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57361316-10FB-4107-A3E6-CB6B50BEBE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57361316-10FB-4107-A3E6-CB6B50BEBE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57361316-10FB-4107-A3E6-CB6B50BEBE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAE7C7D-4662-4422-9A12-19567068814C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAE7C7D-4662-4422-9A12-19567068814C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAE7C7D-4662-4422-9A12-19567068814C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAE7C7D-4662-4422-9A12-19567068814C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12750B97-C253-474C-937C-3B653C661351}
+	EndGlobalSection
+EndGlobal

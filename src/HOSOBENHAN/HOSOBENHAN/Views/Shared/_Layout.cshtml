@@ -6,12 +6,15 @@
     <title>@ViewData["Title"] - HOSOBENHAN</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/HOSOBENHAN.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  
 </head>
 <body>
-    <header>
+   <header>
         <div class="header text-center">
             <div class="frame-22">
                 <img class="image-1 img-fluid" src="image-10.png" alt="Logo" />
@@ -28,33 +31,31 @@
         </div>
     </header>
 
-    <main class="container">
+    <main class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </main>
 
     <footer class="border-top footer text-muted">
-        <div class="footer text-center">
-            <div class="frame-22">
-                <img class="image-1 img-fluid" src="image-10.png" alt="Logo" />
-            </div>
-            <div class="hotline-19001001-t-ng-i-vi-n">
-                <span>
-                    <span class="hotline-19001001-t-ng-i-vi-n-span">Hotline:</span>
-                    <span class="hotline-19001001-t-ng-i-vi-n-span2">19001001</span>
-                    <span class="hotline-19001001-t-ng-i-vi-n-span">(Tổng đài viên)</span>
-                </span>
-            </div>
-            <div class="a-ch-48-cao-th-ng-thanh-b-nh-n-ng">
-                Địa chỉ: 48 Cao Thắng, Thanh Bình, Đà Nẵng
-            </div>
-            <div class="a-ch-48-cao-th-ng-thanh-b-nh-n-ng1">
-                Design by: ThuNguyet_CongHieu_NgocDung
-            </div>
-            <img class="image img-fluid" src="image0.png" alt="Footer Image" />
-        </div>
-    </footer>
+         <div class="footer text-center">
+             <div class="frame-22">
+                 <img class="image-1 img-fluid" src="image-10.png" alt="Logo" />
+             </div>
+             <div class="hotline-19001001-t-ng-i-vi-n">
+                 <span>
+                     <span class="hotline-19001001-t-ng-i-vi-n-span">Hotline:</span>
+                     <span class="hotline-19001001-t-ng-i-vi-n-span2">19001001</span>
+                     <span class="hotline-19001001-t-ng-i-vi-n-span">(Tổng đài viên)</span>
+                 </span>
+             </div>
+             <div class="a-ch-48-cao-th-ng-thanh-b-nh-n-ng">
+                 Địa chỉ: 48 Cao Thắng, Thanh Bình, Đà Nẵng
+             </div>
+             
+             <img class="image img-fluid" src="image0.png" alt="Footer Image" />
+         </div>
+     </footer> 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

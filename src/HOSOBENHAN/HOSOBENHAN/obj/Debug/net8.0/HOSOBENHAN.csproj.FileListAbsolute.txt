@@ -59,3 +59,34 @@ D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.pdb
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.genruntimeconfig.cache
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\ref\HOSOBENHAN.dll
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\appsettings.Development.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\appsettings.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.staticwebassets.runtime.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.exe
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.deps.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.runtimeconfig.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.dll
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.pdb
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.GeneratedMSBuildEditorConfig.editorconfig
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.AssemblyInfoInputs.cache
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.AssemblyInfo.cs
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.csproj.CoreCompileInputs.cache
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.MvcApplicationPartsAssemblyInfo.cache
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.RazorAssemblyInfo.cache
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.RazorAssemblyInfo.cs
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.sourcelink.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.build.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.development.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.HOSOBENHAN.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.build.HOSOBENHAN.props
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HOSOBENHAN.props
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HOSOBENHAN.props
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.pack.json
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\scopedcss\bundle\HOSOBENHAN.styles.css
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\scopedcss\projectbundle\HOSOBENHAN.bundle.scp.css
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.dll
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\refint\HOSOBENHAN.dll
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.pdb
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.genruntimeconfig.cache
+D:\HocTap\hocki2nam3\224DAPM\Code\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\ref\HOSOBENHAN.dll

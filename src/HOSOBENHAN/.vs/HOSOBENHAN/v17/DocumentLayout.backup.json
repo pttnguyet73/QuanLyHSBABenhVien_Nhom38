@@ -1,41 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\",
+  "WorkspaceRootPath": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\assets\\js\\linechartpagechart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\assets\\js\\linechartpagechart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hsba\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -46,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,117 +57,20 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\style.css",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAAAIABAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-08T03:01:22.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "lineChartPageChart.js",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\assets\\js\\lineChartPageChart.js",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\assets\\js\\lineChartPageChart.js",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\assets\\js\\lineChartPageChart.js",
-              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\assets\\js\\lineChartPageChart.js",
-              "ViewState": "AgIAAJMBAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-08T02:55:01.146Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABkBAAAAAAAAAAAmwC4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:52:19.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Program.cs",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Program.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Program.cs",
-              "RelativeToolTip": "HOSOBENHAN\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T13:50:02.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\appsettings.json",
+              "DocumentMoniker": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\appsettings.json",
               "RelativeDocumentMoniker": "HOSOBENHAN\\appsettings.json",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\appsettings.json",
+              "ToolTip": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\appsettings.json",
               "RelativeToolTip": "HOSOBENHAN\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-02T13:50:00.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "ViewState": "AgIAACcCAAAAAAAAAAAUwE4CAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:38:07.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-02T13:30:17.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:28:56.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T02:56:29.351Z",
+              "WhenOpened": "2025-05-11T09:22:22.326Z",
               "EditorCaption": ""
             }
           ]

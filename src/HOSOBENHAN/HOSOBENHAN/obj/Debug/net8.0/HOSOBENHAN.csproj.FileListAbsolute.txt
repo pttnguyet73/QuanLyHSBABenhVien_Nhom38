@@ -59,3 +59,38 @@ D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.pdb
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.genruntimeconfig.cache
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\ref\HOSOBENHAN.dll
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\appsettings.Development.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\appsettings.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.staticwebassets.runtime.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.staticwebassets.endpoints.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.exe
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.deps.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.runtimeconfig.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.dll
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\bin\Debug\net8.0\HOSOBENHAN.pdb
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.GeneratedMSBuildEditorConfig.editorconfig
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.AssemblyInfoInputs.cache
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.AssemblyInfo.cs
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.csproj.CoreCompileInputs.cache
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.MvcApplicationPartsAssemblyInfo.cache
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.RazorAssemblyInfo.cache
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.RazorAssemblyInfo.cs
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.sourcelink.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\scopedcss\bundle\HOSOBENHAN.styles.css
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\scopedcss\projectbundle\HOSOBENHAN.bundle.scp.css
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.build.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.development.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.HOSOBENHAN.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.HOSOBENHAN.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.build.HOSOBENHAN.props
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HOSOBENHAN.props
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HOSOBENHAN.props
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.pack.json
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.dll
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\refint\HOSOBENHAN.dll
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.pdb
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\HOSOBENHAN.genruntimeconfig.cache
+D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\obj\Debug\net8.0\ref\HOSOBENHAN.dll

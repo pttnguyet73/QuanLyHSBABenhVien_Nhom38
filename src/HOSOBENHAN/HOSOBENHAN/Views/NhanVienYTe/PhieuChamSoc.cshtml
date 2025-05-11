@@ -1,0 +1,109 @@
+﻿@{
+	Layout = "_Layout";
+}
+  <script src="~/js/NhanVienYTe/PhieuChamSoc.js"></script>
+  <link rel="stylesheet" href="~/css/lib/PhieuChamSoc.css">
+
+	<div class="contain">
+		<div class="scroll-view">
+			<div class="row-view3">
+				<div class="column2">
+					<span class="text4">
+						HỒ SƠ BỆNH ÁN
+					</span>
+					<div class="column3">
+						<span class="context">
+							Thông tin bệnh nhân
+						</span>
+					<span class="context">
+							Quản lý người bệnh
+						</span>
+					<span class="context">
+							Chẩn đoán
+						</span>
+					<span class="context">
+							Xét nghiệm
+						</span>
+					<span class="context">
+							Kết quả xét nghiệm
+						</span>
+					<span class="context">
+							Phiếu chăm sóc
+						</span>
+					<span class="context">
+							Đơn thuốc
+						</span>
+					<span class="context">
+							Thông tin nhập viện
+						</span>
+					</div>
+				</div>
+				<div class="column4">
+					<div class="view">
+						<span class="text13">
+							PHIẾU CHĂM SÓC
+						</span>
+					</div>
+					<div class="column5">
+					<table id="tb">
+						<colgroup>
+							<col style="width: 15%;">
+							<col style="width: 35%;">
+							<col style="width: 35%;">
+							<col style="width: 15%;">
+						</colgroup>
+						<tr>
+							<th class="thtext">Ngày,giờ,phút</th>
+							<th class="thtext">Theo dõi diễn biến</th>
+							<th class="thtext">Theo dõi y lệnh</th>
+							<th class="thtext">Tên điều dưỡng</th>
+						</tr>
+						<tr>
+							<td>27/3, 9h30p</td>
+							<td>Tỉnh táo, mệt ngực, khó thở, không sốt, chưa phát hiện sự dị ứng</td>
+							<td>Đo nồng độ HA.Hướng dẫn chế độ ăn.Đo nhiệt độ</td>
+							<td>Hạnh</td>
+						</tr>
+						<tr>
+							<td>28/3, 9h30p</td>
+							<td>Tỉnh táo, mệt ngực, khó thở, không sốt, chưa phát hiện sự dị ứng</td>
+							<td>Đo nồng độ HA.Hướng dẫn chế độ ăn.Đo nhiệt độ</td>
+							<td>Nguyệt</td>
+						</tr>
+						<tr>
+							<td>29/3, 9h30p</td>
+							<td>Tỉnh táo, mệt ngực, khó thở, không sốt, chưa phát hiện sự dị ứng</td>
+							<td>Đo nồng độ HA.Hướng dẫn chế độ ăn.Đo nhiệt độ</td>
+							<td>Mai</td>
+						</tr>
+						<tr>
+							<td>30/3, 9h30p</td>
+							<td>Tỉnh táo, mệt ngực, khó thở, không sốt, chưa phát hiện sự dị ứng</td>
+							<td>Đo nồng độ HA.Hướng dẫn chế độ ănĐo nhiệt độ</td>
+							<td>Nhi</td>
+						</tr>
+
+						<tr id="tr_addtext" > 
+							<td><p style="margin: 0px;" id="td_getdatetime"></p></td>
+							<td><textarea id="texttddb" class="textarea-input" placeholder="Nhập theo dõi diễn biến"></textarea></td>
+							<td><textarea id="textylenh" class="textarea-input" placeholder="Nhập y lệnh"></textarea></td>
+							<td><textarea id="textdieuduong" class="textarea-input"></textarea></td>
+						</tr>
+
+						</table>
+					<button id="btn_addcontent" onclick="toggleBox()">
+						<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/615ad94e-9491-4069-9548-fa11b9112728"
+							 class="image3" />
+                     </button>
+					</div>
+					<div class="view2">
+						<div class="view3">
+							<span class="text19">
+								Lưu
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

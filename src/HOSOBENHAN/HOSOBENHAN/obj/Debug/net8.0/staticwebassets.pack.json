@@ -925,66 +925,6 @@
       "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\apexcharts.css",
-      "PackagePath": "staticwebassets\\css\\lib\\apexcharts.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\audioplayer.css",
-      "PackagePath": "staticwebassets\\css\\lib\\audioplayer.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\dataTables.min.css",
-      "PackagePath": "staticwebassets\\css\\lib\\dataTables.min.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\editor-katex.min.css",
-      "PackagePath": "staticwebassets\\css\\lib\\editor-katex.min.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\editor.atom-one-dark.min.css",
-      "PackagePath": "staticwebassets\\css\\lib\\editor.atom-one-dark.min.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\editor.quill.snow.css",
-      "PackagePath": "staticwebassets\\css\\lib\\editor.quill.snow.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\file-upload.css",
-      "PackagePath": "staticwebassets\\css\\lib\\file-upload.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\flatpickr.min.css",
-      "PackagePath": "staticwebassets\\css\\lib\\flatpickr.min.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\full-calendar.css",
-      "PackagePath": "staticwebassets\\css\\lib\\full-calendar.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\jquery-jvectormap-2.0.5.css",
-      "PackagePath": "staticwebassets\\css\\lib\\jquery-jvectormap-2.0.5.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\magnific-popup.css",
-      "PackagePath": "staticwebassets\\css\\lib\\magnific-popup.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\prism.css",
-      "PackagePath": "staticwebassets\\css\\lib\\prism.css"
-    },
-    {
-      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\slick.css",
-      "PackagePath": "staticwebassets\\css\\lib\\slick.css"
-    },
-    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\main.css.map",
       "PackagePath": "staticwebassets\\css\\main.css.map"
     },
@@ -999,6 +939,10 @@
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style2.css",
+      "PackagePath": "staticwebassets\\css\\style2.css"
     },
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\favicon.ico",

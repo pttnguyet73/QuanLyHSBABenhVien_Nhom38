@@ -1,4 +1,4 @@
-.header,
+/*.header,
 .header * {
     box-sizing: border-box;
 }
@@ -32,8 +32,8 @@
     height: 80px;
     position: relative;
     object-fit: cover;
-}
-
+}*/
+/*
 .ph-n-m-m-qu-n-l-b-nh-n-i-n-t {
     color: #000000;
     text-align: center;
@@ -164,3 +164,4 @@
     top: 53.93%;
     height: 16.75%;
 }
+*/

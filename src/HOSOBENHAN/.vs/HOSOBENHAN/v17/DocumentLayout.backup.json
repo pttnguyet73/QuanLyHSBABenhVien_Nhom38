@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\controllers\\thongke_thunguyetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\controllers\\thongke_thunguyetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\controllers\\thongke_thunguyetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\controllers\\thongke_thunguyetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BAE7C7D-4662-4422-9A12-19567068814C}|API_HOSOBENHAN\\API_HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\api_hosobenhan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -206,10 +210,6 @@
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0111\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\detaiquanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\hosobenhan.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\hosobenhan.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -225,7 +225,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -269,46 +269,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T03:17:11.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Program.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Program.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Program.cs",
               "RelativeToolTip": "HOSOBENHAN\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T13:50:02.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ThongKe_ThuNguyetController.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
               "RelativeToolTip": "HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T13:42:27.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAIBJwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T13:28:56.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T02:56:29.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
+              "ViewState": "AgIAAIcBAAAAAAAAAADwv54BAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T13:38:07.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HOSOBENHAN\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:32:46.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
@@ -322,45 +361,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:28:56.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T02:56:29.351Z",
+              "WhenOpened": "2025-05-13T03:17:11.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "ViewState": "AgIAAIcBAAAAAAAAAADwv54BAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:38:07.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\appsettings.json",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\appsettings.json",
@@ -373,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\WeatherForecast.cs",
@@ -386,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Program.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Program.cs",
@@ -399,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\appsettings.json",
               "RelativeDocumentMoniker": "HOSOBENHAN\\appsettings.json",
@@ -412,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "app.js",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\app.js",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\js\\app.js",
@@ -425,43 +438,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ThongKe_ThuNguyetController.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
               "RelativeToolTip": "API_HOSOBENHAN\\Controllers\\ThongKe_ThuNguyetController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:59:56.348Z"
+              "WhenOpened": "2025-05-12T12:59:56.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAMkBAAAAAAAAAAAAANoBAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAMcBAAAAAAAAAABBwNoBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-05-12T14:16:48.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HSBADBContext.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\HSBADBContext.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\HSBADBContext.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\HSBADBContext.cs",
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\HSBADBContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAABYwCoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T11:48:08.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HSBA_XetNghiem.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\HSBA_XetNghiem.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\HSBA_XetNghiem.cs",
@@ -469,11 +483,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\HSBA_XetNghiem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:31:33.938Z"
+              "WhenOpened": "2025-05-12T11:31:33.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ChanDoan.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\ChanDoan.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\ChanDoan.cs",
@@ -481,11 +496,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\ChanDoan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:32:29.812Z"
+              "WhenOpened": "2025-05-12T11:32:29.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BenhNhan.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\BenhNhan.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\BenhNhan.cs",
@@ -498,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Thuoc.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\Thuoc.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\Thuoc.cs",
@@ -506,11 +522,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\Thuoc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:35:21.406Z"
+              "WhenOpened": "2025-05-12T11:35:21.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PhieuChamSoc.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\PhieuChamSoc.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\PhieuChamSoc.cs",
@@ -523,19 +540,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TTNhapVien.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\TTNhapVien.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\TTNhapVien.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\TTNhapVien.cs",
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\TTNhapVien.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:42:38.714Z"
+              "WhenOpened": "2025-05-12T11:42:38.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "XetNghiem.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\XetNghiem.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\XetNghiem.cs",
@@ -543,11 +561,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\XetNghiem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:30:59.719Z"
+              "WhenOpened": "2025-05-12T11:30:59.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TTNV_Khoa.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\TTNV_Khoa.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\TTNV_Khoa.cs",
@@ -555,11 +574,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\TTNV_Khoa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:37:33.129Z"
+              "WhenOpened": "2025-05-12T11:37:33.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TaiKham.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\TaiKham.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\TaiKham.cs",
@@ -567,11 +587,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\TaiKham.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:30:00.602Z"
+              "WhenOpened": "2025-05-12T11:30:00.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "HSBA.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\HSBA.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\HSBA.cs",
@@ -579,11 +600,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\HSBA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:12:52.716Z"
+              "WhenOpened": "2025-05-12T13:12:52.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "HSBA_XetNghiem.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\HSBA_XetNghiem.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\HSBA_XetNghiem.cs",
@@ -591,11 +613,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\HSBA_XetNghiem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:13:25.497Z"
+              "WhenOpened": "2025-05-12T13:13:25.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "PhieuChamSoc.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\PhieuChamSoc.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\PhieuChamSoc.cs",
@@ -603,11 +626,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\PhieuChamSoc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:14:00.039Z"
+              "WhenOpened": "2025-05-12T13:14:00.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "TaiKham.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\TaiKham.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\TaiKham.cs",
@@ -615,11 +639,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\TaiKham.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:14:20.071Z"
+              "WhenOpened": "2025-05-12T13:14:20.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ThongKeApiResponse.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\ThongKeApiResponse.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\ThongKeApiResponse.cs",
@@ -627,11 +652,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\ThongKeApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:50:41.22Z"
+              "WhenOpened": "2025-05-12T13:50:41.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "DonThuoc.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\DonThuoc.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\DonThuoc.cs",
@@ -639,11 +665,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\DonThuoc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:35:46.704Z"
+              "WhenOpened": "2025-05-12T11:35:46.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DonThuoc_HSBA.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\DonThuoc_HSBA.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\DonThuoc_HSBA.cs",
@@ -651,11 +678,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\DonThuoc_HSBA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:36:32.09Z"
+              "WhenOpened": "2025-05-12T11:36:32.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "HSBA.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\HSBA.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\HSBA.cs",
@@ -663,11 +691,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\HSBA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:29:28.539Z"
+              "WhenOpened": "2025-05-12T11:29:28.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "KhieuNai.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\KhieuNai.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\KhieuNai.cs",
@@ -675,11 +704,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\KhieuNai.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:43:20.683Z"
+              "WhenOpened": "2025-05-12T11:43:20.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Khoa.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\Khoa.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\Khoa.cs",
@@ -687,11 +717,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\Khoa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:36:55.69Z"
+              "WhenOpened": "2025-05-12T11:36:55.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "NhanVien.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Data\\NhanVien.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Data\\NhanVien.cs",
@@ -699,11 +730,12 @@
               "RelativeToolTip": "API_HOSOBENHAN\\Data\\NhanVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:27:47.13Z"
+              "WhenOpened": "2025-05-12T11:27:47.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Thuoc.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\Thuoc.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\Thuoc.cs",
@@ -711,11 +743,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\Thuoc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:14:30.301Z"
+              "WhenOpened": "2025-05-12T13:14:30.301Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "DonThuoc_HSBA.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\DonThuoc_HSBA.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\DonThuoc_HSBA.cs",
@@ -723,11 +756,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\DonThuoc_HSBA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:12:40.789Z"
+              "WhenOpened": "2025-05-12T13:12:40.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "DonThuoc.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\DonThuoc.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\DonThuoc.cs",
@@ -735,23 +769,25 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\DonThuoc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:12:52.222Z"
+              "WhenOpened": "2025-05-12T13:12:52.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Startup.cs",
               "RelativeDocumentMoniker": "API_HOSOBENHAN\\Startup.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\Startup.cs",
               "RelativeToolTip": "API_HOSOBENHAN\\Startup.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAIBJwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:13:18.741Z"
+              "WhenOpened": "2025-05-12T11:13:18.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "KhieuNai.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\KhieuNai.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\KhieuNai.cs",
@@ -759,11 +795,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\KhieuNai.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:13:36.018Z"
+              "WhenOpened": "2025-05-12T13:13:36.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "TTNhapVien.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\TTNhapVien.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\TTNhapVien.cs",
@@ -771,11 +808,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\TTNhapVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:14:36.241Z"
+              "WhenOpened": "2025-05-12T13:14:36.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "TTNV_Khoa.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\TTNV_Khoa.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\TTNV_Khoa.cs",
@@ -783,11 +821,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\TTNV_Khoa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:14:41.355Z"
+              "WhenOpened": "2025-05-12T13:14:41.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "XetNghiem.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\XetNghiem.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\XetNghiem.cs",
@@ -795,11 +834,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\XetNghiem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:14:44.99Z"
+              "WhenOpened": "2025-05-12T13:14:44.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "NhanVien.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\NhanVien.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\NhanVien.cs",
@@ -807,11 +847,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\NhanVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:13:44.822Z"
+              "WhenOpened": "2025-05-12T13:13:44.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Khoa.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\Khoa.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\Khoa.cs",
@@ -819,11 +860,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\Khoa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:13:41.451Z"
+              "WhenOpened": "2025-05-12T13:13:41.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\ErrorViewModel.cs",
@@ -831,11 +873,12 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:13:21.229Z"
+              "WhenOpened": "2025-05-12T13:13:21.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "BenhNhan.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\BenhNhan.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\BenhNhan.cs",
@@ -843,23 +886,25 @@
               "RelativeToolTip": "HOSOBENHAN\\Models\\BenhNhan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:12:37.744Z"
+              "WhenOpened": "2025-05-12T13:12:37.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ChanDoan.cs",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\ChanDoan.cs",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Models\\ChanDoan.cs",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Models\\ChanDoan.cs",
               "RelativeToolTip": "HOSOBENHAN\\Models\\ChanDoan.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAcwAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAA2wAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:12:37.014Z"
+              "WhenOpened": "2025-05-12T13:12:37.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "site.css",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\site.css",
@@ -867,19 +912,21 @@
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-02T13:30:17.847Z"
+              "WhenOpened": "2025-05-02T13:30:17.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "style.css",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\style.css",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAADoxAAAAAAAAAIBJwFAxAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADcxAAAAAAAAAIBZwFAxAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-08T03:01:22.869Z"
+              "WhenOpened": "2025-05-08T03:01:22.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -895,27 +942,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HOSOBENHAN\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T13:32:46.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "style2.css",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style2.css",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\style2.css",
               "ToolTip": "D:\\h\u1ECDc k\u00EC 224 (n\u0103m 3)\\\u0110\u1ED3 \u00E1n ph\u1EA7n m\u1EC1m\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style2.css",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\style2.css",
-              "ViewState": "AgIAADgBAAAAAAAAAIBJwEcBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADUBAAAAAAAAAIBZwEcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T14:24:36.623Z"
+              "WhenOpened": "2025-05-11T14:24:36.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -927,7 +963,8 @@
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\assets\\js\\lineChartPageChart.js",
               "ViewState": "AgIAAJMBAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-08T02:55:01.146Z"
+              "WhenOpened": "2025-05-08T02:55:01.146Z",
+              "EditorCaption": ""
             }
           ]
         },

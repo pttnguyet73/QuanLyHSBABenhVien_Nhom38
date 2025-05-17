@@ -6,26 +6,24 @@ namespace HOSOBENHAN.Data
     [Table("HSBA_XetNghiem")]
     public class HSBA_XetNghiem
     {
-        [Key, Column(Order = 0)]
+        [ForeignKey("HSBA")]
         [MaxLength(10)]
         public string MaHSBA { get; set; }
+        public HSBA HSBA { get; set; }
 
-        [Key, Column(Order = 1)]
+        [ForeignKey("XetNghiem")]
         [MaxLength(10)]
         public string MaXN { get; set; }
+        public XetNghiem XetNghiem { get; set; }
 
         [MaxLength(200)]
         public string KQXetNghiem { get; set; }
 
         public DateTime? TgianTao { get; set; }
 
-        [MaxLength(100)]
+        [ForeignKey("NhanVien"), MaxLength(100)]
         public string BacSyXN { get; set; }
+        public NhanVien NhanVien { get; set; }
 
-        [ForeignKey("MaHSBA")]
-        public HSBA HSBA { get; set; }
-
-        [ForeignKey("MaXN")]
-        public XetNghiem XetNghiem { get; set; }
     }
 }

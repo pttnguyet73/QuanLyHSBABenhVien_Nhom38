@@ -17,7 +17,6 @@ namespace HOSOBENHAN.Data
 
         public DateTime? TGChuyenDen { get; set; }
 
-        public ICollection<TTNV_KHOA> TTNV_KHOAs { get; set; }
     }
 
 }

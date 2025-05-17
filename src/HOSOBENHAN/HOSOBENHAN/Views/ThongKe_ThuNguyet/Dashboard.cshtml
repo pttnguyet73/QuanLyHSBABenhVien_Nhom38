@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model  HOSOBENHAN.Models.LineChart
 
 @section Scripts {
     <script>
@@ -9,10 +10,12 @@
             var options = {
                 series: [{
                     name: "series1",
-                    data: [48, 35, 55, 32, 48, 30, 55, 50, 57]
+                    data: @Html.Raw(Json.Serialize(Model.Series1))
+
                 }, {
                     name: "series2",
-                    data: [12, 20, 15, 26, 22, 60, 40, 48, 25]
+                    data: @Html.Raw(Json.Serialize(Model.Series2))
+
                 }],
                 legend: {
                     show: false
@@ -43,7 +46,7 @@
                 grid: {
                     show: true,
                     borderColor: "#D1D5DB",
-                    strokeDashArray: 1,
+                    strokeDashArray: 2,
                     position: "back",
                     xaxis: {
                         lines: {
@@ -106,7 +109,7 @@
                     labels: {
                         show: false
                     },
-                    categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                    categories: ["Một","Hai", "Ba", "Tư", "Năm", "Sáu", "Bảy", "Tám", "Chín", "Mười", "Mười Một", "Mười Hai"],
                     tooltip: {
                         enabled: false
                     },
@@ -141,6 +144,8 @@
         }
 
         createChartTwo("enrollmentChart", "#487FFF", "#FF9F29");
+        
+        // createChartTwo("dayenrollmentChart", "#487FFF", "#FF9F29");
         // ===================== Average Enrollment Rate End ===============================
 
 
@@ -388,10 +393,10 @@
                     <div class="card-header">
                         <div class="d-flex align-items-center flex-wrap gap-2 justify-content-between">
                             <h6 class="mb-2 fw-bold text-lg mb-0">Earning Statistic</h6>
-                            <select class="form-select form-select-sm w-auto bg-base border-0 text-secondary-light">
-                                <option>This Month</option>
-                                <option>This Week</option>
-                                <option>This Year</option>
+                            <select id="selectChartRange" class="form-select form-select-sm w-auto bg-base border-0 text-secondary-light">
+                                <option value="month">This Month</option>
+                                <option value="week">This Week</option>
+                                <option value="year">This Year</option>
                             </select>
                         </div>
                     </div>
@@ -413,6 +418,12 @@
                             </li>
                         </ul>
                         <div id="enrollmentChart" class="apexcharts-tooltip-style-1"></div>
+                            <script>
+                                console.log(@Model.Series1)
+                            </Script>
+                        
+                      
+
                     </div>
                 </div>
             </div>
@@ -891,3 +902,25 @@
         </div>
     </div>
 </div>
+ <script>
+     // function showChartDiv(range) {
+     //     const ranges = ["year", "month", "day"]; 
+     //     ranges.forEach(r => {
+     //         const wrapper = document.getElementById(`${r}enrollmentChart`);
+     //         if (wrapper) {
+     //             wrapper.style.display = r === range ? "block" : "none";
+     //         }
+     //     });
+     // }
+     // document.getElementById("selectChartRange").addEventListener("change", function () {
+     //     const selected = this.value;
+     //     showChartDiv(selected); Khi chọn thì hiển thị div tương ứng
+     // });
+
+     // ✅ Gọi lần đầu để hiển thị mặc định
+     // document.addEventListener("DOMContentLoaded", function () {
+     //     showChartDiv("month"); Mặc định hiển thị biểu đồ tháng
+     //     document.getElementById("selectChartRange").value = "month"; Đặt lại dropdown nếu cần
+     // });
+
+ </script>

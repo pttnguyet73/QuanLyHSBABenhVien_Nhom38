@@ -43546,6 +43546,7 @@
 											"model": {
 												"$ref": "AAAAAAGWFfu2ruTQKlQ="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 108,
@@ -43563,7 +43564,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 509,
-											"top": 123,
+											"top": 110,
 											"width": 130.98876953125,
 											"height": 13
 										},
@@ -43578,7 +43579,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 509,
-											"top": 138,
+											"top": 125,
 											"width": 130.98876953125,
 											"height": 13
 										},
@@ -43593,7 +43594,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 509,
-											"top": 153,
+											"top": 140,
 											"width": 130.98876953125,
 											"height": 13
 										}
@@ -43602,7 +43603,7 @@
 									"left": 504,
 									"top": 103,
 									"width": 140.98876953125,
-									"height": 68
+									"height": 55
 								}
 							],
 							"font": "Arial;13;0",

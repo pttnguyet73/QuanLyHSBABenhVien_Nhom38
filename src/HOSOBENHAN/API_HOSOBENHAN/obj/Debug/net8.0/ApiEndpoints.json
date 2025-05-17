@@ -2,7 +2,17 @@
   {
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetThongKe",
-    "RelativePath": "api/ThongKe_ThuNguyet",
+    "RelativePath": "api/ThongKe_ThuNguyet/Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetYear",
+    "RelativePath": "api/ThongKe_ThuNguyet/Year",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

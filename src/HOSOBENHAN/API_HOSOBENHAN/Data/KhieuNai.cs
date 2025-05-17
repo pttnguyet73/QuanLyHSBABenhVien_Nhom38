@@ -6,11 +6,12 @@ namespace HOSOBENHAN.Data
     [Table("KhieuNai")]
     public class KhieuNai
     {
-        [Key, Column(Order = 0), MaxLength(10)]
+        [Key, MaxLength(10)]
         public string IDKNai { get; set; }
 
-        [Key, Column(Order = 1), MaxLength(10)]
+        [ForeignKey("BenhNhan"), MaxLength(10)]
         public string IDBenhNhan { get; set; }
+        public BenhNhan BenhNhan { get; set; }
 
         [MaxLength(200)]
         public string LyDo { get; set; }
@@ -26,10 +27,6 @@ namespace HOSOBENHAN.Data
         [MaxLength(10)]
         public string MaNV { get; set; }
 
-        [ForeignKey("IDBenhNhan")]
-        public BenhNhan BenhNhan { get; set; }
-
-        [ForeignKey("MaNV")]
-        public NhanVien NhanVien { get; set; }
+       
     }
 }

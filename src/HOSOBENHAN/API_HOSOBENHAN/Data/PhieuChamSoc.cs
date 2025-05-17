@@ -4,14 +4,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HOSOBENHAN.Data
 {
-    [Keyless]
     [Table("PhieuChamSoc")]
     public class PhieuChamSoc
     {
         [ForeignKey("HSBA")]
         [MaxLength(10)]
         public string MaHSBA { get; set; }
-
+        public HSBA HSBA { get; set; }
         public DateTime Ngay { get; set; }
 
         [MaxLength(200)]
@@ -23,6 +22,5 @@ namespace HOSOBENHAN.Data
         [MaxLength(100)]
         public string TenDieuDuong { get; set; }
 
-        public HSBA HSBA { get; set; }
     }
 }

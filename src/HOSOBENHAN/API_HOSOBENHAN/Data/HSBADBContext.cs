@@ -45,6 +45,9 @@ namespace HOSOBENHAN.Data
 
             modelBuilder.Entity<KhieuNai>()
                 .HasKey(x => new { x.IDKNai, x.IDBenhNhan });
+
+            modelBuilder.Entity<PhieuChamSoc>()
+                .HasKey(x => new { x.MaHSBA });
         }
     }
 }

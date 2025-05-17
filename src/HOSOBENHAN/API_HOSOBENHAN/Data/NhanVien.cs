@@ -44,8 +44,5 @@ namespace HOSOBENHAN.Data
 
         [MaxLength(50)]
         public string Khoa { get; set; }
-
-        // Navigation property
-        public ICollection<KhieuNai> KhieuNais { get; set; }
     }
 }

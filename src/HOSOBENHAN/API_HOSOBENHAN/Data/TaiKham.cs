@@ -7,15 +7,9 @@ namespace HOSOBENHAN.Data
     [Table("TaiKham")]
     public class TaiKham
     {
-        [ForeignKey("BenhNhan")]
-        [MaxLength(10)]
-        public string MaBN { get; set; }
-
-        // Mối quan hệ với đối tượng BenhNhan
-        public BenhNhan BenhNhan { get; set; }
-
+     
         // Khóa ngoại liên kết với bảng HSBA
-        [ForeignKey("HSBA")]
+        [Key, ForeignKey("HSBA")]
         [MaxLength(10)]
         public string MaHSBA { get; set; }
 

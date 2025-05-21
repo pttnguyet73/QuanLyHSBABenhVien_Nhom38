@@ -2,7 +2,7 @@
     {
         public class TopKhoa
         {
-            public string Khoa { get; set; }
-            public int MaHSBA {  get; set; }
+            public string TenKhoa { get; set; }
+            public int SoBenhNhan {  get; set; }
         }
     }

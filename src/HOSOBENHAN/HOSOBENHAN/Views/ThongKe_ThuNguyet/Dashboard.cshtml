@@ -2,8 +2,30 @@
     ViewData["Title"] = "Home Page";
 }
 @model  HOSOBENHAN.Models.DashboardViewModel
+@using System.Text.Json
+@{
+    var khoaLabels = Model.CircleChart.Select(k => k.TenKhoa).ToList();
+    var khoaSeries = Model.CircleChart.Select(k => k.SoBenhNhan).ToList();
+    var labels = Json.Serialize(Model.ColumnChart.Labels);
+    var series1 = Json.Serialize(Model.ColumnChart.Series1);
+    var series2 = Json.Serialize(Model.ColumnChart.Series2);
+}
+
+@{
+    var pieData = Model.PieChart.FirstOrDefault(); // lấy phần tử đầu tiên (nếu có)
+    var series = new int[] { pieData?.daDieuTriXong ?? 0, pieData?.chuaDieuTriXong ?? 0 };
+
+    var seriesJson = System.Text.Json.JsonSerializer.Serialize(series);
+    
+}
+
 
 @section Scripts {
+    <script>
+        console.log("Labels:", @Html.Raw(JsonSerializer.Serialize(khoaLabels)));
+        console.log("Series:", @Html.Raw(JsonSerializer.Serialize(khoaSeries)));
+        console.log("SeriesJson: ", @Html.Raw(seriesJson));
+    </script>
     <script>
         // ===================== Average Enrollment Rate Start ===============================
         function createChartTwo(chartId, color1, color2, dt1, dt2) {
@@ -125,7 +147,7 @@
                 yaxis: {
                     labels: {
                         formatter: function (value) {
-                            return "$" + value + "k";
+                            return  value + "k";
                         },
                         style: {
                             fontSize: "14px"
@@ -289,9 +311,9 @@
 
         // ================================ User Activities Donut chart End ================================
         var options = {
-            series: [30, 25],
+            series: @Html.Raw(seriesJson),
             colors: ["#FF9F29", "#45B369"],
-            labels: ["Female", "Male"],
+            labels: ["Đã xong", "Đang điều trị"],
             legend: {
                 show: false
             },
@@ -335,17 +357,21 @@
 
         var chart = new ApexCharts(document.querySelector("#statisticsDonutChart"), options);
         chart.render();
+        
         // ================================ User Activities Donut chart End ================================
 
 
         // ================================ Client Payment Status chart End ================================
+        var labels1 = @Html.Raw(labels);
+        var series1 = @Html.Raw(series1);
+        var series2 = @Html.Raw(series2);
         var options = {
             series: [{
                 name: "Net Profit",
-                data: [44, 100, 40, 56, 30, 58, 50]
+                data: series1
             }, {
                 name: "Free Cash",
-                data: [60, 120, 60, 90, 50, 95, 90]
+                data: series2
             }],
             colors: ["#45B369", "#FF9F29"],
             labels: ["Active", "New", "Total"],
@@ -388,7 +414,7 @@
                 colors: ["transparent"]
             },
             xaxis: {
-                categories: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+                categories: labels1,
             },
             fill: {
                 opacity: 1,
@@ -401,8 +427,10 @@
         // ================================ Client Payment Status chart End ================================
 
         // ================================= Multiple Radial Bar Chart Start =============================
+        var labels = @Html.Raw(JsonSerializer.Serialize(khoaLabels));
+        var series = @Html.Raw(JsonSerializer.Serialize(khoaSeries));
         var options = {
-            series: [80, 40, 10],
+            series: series,
             chart: {
                 height: 300,
                 type: "radialBar",
@@ -418,28 +446,24 @@
                     },
                     dataLabels: {
                         name: {
-                            fontSize: "16px",
+                            fontSize: "12px",
                         },
                         value: {
                             fontSize: "16px",
                         },
-                        // total: {
-                        //     show: true,
-                        //     formatter: function (w) {
-                        //         return "82%"
-                        //     }
-                        // }
+                      
                     },
                     track: {
                         margin: 20, // Space between the bars
                     }
                 }
             },
-            labels: ["Cardiology", "Psychiatry", "Pediatrics"],
+            labels: labels,
         };
 
         var chart = new ApexCharts(document.querySelector("#radialMultipleBar"), options);
         chart.render();
+
         // ================================= Multiple Radial Bar Chart End =============================
     </script>
 }
@@ -575,15 +599,18 @@
                     <div class="card-body p-24 d-flex align-items-center gap-16">
                         <div id="radialMultipleBar"></div>
                         <ul class="d-flex flex-column gap-12">
-                            <li>
-                                <span class="text-lg">Cardiology: <span class="text-primary-600 fw-semibold">80%</span> </span>
-                            </li>
-                            <li>
-                                <span class="text-lg">Psychiatry: <span class="text-warning-600 fw-semibold">40%</span> </span>
-                            </li>
-                            <li>
-                                <span class="text-lg">Pediatrics: <span class="text-success-600 fw-semibold">10%</span> </span>
-                            </li>
+                            <ul class="d-flex flex-column gap-12">
+                                @foreach (var item in Model.CircleChart)
+                                {
+                                    <li>
+                                        <span class="text-lg">
+                                            @item.TenKhoa: <span class="text-primary-600 fw-semibold">@item.SoBenhNhan%</span>
+                                        </span>
+                                    </li>
+                                }
+                            </ul>
+
+                           
                         </ul>
                     </div>
                 </div>
@@ -790,25 +817,23 @@
                         <div class="position-relative">
                             <div id="statisticsDonutChart" class="mt-36 flex-grow-1 apexcharts-tooltip-z-none title-style circle-none"></div>
                             <div class="text-center position-absolute top-50 start-50 translate-middle">
-                                <span class="text-secondary-light">Income</span>
+                                <span class="text-secondary-light">Tổng HSBA</span>
                                 <h6 class="">$28,500</h6>
                             </div>
                         </div>
-
+                      
                         <ul class="row gy-4 mt-3">
                             <li class="col-6 d-flex flex-column align-items-center">
                                 <div class="d-flex align-items-center gap-2">
                                     <span class="w-12-px h-8-px rounded-pill bg-warning-600"></span>
-                                    <span class="text-secondary-light text-sm fw-normal">Net Income</span>
+                                    <span class="text-secondary-light text-sm fw-normal">Đã xong</span>
                                 </div>
-                                <h6 class="text-primary-light fw-bold mb-0">$50,000</h6>
                             </li>
                             <li class="col-6 d-flex flex-column align-items-center">
                                 <div class="d-flex align-items-center gap-2">
                                     <span class="w-12-px h-8-px rounded-pill bg-success-600"></span>
-                                    <span class="text-secondary-light text-sm fw-normal">Commission </span>
+                                    <span class="text-secondary-light text-sm fw-normal">Đang điều trị </span>
                                 </div>
-                                <h6 class="text-primary-light fw-bold mb-0">$20,000</h6>
                             </li>
                         </ul>
 

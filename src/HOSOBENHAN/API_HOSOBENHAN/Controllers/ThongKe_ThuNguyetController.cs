@@ -98,6 +98,69 @@ namespace HOSOBENHAN.Controllers
 
         }
 
+        [HttpGet("ColumnMonth")]
+        public async Task<IActionResult> GetColumnChart()
+        {
+            var currentYear = DateTime.Now.Year;
+
+            var data = await (from hsba in _context.HSBAs
+                              where hsba.NgayTao.HasValue && hsba.NgayTao.Value.Year == 2025
+                              join ttnv in _context.TTNhapViens
+                              on hsba.MaHSBA equals ttnv.MaHSBA into gj
+                              from subttnv in gj.DefaultIfEmpty() // left join
+                              select new
+                              {
+                                  Thang = hsba.NgayTao.Value.Month,
+                                  CoNhapVien = subttnv != null
+                              })
+                              .ToListAsync();
+
+            var thongKe = data
+                .GroupBy(x => x.Thang)
+                .Select(g => new
+                {
+                    Thang = g.Key,
+                    Series1 = g.Count(x => x.CoNhapVien),       // Có nhập viện
+                    Series2 = g.Count(x => !x.CoNhapVien)       // Không nhập viện
+                })
+                .OrderBy(t => t.Thang)
+                .ToList();
+
+            var result = new
+            {
+                labels = thongKe.Select(t => $"Tháng {t.Thang}").ToList(),
+                series1 = thongKe.Select(t => t.Series1).ToList(),
+                series2 = thongKe.Select(t => t.Series2).ToList()
+            };
+
+            return Ok(result);
+        }
+
+
+
+        [HttpGet("HSBA")]
+        public async Task<IActionResult> GetHSBA()
+        {
+
+            var thangHienTai = DateTime.Now.Month;
+            var namHienTai = DateTime.Now.Year;
+
+            var data = await _context.HSBAs
+                .Where(hsba => hsba.NgayTao.Value.Month == thangHienTai && hsba.NgayTao.Value.Year == namHienTai)
+                .GroupBy(hsba => new { hsba.NgayTao.Value.Year, hsba.NgayTao.Value.Month })
+                .Select(g => new
+                {
+                    Nam = g.Key.Year,
+                    Thang = g.Key.Month,
+                    DaDieuTriXong = g.Count(x => x.TrangThai == "Đã điều trị xong"),
+                    ChuaDieuTriXong = g.Count(x => x.TrangThai != "Đã điều trị xong")
+                })
+                .ToListAsync();
+
+            return Ok(data);
+        }
+
+
     }
 
 

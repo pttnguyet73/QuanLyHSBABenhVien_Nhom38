@@ -1,8 +1,28 @@
 [
   {
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetColumnChart",
+    "RelativePath": "api/ThongKe_ThuNguyet/ColumnMonth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetWeek",
     "RelativePath": "api/ThongKe_ThuNguyet/Date",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetHSBA",
+    "RelativePath": "api/ThongKe_ThuNguyet/HSBA",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

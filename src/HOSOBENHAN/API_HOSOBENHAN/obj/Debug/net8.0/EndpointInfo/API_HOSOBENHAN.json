@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "HoSoBenhAn API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/ThongKe_ThuNguyet": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

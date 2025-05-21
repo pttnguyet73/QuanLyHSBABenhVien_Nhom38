@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj": {}
+    "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj": {}
   },
   "projects": {
-    "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj": {
+    "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj",
+        "projectUniqueName": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj",
         "projectName": "HOSOBENHAN",
-        "projectPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj",
+        "projectPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj",
         "packagesPath": "C:\\Users\\Acer Nitro\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\obj\\",
+        "outputPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

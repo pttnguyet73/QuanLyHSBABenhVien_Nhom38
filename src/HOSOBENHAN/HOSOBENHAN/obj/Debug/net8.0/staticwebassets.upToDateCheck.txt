@@ -233,6 +233,7 @@ wwwroot\css\main.css.map
 wwwroot\css\remixicon.css
 wwwroot\css\site.css
 wwwroot\css\style.css
+wwwroot\css\Style1.css
 wwwroot\css\style2.css
 wwwroot\favicon.ico
 wwwroot\health-report.png
@@ -616,4 +617,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\Style1.css

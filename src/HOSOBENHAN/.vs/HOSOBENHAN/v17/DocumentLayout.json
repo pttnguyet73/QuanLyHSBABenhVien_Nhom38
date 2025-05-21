@@ -1,81 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\",
+  "WorkspaceRootPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\timkiem_conghieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\timkiem_conghieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\timkiem_conghieu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\timkiem_conghieu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\timkiem_conghieu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\timkiem_conghieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\timkiem_conghieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\js\\lib\\filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\js\\lib\\filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\controllers\\timkiem_conghieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\controllers\\timkiem_conghieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\js\\lib\\filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\js\\lib\\filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\views\\thongke_thunguyet\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\health-report.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\health-report.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\health-report.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\image 107.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\image 107.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\image 107.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\image3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|d:\\hoctap\\hocki2nam3\\224dapm\\main2\\quanlyhsbabenhvien_nhom38\\src\\hosobenhan\\hosobenhan\\wwwroot\\image3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{57361316-10FB-4107-A3E6-CB6B50BEBE64}|HOSOBENHAN\\HOSOBENHAN.csproj|solutionrelative:hosobenhan\\wwwroot\\image3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
@@ -86,41 +90,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:17:58.308Z",
+              "DocumentIndex": 3,
+              "Title": "Timkiem_CongHieuController.cs",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\Timkiem_CongHieuController.cs",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Controllers\\Timkiem_CongHieuController.cs",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Controllers\\Timkiem_CongHieuController.cs",
+              "RelativeToolTip": "HOSOBENHAN\\Controllers\\Timkiem_CongHieuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:09:06.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:13:31.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Style1.css",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\Style1.css",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\Style1.css",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\Style1.css",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\Style1.css",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\Style1.css",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\Style1.css",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -130,114 +121,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\style.css",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAAF84AAAAAAAAAAAAAAA6AAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T08:16:32.903Z",
-              "EditorCaption": ""
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:33:26.143Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:38:26.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:33:26.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "HOSOBENHAN\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:39:42.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T08:39:42.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:17:57.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "filter.js",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
-              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-21T08:48:14.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "details.css",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\details.css",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\details.css",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\details.css",
-              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\details.css",
-              "ViewState": "AgIAADAAAAAAAAAAAAAhwEIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T08:33:15.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:35:30.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "HOSOBENHAN\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -246,24 +157,121 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "HOSOBENHAN\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:26:59.641Z",
+              "WhenOpened": "2025-05-21T08:13:31.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Timkiem_CongHieu\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:17:58.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:38:26.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAF84AAAAAAAAAAAAAAA6AAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T08:16:32.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:17:57.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "filter.js",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
+              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-21T08:48:14.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "details.css",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\details.css",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\details.css",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\details.css",
+              "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\details.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAhwEIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T08:33:15.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:35:30.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HOSOBENHAN\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:26:59.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "health-report.png - PNG [64x64, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\health-report.png",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\health-report.png",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\health-report.png",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\health-report.png - PNG [64x64, 32 bit, PNG]",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\health-report.png - PNG [64x64, 32 bit, PNG]",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\health-report.png - PNG [64x64, 32 bit, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-05-21T08:26:55.539Z",
@@ -271,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "image 107.png - PNG [100x100, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image 107.png",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image 107.png",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\image 107.png",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image 107.png - PNG [100x100, 32 bit, PNG]",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image 107.png - PNG [100x100, 32 bit, PNG]",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\image 107.png - PNG [100x100, 32 bit, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-05-21T08:23:40.066Z",
@@ -283,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "image3.png - PNG [359x310, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image3.png",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image3.png",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\image3.png",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image3.png - PNG [359x310, 32 bit, PNG]",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image3.png - PNG [359x310, 32 bit, PNG]",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\image3.png - PNG [359x310, 32 bit, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-05-21T08:23:38.7Z",
@@ -295,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\favicon.ico",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\favicon.ico",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
               "WhenOpened": "2025-05-21T08:23:37.183Z",
@@ -307,29 +315,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
               "RelativeToolTip": "HOSOBENHAN\\Views\\ThongKe_ThuNguyet\\Dashboard.cshtml",
               "ViewState": "AgIAALMAAAAAAAAAAAD4v8AAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T08:21:40.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T08:21:40.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "site.css",
-              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "HOSOBENHAN\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\site.css",
               "RelativeToolTip": "HOSOBENHAN\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T08:16:32.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T08:16:32.353Z"
             }
           ]
         }

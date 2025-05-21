@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MAcSYxLdiDQ=",
+  "dgSpecHash": "mhIHl9fieWg=",
   "success": true,
-  "projectFilePath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj",
+  "projectFilePath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\HOSOBENHAN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer Nitro\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Acer Nitro\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

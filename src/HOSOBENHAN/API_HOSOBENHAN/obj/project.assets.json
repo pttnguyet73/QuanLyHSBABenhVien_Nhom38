@@ -3350,11 +3350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+      "projectUniqueName": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
       "projectName": "API_HOSOBENHAN",
-      "projectPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+      "projectPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
       "packagesPath": "C:\\Users\\Acer Nitro\\.nuget\\packages\\",
-      "outputPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\obj\\",
+      "outputPath": "D:\\HocTap\\hocki2nam3\\224DAPM\\Main2\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

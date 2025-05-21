@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hồ sơ khám bệnh</title>
+    <link rel="stylesheet" href="~/css/Style1.css"> <!-- kết nối file CSS -->
+</head>
+<body>
+<main style="background-color: #f2f6fc; padding: 20px;">
+    <div class="medical-record-container">
+        <h2>
+                <img src="~/image 107.png" alt="icon" style="height: 60px;width:60px;">
+            HỒ SƠ KHÁM BỆNH
+        </h2>
+
+        <h3 style="margin-top: 20px; color: #34495e;">Lịch sử khám bệnh</h3>
+
+            <div class="search-filter-box" style="border: 5px solid #ccc; padding: 15px; border-radius: 8px; max-width: 700px;">
+                <div class="search-box">
+                    <label for="search">Tìm kiếm :</label>
+                    <input type="text" id="search" placeholder="🔍">
+                </div>
+
+                <div class="filter-group">
+                    <div>
+                        <label for="filter-khoa">Lọc theo Khoa:</label><br>
+                        <select id="filter-khoa">
+                            <option value="">-- Tất cả --</option>
+                            <option value="Khoa truyền nhiễm">Khoa truyền nhiễm</option>
+                            <option value="Khoa cơ xương khớp">Khoa cơ xương khớp</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="filter-bacsi">Lọc theo Bác sĩ:</label><br>
+                        <select id="filter-bacsi">
+                            <option value="">-- Tất cả --</option>
+                            <option value="Phạm Thị Thu">Phạm Thị Thu</option>
+                            <option value="Nguyễn Minh Bảo">Nguyễn Minh Bảo</option>
+                            <option value="Nguyễn Văn A">Nguyễn Văn A</option>
+                            <option value="Phạm Minh Minh">Phạm Minh Minh</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="filter-chandoan">Lọc theo Chẩn đoán:</label><br>
+                        <select id="filter-chandoan">
+                            <option value="">-- Tất cả --</option>
+                            <option value="Sốt siêu vi">Sốt siêu vi</option>
+                            <option value="Viêm gan B">Viêm gan B</option>
+                            <option value="Sốt ban">Sốt ban</option>
+                            <option value="Tái khám sốt ban">Tái khám sốt ban</option>
+                            <option value="Bong gân chân phải">Bong gân chân phải</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+
+        <table class="medical-record-table">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Mã hồ sơ</th>
+                    <th>Chẩn đoán</th>
+                    <th>Bác sĩ phụ trách</th>
+                    <th>Khoa</th>
+                    <th>Ngày khám</th>
+                    <th>Xem chi tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>000001</td>
+                    <td>Sốt siêu vi</td>
+                    <td>Phạm Thị Thu</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>11/12/2024</td>
+                        <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>000002</td>
+                    <td>Viêm gan B</td>
+                    <td>Nguyễn Minh Bảo</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>15/1/2025</td>
+                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>000042</td>
+                    <td>Sốt ban</td>
+                    <td>Phạm Thị Thu</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>11/3/2025</td>
+                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>000234</td>
+                    <td>Tái khám sốt ban</td>
+                    <td>Nguyễn Văn A</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>18/3/2025</td>
+                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>000312</td>
+                    <td>Bong gân chân phải</td>
+                    <td>Phạm Minh Minh</td>
+                    <td>Khoa cơ xương khớp</td>
+                    <td>2/4/2025</td>
+                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="pagination">
+            <span>1</span>
+        </div>
+    </div>
+</main>
+</body>
+</html>

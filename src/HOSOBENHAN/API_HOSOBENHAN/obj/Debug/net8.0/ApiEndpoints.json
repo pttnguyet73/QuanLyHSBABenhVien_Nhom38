@@ -41,8 +41,48 @@
   },
   {
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetTaiKham",
+    "RelativePath": "api/ThongKe_ThuNguyet/TaiKham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKeChanDoan",
+    "RelativePath": "api/ThongKe_ThuNguyet/ThongKeChanDoan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKeNhanSu",
+    "RelativePath": "api/ThongKe_ThuNguyet/ThongKeNhanSu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetTop3Khoa",
     "RelativePath": "api/ThongKe_ThuNguyet/Top3Khoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetXetNghiem",
+    "RelativePath": "api/ThongKe_ThuNguyet/XetNghiem",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

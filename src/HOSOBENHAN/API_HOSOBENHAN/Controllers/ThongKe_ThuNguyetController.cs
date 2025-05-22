@@ -160,6 +160,79 @@ namespace HOSOBENHAN.Controllers
             return Ok(data);
         }
 
+        [HttpGet("XetNghiem")]
+        public async Task<IActionResult> GetXetNghiem()
+        {
+
+            var thangHienTai = DateTime.Now.Month;
+            var namHienTai = DateTime.Now.Year;
+
+            var data = await (from xn in _context.XetNghiems
+                              join HSBA_XetNghiem in _context.HSBA_XetNghiems on xn.MaXN equals HSBA_XetNghiem.MaXN  
+                              group HSBA_XetNghiem by new { xn.MaXN, xn.LoaiXN } into g
+                              select new
+                              {
+                                  LoaiXN = g.Key.LoaiXN,
+                                  SoBN = g.Count()
+                              })
+                    .OrderByDescending(x => x.SoBN)
+                    .Take(4)
+                    .ToListAsync();
+
+            return Ok(data);
+        }
+
+        [HttpGet("TaiKham")]
+        public async Task<IActionResult> GetTaiKham()
+        {
+            var data = await (from t in _context.TaiKhams
+                              join hsba in _context.HSBAs on t.MaHSBA equals hsba.MaHSBA
+                              join b in _context.BenhNhans on hsba.MaBN equals b.MaBN
+                              select new
+                              {
+                                  MaHSBA = hsba.MaHSBA,
+                                  TenBenhNhan = b.HoTen,
+                                  tgTaiKham = t.TGTaiKham,
+                                  TrangThai = t.TrangThai
+                              })
+                      .OrderByDescending(x => x.tgTaiKham)
+                    .ToListAsync();
+
+            return Ok(data);
+        }
+
+        [HttpGet("ThongKeNhanSu")]
+        public async Task<IActionResult> GetThongKeNhanSu()
+        {
+            var data = await (from nv in _context.NhanViens
+                              join k in _context.Khoas on nv.Khoa equals k.MaKhoa
+                              group nv by new { nv.Khoa, k.TenKhoa } into g
+                              select new
+                              {
+                                  TenKhoa = g.Key.TenKhoa,
+                                  SoLuongNhanVien = g.Count(nv => nv.MaNV.StartsWith("NV")),
+                                  SoLuongBacSi = g.Count(nv => nv.MaNV.StartsWith("BS"))
+                              })
+                      .ToListAsync();
+
+            return Ok(data);
+        }
+        [HttpGet("ThongKeChanDoan")]
+        public async Task<IActionResult> GetThongKeChanDoan()
+        {
+            var chanDoans = await _context.ChanDoans.ToListAsync();
+
+            var result = new
+            {
+                SoLuongChuyenVien = chanDoans.Count(cd => !string.IsNullOrEmpty(cd.NoiChuyenDen)),
+                SoLuongCapCuu = chanDoans.Count(cd => cd.KKB_CapCuu != null && cd.KKB_CapCuu.Trim() == "Có"),
+                SoLuongPhauThuat = chanDoans.Count(cd => cd.PhauThuat != null && cd.PhauThuat.Trim() == "Có"),
+                SoLuongTaiKham = chanDoans.Count(cd => cd.TaiKham != null && cd.TaiKham.Trim() == "Đã kết quả")
+            };
+
+            return Ok(result);
+        }
+
 
     }
 

@@ -12,16 +12,16 @@ namespace HOSOBENHAN.Data
             public HSBA HSBA { get; set; }
 
         [MaxLength(100)]
-        public string NoiChuyenDen { get; set; }
+        public string? NoiChuyenDen { get; set; }
 
         [MaxLength(100)]
-        public string KKB_CapCuu { get; set; }
+        public string? KKB_CapCuu { get; set; }
 
         [MaxLength(100)]
         public string TTBanDau { get; set; }
 
         [MaxLength(100)]
-        public string PhauThuat { get; set; }
+        public string? PhauThuat { get; set; }
 
         [MaxLength(100)]
         public string BenhChinh { get; set; }
@@ -42,7 +42,7 @@ namespace HOSOBENHAN.Data
         public string NgoaiTru { get; set; }
 
         [MaxLength(100)]
-        public string TaiKham { get; set; }
+        public string? TaiKham { get; set; }
 
         public DateTime? NgayTaiKham { get; set; }
 

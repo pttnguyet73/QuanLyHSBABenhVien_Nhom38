@@ -1,0 +1,72 @@
+﻿body {
+}
+/* Tổng thể nền ngoài */
+.exam-result-container {
+    background-color: #e6f0ff;
+    padding: 20px;
+}
+
+/* Khung chính hiển thị kết quả */
+.exam-result-card {
+    background-color: #ccf2ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Tiêu đề lớn */
+.exam-title {
+    color: black;
+    font-weight: bold;
+}
+
+/* Mã hồ sơ màu đỏ */
+.exam-code {
+    color: red;
+    font-weight: bold;
+}
+
+/* Phần thông tin bệnh nhân */
+.exam-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.exam-info-block {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Hình ảnh X-quang */
+.exam-images {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.exam-image-block {
+    text-align: center;
+}
+
+    .exam-image-block img {
+        max-width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+/* Nút quay lại */
+.back-button-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.back-button {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -76,7 +76,9 @@
     border-radius: 8px;
     cursor: pointer;
 }
-
+    .btn.gray {
+        background-color: #7f8c8d;
+    }
     /* Màu nút */
     .btn.yellow {
         background-color: #f7f18a;

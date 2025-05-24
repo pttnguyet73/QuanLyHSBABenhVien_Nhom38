@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Thông tin đơn thuốc";
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hồ sơ khám bệnh</title>
+    <link rel="stylesheet" href="~/css/Style1.css"> <!-- kết nối file CSS -->
+</head>
+<body>
+    <div class="prescription-container">      
+        <div class="prescription-title">
+            <h3>Thông tin đơn thuốc</h3>
+            <p class="mahs">Mã HS : <span>123456789</span></p>
+        </div>
+
+        <div class="info-grid">
+            <p><strong>Chẩn đoán:</strong> Sốt siêu vi</p>
+            <p><strong>Giờ:</strong> 8:00</p>
+
+            <p><strong>Ngày khám bệnh:</strong> 01/01/2025</p>
+            <p><strong>Giờ:</strong> 13:00</p>
+
+            <p><strong>Ngày tái khám:</strong> 15/01/2025</p>
+            <p></p>
+
+            <p><strong>Bác sĩ phụ trách:</strong> Phạm Thị Thu</p>
+            <p></p>
+
+            <p><strong>Khoa:</strong> Khoa truyền nhiễm</p>
+            <p><strong>Phòng:</strong> 102</p>
+        </div>
+
+        <table class="prescription-table">
+            <thead>
+                <tr>
+                    <th>TT</th>
+                    <th>Tên thuốc</th>
+                    <th>Số lượng</th>
+                    <th>Đơn vị tính</th>
+                    <th>Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bisacodyl 5mg</td>
+                    <td>1</td>
+                    <td>Viên</td>
+                    <td>Nhuận tràng nếu táo bón</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pantoprazole 40mg</td>
+                    <td>1</td>
+                    <td>Lọ</td>
+                    <td>Tiêm bảo vệ dạ dày</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="back-button">
+            <button style="margin-top:20px" onclick="history.back()">Quay lại</button>
+        </div>
+    </div>
+
+</body>
+

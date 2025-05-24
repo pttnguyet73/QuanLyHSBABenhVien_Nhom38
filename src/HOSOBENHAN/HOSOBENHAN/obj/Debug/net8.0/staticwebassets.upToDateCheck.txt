@@ -219,6 +219,7 @@ wwwroot\assets\js\lineChartPageChart.js
 wwwroot\assets\js\pieChartPageChart.js
 wwwroot\assets\js\plugins.js
 wwwroot\assets\js\prism.js
+wwwroot\assets\js\scripts.js
 wwwroot\assets\js\site.js
 wwwroot\assets\webfonts\fa-brands-400.ttf
 wwwroot\assets\webfonts\fa-brands-400.woff2
@@ -235,6 +236,7 @@ wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\css\Style1.css
 wwwroot\css\style2.css
+wwwroot\css\thongtinxetnghiem.css
 wwwroot\favicon.ico
 wwwroot\health-report.png
 wwwroot\image 107.png

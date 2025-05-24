@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>Hồ sơ khám bệnh</title>
     <link rel="stylesheet" href="~/css/Style1.css"> <!-- kết nối file CSS -->
+    
 </head>
 <body>
 <main style="background-color: #f2f6fc; padding: 20px;">
@@ -57,75 +58,91 @@
                 </div>
             </div>
 
-            
 
 
 
-        <table class="medical-record-table">
-            <thead>
-                <tr>
-                    <th>STT</th>
-                    <th>Mã hồ sơ</th>
-                    <th>Chẩn đoán</th>
-                    <th>Bác sĩ phụ trách</th>
-                    <th>Khoa</th>
-                    <th>Ngày khám</th>
-                    <th>Xem chi tiết</th>
-                </tr>
-            </thead>
-            <tbody>
+
+            <table class="medical-record-table" id="recordTable">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã HSBA</th>
+                        <th>Trạng thái</th>
+                        <th>Bác sĩ phụ trách</th>
+                        <th>Khoa</th>
+                        <th>Tên bệnh nhân</th>
+                        <th>Xem chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>1</td>
                     <td>000001</td>
-                    <td>Sốt siêu vi</td>
+                    <td>Đang điều trị</td>
                     <td>Phạm Thị Thu</td>
                     <td>Khoa truyền nhiễm</td>
-                    <td>11/12/2024</td>
+                    <td>Trần Công Hiếu</td>
+                        <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr
+                 <tr>
+                    <td>1</td>
+                    <td>000001</td>
+                    <td>Đang điều trị</td>
+                    <td>Phạm Thị Thu</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>Trần Công Hiếu</td>
+                        <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr> 
+                <tr>
+                    <td>1</td>
+                    <td>000001</td>
+                    <td>Đang điều trị</td>
+                    <td>Phạm Thị Thu</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>Trần Công Hiếu</td>
                         <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>000002</td>
-                    <td>Viêm gan B</td>
-                    <td>Nguyễn Minh Bảo</td>
-                    <td>Khoa truyền nhiễm</td>
-                    <td>15/1/2025</td>
-                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>000042</td>
-                    <td>Sốt ban</td>
+                    <td>1</td>
+                    <td>000001</td>
+                    <td>Đang điều trị</td>
                     <td>Phạm Thị Thu</td>
                     <td>Khoa truyền nhiễm</td>
-                    <td>11/3/2025</td>
-                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>000234</td>
-                    <td>Tái khám sốt ban</td>
-                    <td>Nguyễn Văn A</td>
+                    <td>Trần Công Hiếu</td>
+                        <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr> <tr>
+                    <td>1</td>
+                    <td>000001</td>
+                    <td>Đang điều trị</td>
+                    <td>Phạm Thị Thu</td>
                     <td>Khoa truyền nhiễm</td>
-                    <td>18/3/2025</td>
-                    <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
-                </tr>
+                    <td>Trần Công Hiếu</td>
+                        <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr> <tr>
+                    <td>1</td>
+                    <td>000001</td>
+                    <td>Đang điều trị</td>
+                    <td>Phạm Thị Thu</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>Trần Công Hiếu</td>
+                        <td><a href="@Url.Action("Details", "Timkiem_CongHieu")" style="color: blue; font-weight: bold;">Chi tiết</a></td>
+                </tr> 
                 <tr>
-                    <td>5</td>
-                    <td>000312</td>
-                    <td>Bong gân chân phải</td>
-                    <td>Phạm Minh Minh</td>
-                    <td>Khoa cơ xương khớp</td>
-                    <td>2/4/2025</td>
+                    <td>2</td>
+                    <td>000002</td>
+                    <td>Đã điều trị xong</td>
+                    <td>Nguyễn Minh Bảo</td>
+                    <td>Khoa truyền nhiễm</td>
+                    <td>Trần Công Hiếu</td>
                     <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
-                </tr>
+                </tr>                                 
             </tbody>
         </table>
 
-        <div class="pagination">
-            <span>1</span>
-        </div>
+            <div class="pagination" id="pagination"></div>
     </div>
 </main>
+
+<script src="~/assets/js/scripts.js"></script>
 </body>
 </html>

@@ -12,5 +12,17 @@ namespace HOSOBENHAN.Controllers
         {
             return View();
         }
+
+        public IActionResult ketquaxetnghiem()
+        {
+            return View();
+        }
+
+
+             public IActionResult thongtindonthuoc()
+        {
+            return View();
+        }
     }
+    
 }

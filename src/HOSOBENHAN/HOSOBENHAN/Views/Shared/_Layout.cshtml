@@ -28,23 +28,13 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="">Trang chủ</a></li>
-                            <li><a href="@Url.Action("SanPham", "SanPham")">Sản phẩm</a></li>
-                            <li><a href="@Url.Action("Index", "DichVu")">Dịch vụ</a></li>
+                            <li><a href="@Url.Action("SanPham", "SanPham")">Đăng ký khám</a></li>
+                            <li><a href="@Url.Action("Index", "DichVu")">Danh sách</a></li>
+                           
                             <li>
-                                <a href="#">Đội ngũ</a>
-                                <ul class="dropdown">
-                                    <li><a href="@Url.Action("Index", "BacSi")">Bác sĩ</a></li>
-                                    <li><a href="@Url.Action("Index", "NhanVien")">Nhân viên</a></li>
-                                </ul>
+                                <a href="@Url.Action("Dashboard", "ThongKe_ThuNguyet")">Thống kê</a>
+                                
                             </li>
-                            <li>
-                                <a href="#">Thống kê</a>
-                                <ul class="dropdown">
-                                    <li><a href="@Url.Action("Index", "GioHang")">Bệnh nhân</a></li>
-                                    <li><a href="@Url.Action("Index", "LichSuDonHang")">HSBA</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="@Url.Action("ThuCung", "ThuCung")">Thú cưng</a></li>
                             <li>
                                 <a href="./blog-details.html">Tôi</a>
                                 <ul class="dropdown">

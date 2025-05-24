@@ -15,67 +15,142 @@ namespace HOSOBENHAN.Controllers
                 _context = context;
             }
 
-            [HttpGet("Month")]
-            public async Task<IActionResult> GetThongKe()
-            {
-            // Truy vấn dữ liệu từ bảng BenhNhan theo từng tháng
-            var thongKe = await _context.BenhNhans
-     .Where(b => b.NgayTao.Value.Year == DateTime.Now.Year)  // Lọc theo năm hiện tại
-     .GroupBy(b => b.NgayTao.Value.Month)  // Nhóm theo tháng
-     .Select(g => new
-     {
-         Thang = g.Key,  // Tháng
-         Series1 = g.Count(b => b.STT / 1000 == 1),  
-         Series2 = g.Count(b => b.STT / 1000 == 2)   
-     })
-     .ToListAsync();
-
-
-            // Lấy dữ liệu cho từng series
-            var series1 = thongKe.Select(t => t.Series1).ToList();
-                var series2 = thongKe.Select(t => t.Series2).ToList();
-
-                // Trả về kết quả
-                var result = new
-                {
-                    series1 = series1,
-                    series2 = series2
-                };
-
-                return Ok(result);
-            }
-
-
-
-        [HttpGet("Date")]
-        public async Task<IActionResult> GetWeek()
+        [HttpGet("Year")]
+        public async Task<IActionResult> GetThongKe()
         {
-            // Truy vấn dữ liệu từ bảng BenhNhan theo từng tháng
+            var years = Enumerable.Range(2022, 2025 - 2022 + 1).ToList(); // [2022, 2023, 2024, 2025]
+
             var thongKe = await _context.BenhNhans
-    .Where(b => b.NgayTao.Value.Month == 5)  // Lọc theo năm hiện tại
-    .GroupBy(b => b.NgayTao.Value.Date)  // Nhóm theo tháng
-    .Select(g => new
-    {
-        Nam = g.Key,  // Tháng
-         Series1 = g.Count(b => b.STT / 1000 == 1),
-         Series2 = g.Count(b => b.STT / 1000 == 2)
-     })
-     .ToListAsync();
+                .GroupBy(b => b.NgayTao.Value.Year)
+                .Select(g => new
+                {
+                    Nam = g.Key,
+                    Series1 = g.Count(b => b.STT / 1000 == 1),
+                    Series2 = g.Count(b => b.STT / 1000 == 2)
+                })
+                .ToListAsync();
 
+            var resultList = years.GroupJoin(
+                thongKe,
+                month => month,
+                data => data.Nam,
+                (month, dataGroup) => new
+                {
+                    Nam = "Nam " + month,  // chuyển sang dạng string "Tháng 1"
+                    Series1 = dataGroup.Select(d => d.Series1).FirstOrDefault(),
+                    Series2 = dataGroup.Select(d => d.Series2).FirstOrDefault()
+                })
+                .ToList();
 
-            // Lấy dữ liệu cho từng series
-            var series1 = thongKe.Select(t => t.Series1).ToList();
-            var series2 = thongKe.Select(t => t.Series2).ToList();
+            var series1 = resultList.Select(r => r.Series1).ToList();
+            var series2 = resultList.Select(r => r.Series2).ToList();
 
-            // Trả về kết quả
             var result = new
             {
+                labels = resultList.Select(r => r.Nam).ToList(),
                 series1 = series1,
                 series2 = series2
             };
 
             return Ok(result);
         }
+
+
+        [HttpGet("Month")]
+        public async Task<IActionResult> GetThongKe(int year)
+        {
+            var allMonths = Enumerable.Range(1, 12).ToList();
+
+            var thongKe = await _context.BenhNhans
+                .Where(b => b.NgayTao.HasValue && b.NgayTao.Value.Year == year)
+                .GroupBy(b => b.NgayTao.Value.Month)
+                .Select(g => new
+                {
+                    Thang = g.Key,
+                    Series1 = g.Count(b => b.STT / 1000 == 1),
+                    Series2 = g.Count(b => b.STT / 1000 == 2)
+                })
+                .ToListAsync();
+
+            var resultList = allMonths.GroupJoin(
+                thongKe,
+                month => month,
+                data => data.Thang,
+                (month, dataGroup) => new
+                {
+                    Thang = "Tháng " + month,  // chuyển sang dạng string "Tháng 1"
+                    Series1 = dataGroup.Select(d => d.Series1).FirstOrDefault(),
+                    Series2 = dataGroup.Select(d => d.Series2).FirstOrDefault()
+                })
+                .ToList();
+
+            var series1 = resultList.Select(r => r.Series1).ToList();
+            var series2 = resultList.Select(r => r.Series2).ToList();
+
+            var result = new
+            {
+                labels = resultList.Select(r => r.Thang).ToList(),
+                series1 = series1,
+                series2 = series2
+            };
+
+            return Ok(result);
+        }
+
+
+
+        [HttpGet("Date")]
+        public async Task<IActionResult> GetWeek(int month, int year)
+        {
+            // Số ngày trong tháng
+
+            int daysInMonth = DateTime.DaysInMonth(year, month);
+            List<int> days = Enumerable.Range(1, daysInMonth).ToList();
+
+            // Tạo danh sách tất cả các ngày trong tháng
+            var allDates = Enumerable.Range(1, daysInMonth)
+                                     .Select(day => new DateTime(year, month, day))
+                                     .ToList();
+
+            // Truy vấn dữ liệu từ bảng BenhNhan theo tháng và năm
+            var thongKe = await _context.BenhNhans
+                .Where(b => b.NgayTao.HasValue && b.NgayTao.Value.Month == month && b.NgayTao.Value.Year == year)
+                .GroupBy(b => b.NgayTao.Value.Date)
+                .Select(g => new
+                {
+                    Ngay = g.Key,
+                    Series1 = g.Count(b => b.STT / 1000 == 1),
+                    Series2 = g.Count(b => b.STT / 1000 == 2)
+                })
+                .ToListAsync();
+
+            // Join danh sách tất cả các ngày với dữ liệu thực tế
+            var resultList = allDates.GroupJoin(
+                thongKe,
+                date => date,
+                data => data.Ngay,
+                (date, dataGroup) => new
+                {
+                    Ngay = date,
+                    Series1 = dataGroup.Select(d => d.Series1).FirstOrDefault(), // Nếu không có thì mặc định 0
+                    Series2 = dataGroup.Select(d => d.Series2).FirstOrDefault()
+                })
+                .ToList();
+
+            // Lấy dữ liệu cho từng series theo ngày đầy đủ
+            var series1 = resultList.Select(r => r.Series1).ToList();
+            var series2 = resultList.Select(r => r.Series2).ToList();
+
+            var result = new
+            {
+                labels = resultList.Select(r => r.Ngay.Day.ToString()).ToList(),
+                series1 = series1,
+                series2 = series2
+            };
+
+            return Ok(result);
+        }
+
 
 
         [HttpGet("Top3Khoa")]
@@ -232,11 +307,66 @@ namespace HOSOBENHAN.Controllers
 
             return Ok(result);
         }
+        [HttpGet("SoLuong")]
+        public async Task<IActionResult> GetChiTietBacSiVaNhanVien()
+        {
+            var now = DateTime.Now;
+            var totalBS = await _context.NhanViens
+                .CountAsync(nv => nv.MaNV.StartsWith("BS"));
 
+            var bacSiChinhThuc = await _context.NhanViens
+                .CountAsync(nv => nv.MaNV.StartsWith("BS") && nv.ChucVu == "Bác sĩ");
+
+            var totalNV = await _context.NhanViens
+                .CountAsync(nv => nv.MaNV.StartsWith("NV"));
+
+            var yTa = await _context.NhanViens
+                .CountAsync(nv => nv.MaNV.StartsWith("NV") && nv.ChucVu == "Y tá");
+
+            var totalBN = await _context.BenhNhans
+               .CountAsync(bn =>
+            bn.STT >= 1000 && bn.STT < 2000);
+
+            var BNweek = await _context.BenhNhans
+                .CountAsync(bn =>
+            bn.STT >= 1000 && bn.STT < 2000 &&
+            bn.NgayTao.HasValue &&
+            bn.NgayTao.Value.Month == now.Month &&
+            bn.NgayTao.Value.Year == now.Year
+        );
+
+
+            var totalBN2 = await _context.BenhNhans
+                  .CountAsync(bn =>
+             bn.STT > 2000);
+
+            var BN2week = await _context.BenhNhans
+               .CountAsync(bn =>
+            bn.STT > 2000 &&
+            bn.NgayTao.HasValue &&
+            bn.NgayTao.Value.Month == now.Month &&
+            bn.NgayTao.Value.Year == now.Year
+        );
+
+
+            var result = new
+            {
+                BacSiTheoMa = totalBS,
+                BacSiChinhThuc = bacSiChinhThuc,
+                NhanVienTheoMa = totalNV,
+                YTaChinhThuc = yTa,
+                benhnhan = totalBN,
+                benhnhanmonth = BNweek,
+                benhnhan2 = totalBN2,
+                benhnhan2month = BN2week,
+            };
+
+            return Ok(result);
+        }
 
     }
 
-
-
-
 }
+
+
+

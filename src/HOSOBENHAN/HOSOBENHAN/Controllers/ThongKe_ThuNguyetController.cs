@@ -13,9 +13,19 @@ namespace HOSOBENHAN.Controllers
         _httpClient = httpClientFactory.CreateClient();
     }
 
-    public async Task<IActionResult> Dashboard()
+    public async Task<IActionResult> Dashboard(int? year, int? month)
     {
-            var apiUrl = "https://localhost:7015/api/ThongKe_ThuNguyet/Month"; // hoặc URL nội bộ
+
+            ViewBag.SelectedYear = year;
+            ViewBag.SelectedMonth = month;
+            var apiUrl = "";
+            if (month.HasValue)
+                apiUrl = $"https://localhost:7015/api/ThongKe_ThuNguyet/Date?year={year}&month={month}";
+            else if (year.HasValue)
+                apiUrl = $"https://localhost:7015/api/ThongKe_ThuNguyet/Month?year={year}";
+            else
+                apiUrl = "https://localhost:7015/api/ThongKe_ThuNguyet/Year";
+
             var apiweek = "https://localhost:7015/api/ThongKe_ThuNguyet/Date";
             var topKhoa = "https://localhost:7015/api/ThongKe_ThuNguyet/Top3Khoa";
             var columnmonth = "https://localhost:7015/api/ThongKe_ThuNguyet/ColumnMonth";
@@ -24,11 +34,10 @@ namespace HOSOBENHAN.Controllers
             var tk = "https://localhost:7015/api/ThongKe_ThuNguyet/TaiKham";
             var nhansu = "https://localhost:7015/api/ThongKe_ThuNguyet/ThongKeNhanSu";
             var chandoan = "https://localhost:7015/api/ThongKe_ThuNguyet/ThongKeChanDoan";
-
+            var soluong = "https://localhost:7015/api/ThongKe_ThuNguyet/SoLuong";
 
 
             LineChart chartData = null;
-            LineChart chartData1 = null;
             List<TopKhoa> topKhoa1 = null;
             ColumnChart columnChart = null;
             List<PieChart> pieChart1 = null;
@@ -36,18 +45,17 @@ namespace HOSOBENHAN.Controllers
             List<TaiKhamChart> tkham = null;
             List<ThongKeNhanSu> nhanSus = null;
             ChanDoanChart chanDoans = null;
-
+            SoLuongChart soLuong1 = null;
             try
             {
                 chartData = await _httpClient.GetFromJsonAsync<LineChart>(apiUrl);
-                chartData1 = await _httpClient.GetFromJsonAsync<LineChart>(apiweek);
                 columnChart = await _httpClient.GetFromJsonAsync<ColumnChart>(columnmonth);
                 pieChart1 = await _httpClient.GetFromJsonAsync<List<PieChart>>(piechart);
                 xnghiem = await _httpClient.GetFromJsonAsync<List<XetNghiemChart>>(xn);
                 tkham = await _httpClient.GetFromJsonAsync<List<TaiKhamChart>>(tk);
                 nhanSus = await _httpClient.GetFromJsonAsync<List<ThongKeNhanSu>>(nhansu);
                 chanDoans = await _httpClient.GetFromJsonAsync<ChanDoanChart>(chandoan);
-
+                soLuong1 = await _httpClient.GetFromJsonAsync<SoLuongChart>(soluong);
 
                 // Gọi API lấy JSON chuỗi
                 var response = await _httpClient.GetAsync(topKhoa);
@@ -64,7 +72,6 @@ namespace HOSOBENHAN.Controllers
             var viewModel = new DashboardViewModel
             {
                 MonthChart = chartData ?? new LineChart(),
-                DateChart = chartData1 ?? new LineChart(),
                 CircleChart = topKhoa1 ?? new List<TopKhoa>(),
                 ColumnChart = columnChart ?? new ColumnChart(),
                 PieChart = pieChart1 ?? new List<PieChart>(),
@@ -72,6 +79,7 @@ namespace HOSOBENHAN.Controllers
                 taiKhamChart = tkham ?? new List<TaiKhamChart>(),
                 nhansu = nhanSus ??  new List<ThongKeNhanSu>(),
                 chanDoanChart = chanDoans ?? new ChanDoanChart(),
+                soLuongChart = soLuong1 ?? new SoLuongChart(),
             };
 
             return View(viewModel);

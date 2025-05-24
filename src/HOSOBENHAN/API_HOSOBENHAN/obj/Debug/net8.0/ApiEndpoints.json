@@ -16,7 +16,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -33,6 +44,22 @@
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetThongKe",
     "RelativePath": "api/ThongKe_ThuNguyet/Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetChiTietBacSiVaNhanVien",
+    "RelativePath": "api/ThongKe_ThuNguyet/SoLuong",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -83,6 +110,16 @@
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetXetNghiem",
     "RelativePath": "api/ThongKe_ThuNguyet/XetNghiem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKe",
+    "RelativePath": "api/ThongKe_ThuNguyet/Year",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

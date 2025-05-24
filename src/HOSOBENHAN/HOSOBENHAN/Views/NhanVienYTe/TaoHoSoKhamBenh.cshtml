@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/lib/TaoHoSoKhamBenh.css?v=1.3">
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<div class="divmain">
+    <div class="wrapper">
+    <div class="form-container">
+        <h3>TẠO HỒ SƠ KHÁM BỆNH</h3>
+
+        <div class="form-search">  
+        <div class="cccd-section">
+
+            <label>Nhập mã CCCD :</label>
+            <input type="text" id="textktra" placeholder="123456">
+            <button id="btn_checkcccd" >Kiểm tra</button>
+
+        </div>
+
+             <div class="info-box">
+                   
+                    <div>Mã cccd :</div>
+                    <div>Giới tính :</div>
+                    <div>Họ tên :</div>
+                    <div>Năm sinh :</div>
+                    <div>Số điện thoại :</div>
+                   
+             </div>
+        </div>
+
+        <form>
+            @* <div class="form-group"> *@
+            @*         <label for="taikham">Tái khám: </label> *@
+            @*         <select id="taikham"> *@
+            @*             <option value="có" >Không tái khám</option> *@
+            @*             <option value="không">Tái khám</option> *@
+            @*         </select> *@
+            @* </div> *@
+
+            <div class="form-group">
+                <label for="symptoms">Triệu chứng :</label>
+                <textarea id="symptoms" placeholder="Nhập triệu chứng..."></textarea>
+            </div>
+
+            @* <div class="form-row"> *@
+                <div class="form-group">
+                    <label for="khoa">Điều trị tại khoa :</label>
+                        <select id="khoa">
+
+                        </select>
+                </div>
+
+                @* <div class="form-group"> *@
+                @*     <label for="doctor">Bác sĩ :</label> *@
+                @*     <select id="doctor"> *@
+                  
+                @*     </select> *@
+                @* </div> *@
+            @* </div> *@
+
+            <div class="submit-btn">
+                <button type="submit" id="addhoso">Tạo hồ sơ</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+  
+
+</div>
+<script src="~/js/nhanvienyte/taohosokhambenh.js"></script>
+
+
+

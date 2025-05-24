@@ -1,0 +1,97 @@
+﻿.container {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f4fa;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #e0f0ff;
+    padding: 20px;
+    height: 100vh;
+}
+
+    .sidebar img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .sidebar h3 {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .sidebar a {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+        .sidebar a.active {
+            color: red;
+        }
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+    .main-content h2 {
+        text-align: center;
+        width: 100%
+    }
+
+.prescription-box {
+    background-color: #e6f3ff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prescription-info {
+    font-size: 16px;
+}
+
+    .prescription-info b {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+.details-link {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .details-link:hover {
+        text-decoration: underline;
+    }
+
+li {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.text4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+

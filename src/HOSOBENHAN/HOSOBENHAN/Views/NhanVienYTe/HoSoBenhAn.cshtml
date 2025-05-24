@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "_Layout";
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="~/css/lib/HoSoBenhAn.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<div class="divmain">
+    <div class="wrapper">
+        <div class="title-bar">
+            <img src="~/images/logohsbn.png" alt="icon" class="icon">
+            <h3>HỒ SƠ BỆNH ÁN</h3>
+        </div>
+
+        <div class="sub-title">Danh sách hồ sơ bệnh án</div>
+        <div class="containsearch">
+            <p class="search-label">Tìm kiếm hồ sơ theo CCCD hoặc mã HS:</p>
+            <div class="search-box">
+                <input type="text" placeholder="Nhập mã HS hoặc CCCD..." id="text_search">
+                <button id="btn_search"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="tb">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã HS</th>
+                        <th>CCCD</th>
+                        <th>Họ tên</th>
+                        <th>Tuổi</th>
+                        <th>Cập nhật</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <tr id="tr_addtext" style="display:none;">
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="~/js/nhanvienyte/hsbenhan.js"></script>

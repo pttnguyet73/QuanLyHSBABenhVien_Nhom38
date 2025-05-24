@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_HOSOBENHAN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bbc25d9338a471d755beea32ccd436e499ec5f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb0bc72890b57eefd88e8f15bfa894d2d3ac2e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_HOSOBENHAN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_HOSOBENHAN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

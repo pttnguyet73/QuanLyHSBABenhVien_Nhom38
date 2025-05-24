@@ -1,7 +1,23 @@
+﻿using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy => policy.WithOrigins("https://localhost:7043") // Đổi theo frontend của bạn
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+});
+
+// Thêm Razor Pages + Controllers v?i Views
+builder.Services.AddControllersWithViews();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 
 var app = builder.Build();
 
@@ -17,11 +33,21 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseCors(builder => builder
+   .AllowAnyOrigin()
+   .AllowAnyMethod()
+   .AllowAnyHeader()
+);
+
+
+app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 
+app.MapControllers();
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=NhanVienYTe}/{action=PhieuChamSoc}/{id?}");
+    pattern: "{controller=NhanVienYTe}/{action=HoSoBenhAn}/{id?}");
 
 app.Run();

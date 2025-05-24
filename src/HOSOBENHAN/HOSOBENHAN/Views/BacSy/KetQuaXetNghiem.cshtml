@@ -1,0 +1,157 @@
+﻿@{
+    Layout = "_Layout";
+}
+  
+
+<style>
+    
+    .column2 {
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #D2E5FF;
+        padding-top: 2px;
+        margin-right: 43px;
+    }
+
+    .context {
+        color: #000000;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .column3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #D2E5FF;
+        padding: 17px 8px 20px 8px;
+    }
+
+    .text4 {
+        color: #000000;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        color: #333;
+        display: block;
+    }
+
+    .result-box {
+        background-color: #e6f2ff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .result-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .result-info {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .button-group {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+        .button-group button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    li {
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .main-header {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+ 
+</style>
+
+<div style="display: flex; font-family: Arial, sans-serif;">
+    <!-- Sidebar -->
+    <div class="column2">
+        <span class="text4">
+            HỒ SƠ BỆNH ÁN
+        </span>
+        <div class="column3">
+            <ul>
+                <li><a href="#">Thông tin bệnh nhân</a></li>
+                <li><a href="#">Quản lý người bệnh</a></li>
+                <li><a href="#" class="active">Chẩn đoán</a></li>
+                <li><a href="#">Xét nghiệm</a></li>
+                <li><a href="#">Đơn thuốc</a></li>
+                <li><a href="#">Thông tin nhập viện</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="flex-grow: 1; padding: 20px; background-color: #f0f4fa;">
+        <div style="background-color: white; padding: 40px; border-radius: 10px; margin: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <div class="button-group">
+                <button>Danh sách HSBA</button>
+                <button>Tạo HSBA</button>
+            </div>
+       
+        <h4 class="main-header">KẾT QUẢ XÉT NGHIỆM</h4>
+
+        <div class="result-box">
+            <p class="result-title">KẾT QUẢ XÉT NGHIỆM SINH HÓA</p>
+            <div class="result-info">
+                <span>Bác sĩ chỉ định: Thu Nguyệt</span>
+                <span>Bác sĩ xét nghiệm: Công Hiếu</span>
+            </div>
+            <a href="#" class="detail-link">Chi tiết</a>
+        </div>
+
+        <div class="result-box">
+            <div class="result-title">KẾT QUẢ CHỤP X-QUANG</div>
+            <div class="result-info">
+                <span>Bác sĩ chỉ định: Thu Nguyệt</span>
+                <span>Bác sĩ xét nghiệm: Công Hiếu</span>
+            </div>
+            <a href="#" class="detail-link">Chi tiết</a>
+        </div>
+
+        <div class="result-box">
+            <div class="result-title">KẾT QUẢ SIÊU ÂM MÀU</div>
+            <div class="result-info">
+                <span>Bác sĩ chỉ định: Thu Nguyệt</span>
+                <span>Bác sĩ xét nghiệm: Công Hiếu</span>
+            </div>
+            <a href="#" class="detail-link">Chi tiết</a>
+        </div>
+    </div>
+    </div>
+ </div>
+
+

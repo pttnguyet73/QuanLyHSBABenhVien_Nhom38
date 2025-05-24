@@ -1,0 +1,68 @@
+﻿@{
+    Layout = "_Layout";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<title>Hồ sơ bệnh nhân</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link rel="stylesheet" href="~/css/lib/HoSoBenhNhan.css" asp-append-version="true" />
+<div class="containmain">
+    <div class="container">
+
+        <div class="title">
+            <i class="fas fa-notes-medical"></i>
+            HỒ SƠ BỆNH NHÂN
+        </div>
+
+        <div class="stats">
+            <div class="stat-box" id="dkoffline">
+                
+                
+            </div>
+            <div class="stat-box" id="dkionline">
+               
+               
+            </div> 
+
+
+
+            <div class="stat-box" id="dktong">
+               
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="btn">
+                <a href="NhanVienYTe/TaoHoSoKhamBenh">Tạo hồ sơ bệnh nhân</a>
+                <span class="btn-icon icon-add"></span>
+            </button>
+        </div>
+
+        <div class="section-title">Danh sách hồ sơ bệnh nhân hôm nay</div>
+
+        <div class="containsearch">
+            <p class="search-label">Tìm kiếm hồ sơ theo CCCD hoặc mã HS:</p>
+            <div class="search-box">
+                <input type="text" placeholder="Nhập mã HS hoặc CCCD..." id="textimkiem">
+                <button id="btn_search"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Khoa</th>
+                    <th>CCCD</th>
+                    <th>Họ tên</th>
+                    <th>Giới tính</th>
+                    <th>Dân tộc</th>
+                    <th>Ngoại Kiều</th>
+                </tr>
+            </thead>
+            <tbody id="tr_addtext">
+                
+                <!-- Thêm các dòng dữ liệu khác -->
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="~/js/nhanvienyte/hsbenhnhan.js?v=12345"></script>

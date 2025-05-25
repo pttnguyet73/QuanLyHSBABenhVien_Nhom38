@@ -72,5 +72,7 @@ namespace HOSOBENHAN.Models
         public DateTime? TgKham { get; set; }
 
         public DateTime? NgayTao { get; set; }
+
+        public ICollection<TaiKham> TaiKhams { get; set; }
     }
 }

@@ -43,5 +43,7 @@ namespace HOSOBENHAN.Models
         public HSBA HSBA { get; set; }
 
         public TTNV_KHOA TTNV_KHOA { get; set; }
+
+        public ICollection<TTNV_KHOA> TTNV_KHOAs { get; set; }
     }
 }

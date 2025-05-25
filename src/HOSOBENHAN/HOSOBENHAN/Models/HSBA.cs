@@ -35,5 +35,7 @@ namespace HOSOBENHAN.Models
         public ChanDoan ChanDoan { get; set; }
         public ICollection<DonThuoc_HSBA> DonThuoc_HSBAs { get; set; }
         public TTNhapVien TTNhapVien { get; set; }
+
+       
     }
 }

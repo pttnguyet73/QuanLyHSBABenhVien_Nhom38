@@ -1,6 +1,6 @@
-﻿namespace HOSOBENHAN.Models.Modeltimkiem_conghieu
+﻿namespace HOSOBENHAN.Models
 {
-    public class HSBAModel
+    public class HSBAViewModel
     {
         public string MaHSBA { get; set; }
         public string TrangThai { get; set; }

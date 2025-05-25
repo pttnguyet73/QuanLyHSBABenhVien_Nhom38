@@ -60,9 +60,9 @@
 
 
 
+            @model List<HSBAViewModel>
 
-
-            <table class="medical-record-table" id="recordTable">
+        @*     <table class="medical-record-table" id="recordTable">
                 <thead>
                     <tr>
                         <th>STT</th>
@@ -137,7 +137,38 @@
                     <td><a href="#" style="color: blue; font-weight: bold;">Chi tiết</a></td>
                 </tr>                                 
             </tbody>
-        </table>
+        </table> *@
+
+            <table class="medical-record-table" id="recordTable">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã HSBA</th>
+                        <th>Trạng thái</th>
+                        <th>Bác sĩ phụ trách</th>
+                        <th>Tên Khoa</th>
+                        <th>Tên bệnh nhân</th>
+                        <th>Xem chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        <tr>
+                            <td>@(i + 1)</td>
+                            <td>@Model[i].MaHSBA</td>
+                            <td>@Model[i].TrangThai</td>
+                            <td>@Model[i].NguoiTao</td>
+                            <td>@Model[i].Khoa</td>
+                            <td>@Model[i].TenBenhNhan</td>
+                            <td>
+                                <a href="@Url.Action("Details", "Timkiem_CongHieu", new { id = Model[i].MaHSBA })"
+                                   style="color: blue; font-weight: bold;">Chi tiết</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
 
             <div class="pagination" id="pagination"></div>
     </div>

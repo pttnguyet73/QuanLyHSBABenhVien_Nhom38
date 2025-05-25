@@ -1,15 +1,16 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 namespace HOSOBENHAN.Models
 {
     [Table("KhieuNai")]
     public class KhieuNai
     {
-        [Key, Column(Order = 0), MaxLength(10)]
+        [MaxLength(10)]
         public string IDKNai { get; set; }
 
-        [Key, Column(Order = 1), MaxLength(10)]
+        [MaxLength(10)]
         public string IDBenhNhan { get; set; }
 
         [MaxLength(200)]

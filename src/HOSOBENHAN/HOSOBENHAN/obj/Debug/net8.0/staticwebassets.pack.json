@@ -925,6 +925,110 @@
       "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\Style1.css",
+      "PackagePath": "staticwebassets\\css\\Style1.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\BenhNhan.css",
+      "PackagePath": "staticwebassets\\css\\lib\\BenhNhan.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\DonThuoc.css",
+      "PackagePath": "staticwebassets\\css\\lib\\DonThuoc.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\HoSoBenhAn.css",
+      "PackagePath": "staticwebassets\\css\\lib\\HoSoBenhAn.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\HoSoBenhNhan.css",
+      "PackagePath": "staticwebassets\\css\\lib\\HoSoBenhNhan.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\PhieuChamSoc.css",
+      "PackagePath": "staticwebassets\\css\\lib\\PhieuChamSoc.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\QLChungNVYT.css",
+      "PackagePath": "staticwebassets\\css\\lib\\QLChungNVYT.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\QLDonThuoc.css",
+      "PackagePath": "staticwebassets\\css\\lib\\QLDonThuoc.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\QLNguoiBenh.css",
+      "PackagePath": "staticwebassets\\css\\lib\\QLNguoiBenh.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\TaoHoSoKhamBenh.css",
+      "PackagePath": "staticwebassets\\css\\lib\\TaoHoSoKhamBenh.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\apexcharts.css",
+      "PackagePath": "staticwebassets\\css\\lib\\apexcharts.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\audioplayer.css",
+      "PackagePath": "staticwebassets\\css\\lib\\audioplayer.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\dataTables.min.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\editor-katex.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\editor-katex.min.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\editor.atom-one-dark.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\editor.atom-one-dark.min.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\editor.quill.snow.css",
+      "PackagePath": "staticwebassets\\css\\lib\\editor.quill.snow.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\file-upload.css",
+      "PackagePath": "staticwebassets\\css\\lib\\file-upload.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\full-calendar.css",
+      "PackagePath": "staticwebassets\\css\\lib\\full-calendar.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\jquery-jvectormap-2.0.5.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jquery-jvectormap-2.0.5.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\lib\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\prism.css",
+      "PackagePath": "staticwebassets\\css\\lib\\prism.css"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\lib\\slick.css",
+      "PackagePath": "staticwebassets\\css\\lib\\slick.css"
+    },
+    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\css\\main.css.map",
       "PackagePath": "staticwebassets\\css\\main.css.map"
     },
@@ -2117,6 +2221,42 @@
       "PackagePath": "staticwebassets\\images\\wow-dash-favicon.png"
     },
     {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\BenhNhan.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\BenhNhan.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\DonThuoc.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\DonThuoc.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\HSBenhAn.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\HSBenhAn.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\HSBenhNhan.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\HSBenhNhan.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\PhieuChamSoc.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\PhieuChamSoc.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\QLNguoiBenh.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\QLNguoiBenh.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\QLThuoc.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\QLThuoc.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\TaoHSKhamBenh.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\TaoHSKhamBenh.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\NhanVienYTe\\TaoHoSoKhamBenh.js",
+      "PackagePath": "staticwebassets\\js\\NhanVienYTe\\TaoHoSoKhamBenh.js"
+    },
+    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
     },
@@ -2187,6 +2327,10 @@
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\file-upload.js",
       "PackagePath": "staticwebassets\\js\\lib\\file-upload.js"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\filter.js",
+      "PackagePath": "staticwebassets\\js\\lib\\filter.js"
     },
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\js\\lib\\iconify-icon.min.js",

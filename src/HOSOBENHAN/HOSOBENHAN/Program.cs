@@ -1,28 +1,43 @@
-﻿    var builder = WebApplication.CreateBuilder(args);
+﻿using HOSOBENHAN.Data;
+using Microsoft.EntityFrameworkCore;
 
-    // Add services to the container.
-    builder.Services.AddControllersWithViews();
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services
 builder.Services.AddHttpClient();
+builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("https://localhost:7043")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
-    // Configure the HTTP request pipeline.
-    if (!app.Environment.IsDevelopment())
-    {
-        app.UseExceptionHandler("/Home/Error");
-        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-        app.UseHsts();
-    }
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
 
-    app.UseHttpsRedirection();
-    app.UseStaticFiles();
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-    app.UseRouting();
+app.UseRouting();
 
-    app.UseAuthorization();
+app.UseCors("AllowFrontend");
 
-    app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=ThongKe_ThuNguyet}/{action=Dashboard}/{id?}");
+app.UseAuthorization();
 
-    app.Run();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=ThongKe_ThuNguyet}/{action=Dashboard}/{id?}");
+
+app.Run();

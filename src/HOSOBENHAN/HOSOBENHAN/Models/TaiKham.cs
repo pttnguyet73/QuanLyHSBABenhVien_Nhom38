@@ -19,7 +19,7 @@ namespace HOSOBENHAN.Models
         [MaxLength(50)]
         public string TrangThai { get; set; }
 
-        [ForeignKey("MaBN")]
+        [ForeignKey("MaBn")]
         public BenhNhan BenhNhan { get; set; }
 
         [ForeignKey("MaHSBA")]

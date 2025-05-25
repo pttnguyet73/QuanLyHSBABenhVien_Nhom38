@@ -1,0 +1,57 @@
+﻿@{
+	Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/lib/QLChungNVYT.css">
+<div class="contain">
+	<div class="scroll-view">
+		<div class="row-view3">
+			<div class="column2">
+				<span class="text4">
+					HỒ SƠ BỆNH ÁN
+				</span>
+				<div class="column3">
+					@{
+						var mahsba = ViewBag.mahsba as string;
+					}
+
+					@if (string.IsNullOrEmpty(mahsba))
+					{
+						<span class="context">
+							<a href="/NhanVienYTe/QLChung?tab=phieu">Phiếu chăm sóc</a>
+						</span>
+						<span class="context">
+							<a href="/NhanVienYTe/QLChung?tab=thuoc">Đơn thuốc</a>
+						</span>
+					}
+					else
+					{
+						<span class="context">
+							<a href="/NhanVienYTe/QLChung?tab=phieu&mahsba=@mahsba">Phiếu chăm sóc</a>
+						</span>
+						<span class="context">
+							<a href="/NhanVienYTe/QLChung?tab=thuoc&mahsba=@mahsba">Đơn thuốc</a>
+						</span>
+					}
+				</div>
+
+			</div>
+			<div class="column4">
+				@{
+					var tab = ViewBag.SelectedTab as string ?? "phieu";
+					if (tab == "phieu")
+					{
+						@Html.Partial("PhieuChamSoc")
+					}
+					else if (tab == "thuoc")
+					{
+						@Html.Partial("QLDonThuoc")
+					}
+					else if (tab == "donthuoc")
+					{
+						@Html.Partial("DonThuoc")
+					}
+				}
+			</div>
+		</div>
+	</div>
+</div>

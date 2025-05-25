@@ -29,7 +29,7 @@ namespace HOSOBENHAN.Data
         public string DanToc { get; set; }
 
         [MaxLength(50)]
-        public string NgoaiKieu { get; set; }
+        public string? NgoaiKieu { get; set; }
 
         [Required, MaxLength(200)]
         public string DiaChi { get; set; }
@@ -41,19 +41,19 @@ namespace HOSOBENHAN.Data
         public string DoiTuong { get; set; }
 
         [MaxLength(20)]
-        public string SoBHYT { get; set; }
+        public string? SoBHYT { get; set; }
 
         public DateTime? GitriBHYT { get; set; }
 
         [Required, MaxLength(100)]
-        public string HoTenNTNhan { get; set; }
+        public string? HoTenNTNhan { get; set; }
 
         [Required, MaxLength(200)]
-        public string DiaChiNT { get; set; }
+        public string? DiaChiNT { get; set; }
 
         [Required, MaxLength(15)]
         [Phone]
-        public string SDTNTNhan { get; set; }
+        public string? SDTNTNhan { get; set; }
 
         [Required, MaxLength(100)]
         public string MatKhau { get; set; }
@@ -67,8 +67,7 @@ namespace HOSOBENHAN.Data
         public string Khoa { get; set; }
 
         [MaxLength(50)]
-        public string TaiKham { get; set; }
-
+        public string? TaiKham { get; set; }
         public DateTime? TgKham { get; set; }
 
         public DateTime? NgayTao { get; set; }

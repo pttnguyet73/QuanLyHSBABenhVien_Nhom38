@@ -1,0 +1,333 @@
+﻿/* Container chính */
+.medical-record-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+    /* Tiêu đề chính */
+    .medical-record-container h2 {
+        color: #2c3e50;
+        display: flex;
+        align-items: center;
+    }
+
+        .medical-record-container h2 img {
+            width: 32px;
+            margin-right: 10px;
+        }
+
+/* Phần tìm kiếm */
+.search-box {
+    margin: 10px 0;
+    border-color: #007bff; /* Viền đổi màu khi focus */
+}
+
+.search-filter-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.search-box input[type="text"] {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    width: 250px;
+}
+
+/* Bảng dữ liệu */
+.medical-record-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+    .medical-record-table th {
+        background-color: #b3d7f7;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .medical-record-table td {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .medical-record-table tr:nth-child(even) {
+        background-color: #e7f1fa;
+    }
+
+    .medical-record-table tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+/* Link chi tiết */
+.detail-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .detail-link:hover {
+        text-decoration: underline;
+    }
+
+/* Phân trang */
+.pagination {
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    gap: 10px; /* Khoảng cách giữa các số */
+    margin-top: 20px; /* Tùy chọn */
+}
+
+    .pagination span {
+        background-color: #f2f2f2;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+.icon-large {
+    width: 48px; /* hoặc height: 48px */
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .pagination span {
+        display: inline-block;
+        margin: 0 5px;
+        padding: 8px 14px;
+        border: 1px solid #007bff;
+        color: #007bff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        .pagination span.active {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    padding: 5px 8px; /* Thêm khoảng cách bên trong */
+    outline: none; /* Bỏ viền khi focus mặc định */
+    transition: border-color 0.3s;
+}
+
+    .filter-group div {
+        flex-direction: column;
+        min-width: 50px;
+    }
+
+    .filter-group label {
+        font-weight: 300;
+        color: #2c3e50;
+        margin-bottom: 5px;
+    }
+
+    .filter-group select {
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background-color: #f9f9f9;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+
+        .filter-group select:focus {
+            outline: none;
+            background-color: #fff;
+            border-color: #007bff; /* Viền đổi màu khi focus */
+            box-shadow: 0 0 5px rgba(0,123,255,0.5);
+        }
+
+
+    .filter-group > div {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .filter-group select {
+        border: 2px solid #333;
+        border-radius: 4px;
+        padding: 5px 8px;
+        outline: none;
+        transition: border-color 0.3s;
+        width: 200px;
+        box-sizing: border-box;
+    }
+
+        .filter-group select:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0,123,255,0.5);
+        }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4ff;
+    margin: 0;
+    padding: 40px;
+}
+
+.prescription-container {
+    background-color: #c7eaff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.prescription-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .prescription-title h3 {
+        margin: 0;
+        color: #003366;
+        font-size: 24px;
+    }
+
+.mahs {
+    color: #ff3333;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+
+    .info-grid p {
+        margin: 0;
+        font-size: 16px;
+    }
+
+.prescription-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+    .prescription-table th, .prescription-table td {
+        border: 1px solid #999;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .prescription-table th {
+        background-color: #e0f0ff;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4ff;
+    margin: 0;
+    padding: 40px;
+}
+
+.result-container {
+    background-color: #b9ecf3;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.title-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .title-section h3 {
+        margin: 0;
+        font-size: 24px;
+        color: #003366;
+    }
+
+.mahsxn {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+
+    .info-grid p {
+        margin: 0;
+        font-size: 16px;
+    }
+
+.xray-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.xray-item {
+    text-align: center;
+}
+
+    .xray-item img {
+        max-width: 300px;
+        height: auto;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+.back-button {
+    text-align: center;
+}
+
+    .back-button button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #eee;
+        border: 1px solid #999;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .back-button button:hover {
+            background-color: #ddd;
+        }

@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Kết quả xét nghiệm</title>
+    <link rel="stylesheet" href="~/css/Style1.css"> <!-- kết nối file CSS -->
+</head>
+<body>
+    <div class="result-container">
+        <div class="title-section">
+            <h3>Kết quả xét nghiệm</h3>
+            <p class="mahsxn">Mã HSXN : <span>SNO023</span></p>
+        </div>
+
+        <div class="info-grid">
+            <p><strong>Bệnh nhân:</strong> Trần Công Hiếu</p>
+            <p><strong>Giới tính:</strong> Nam</p>
+            <p><strong>CCCD:</strong> 123456789</p>
+            <p><strong>SDT:</strong> 0123456789</p>
+            <p><strong>Xét nghiệm:</strong> Chụp X-Quang</p>
+            <p></p>
+            <p><strong>Chẩn đoán:</strong> Gãy đốt cái chân phải</p>
+            <p></p>
+        </div>
+
+        <div class="xray-images">
+            <div class="xray-item">
+                <img src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/10/7/chup-tay-1110-1665104617657-1665104617769338594286.jpeg" alt="Ảnh chụp x-quang lần 1">
+                <p>1. Ảnh chụp x-quang lần 1</p>
+            </div>
+            <div class="xray-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8fW9FMXQU-AzRPT9hDomjZJZX4lbaFWCDg&s" alt="Ảnh chụp x-quang lần 2">
+                <p>2. Ảnh chụp x-quang lần 2</p>
+            </div>
+        </div>
+
+        <div class="back-button">
+            <button onclick="history.back()">Quay lại</button>
+        </div>
+    </div>
+</body>

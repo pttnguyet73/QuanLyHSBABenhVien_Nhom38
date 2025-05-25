@@ -1,0 +1,46 @@
+﻿<script src="~/lib/jquery/dist/jquery.min.js"></script>
+		<div class="view">
+					<span class="text13">
+						PHIẾU CHĂM SÓC
+					</span>
+				</div>
+				<div class="column5">
+					<table id="tb">
+						<colgroup>
+							<col style="width: 15%;">
+							<col style="width: 35%;">
+							<col style="width: 35%;">
+							<col style="width: 15%;">
+						</colgroup>
+						<tr>
+							<th class="thtext">Ngày,giờ,phút</th>
+							<th class="thtext">Theo dõi diễn biến</th>
+							<th class="thtext">Theo dõi y lệnh</th>
+							<th class="thtext">Tên điều dưỡng</th>
+						</tr>
+
+		                <tr id="tr_addtext" style="display:none;"></tr>
+
+						<tr id="tr_text"  style="display:none;"> 
+							<td><p style="margin: 0px;" id="td_getdatetime"></p></td>
+							<td><textarea id="texttddb" class="textarea-input" placeholder="Nhập theo dõi diễn biến"></textarea></td>
+							<td><textarea id="textylenh" class="textarea-input" placeholder="Nhập y lệnh"></textarea></td>
+							<td><textarea id="textdieuduong" class="textarea-input"></textarea></td>
+						</tr>
+
+						</table>
+					<button id="btn_addcontent">
+						<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/615ad94e-9491-4069-9548-fa11b9112728"
+							 class="image3" />
+                    </button>
+					</div>
+					<div class="view2" id="div_savedata">
+						<div class="view3">
+						    <button class="text19" id="btn_savecontent" >
+								Lưu
+							</button>
+						</div>
+					</div>
+<link rel="stylesheet" href="~/css/lib/PhieuChamSoc.css?v=1.3">
+<script src="~/js/nhanvienyte/phieuchamsoc.js?v=1.0.1"></script>
+

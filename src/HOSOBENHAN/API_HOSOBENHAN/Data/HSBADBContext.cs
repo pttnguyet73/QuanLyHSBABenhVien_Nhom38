@@ -25,10 +25,19 @@ namespace HOSOBENHAN.Data
         public DbSet<TTNV_KHOA> TTNV_KHOAs { get; set; }
         public DbSet<TTNhapVien> TTNhapViens { get; set; }
         public DbSet<KhieuNai> KhieuNais { get; set; }
-
+        public DbSet<DonThuocDetail> DonThuocsDetail { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<PhieuChamSoc>()
+ .HasKey(p => new { p.MaHSBA, p.Ngay }); // Khóa chính kép
+
+            // Nếu cần ánh xạ thêm quan hệ:
+            modelBuilder.Entity<PhieuChamSoc>()
+                .HasOne(p => p.HSBA)
+                .WithMany(h => h.PhieuChamSocs) // nếu HSBA có List<PhieuChamSoc>
+                .HasForeignKey(p => p.MaHSBA);
 
             // Các ánh xạ khóa ngoại
             modelBuilder.Entity<HSBA_XetNghiem>()
@@ -48,6 +57,8 @@ namespace HOSOBENHAN.Data
 
             modelBuilder.Entity<PhieuChamSoc>()
                 .HasKey(x => new { x.MaHSBA });
+            modelBuilder.Entity<DonThuocDetail>()
+                .HasKey(x => new { x.MaDonThuoc, x.IdThuoc });
         }
     }
 }

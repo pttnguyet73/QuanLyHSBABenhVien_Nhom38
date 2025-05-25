@@ -1,5 +1,241 @@
 [
   {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "Adddatapcs",
+    "RelativePath": "api/NhanVienYTe/Adddatapcs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_HOSOBENHAN.ClassModels.PhieuChamSocMD",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "Addhosobenhnhan",
+    "RelativePath": "api/NhanVienYTe/Addhosobenhnhan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_HOSOBENHAN.ClassModels.BenhNhan1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "BenhNhan",
+    "RelativePath": "api/NhanVienYTe/BenhNhan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ma",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mahsba",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "CapNhatThongTinBN",
+    "RelativePath": "api/NhanVienYTe/CapNhatThongTinBN",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_HOSOBENHAN.ClassModels.BenhNhan2",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "HSBenhNhan",
+    "RelativePath": "api/NhanVienYTe/HSBenhNhan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "GetallList",
+    "RelativePath": "api/NhanVienYTe/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mahsba",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "LiHoSoBenhAn",
+    "RelativePath": "api/NhanVienYTe/ListHoSoBenhAn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "ListHSBenhNhan",
+    "RelativePath": "api/NhanVienYTe/ListHSBenhNhan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "ListQLDonThuoc",
+    "RelativePath": "api/NhanVienYTe/ListQLDonThuoc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mahsba",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "ListTaoHoSo",
+    "RelativePath": "api/NhanVienYTe/ListTaoHoSo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "LocBacSy",
+    "RelativePath": "api/NhanVienYTe/LocBacSy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API_HOSOBENHAN.Controllers.NhanVienYTeController\u002BLocBacSyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "QLNB",
+    "RelativePath": "api/NhanVienYTe/QLNB",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "Thuoc",
+    "RelativePath": "api/NhanVienYTe/Thuoc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ma",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mahsba",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "Timkiemcccd",
+    "RelativePath": "api/NhanVienYTe/Timkiemcccd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API_HOSOBENHAN.Controllers.NhanVienYTeController\u002BTimkiemcccdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "TimKiemHoSo",
+    "RelativePath": "api/NhanVienYTe/TimKiemHoSo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tddb",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_HOSOBENHAN.Controllers.NhanVienYTeController",
+    "Method": "TimKiemHoSoBN",
+    "RelativePath": "api/NhanVienYTe/TimKiemHoSoBN",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tddb",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetColumnChart",
     "RelativePath": "api/ThongKe_ThuNguyet/ColumnMonth",

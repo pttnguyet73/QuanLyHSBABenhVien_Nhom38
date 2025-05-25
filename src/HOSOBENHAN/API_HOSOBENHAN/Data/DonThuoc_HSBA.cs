@@ -12,7 +12,7 @@ namespace HOSOBENHAN.Data
 
         [ForeignKey ("DONTHUOC"), MaxLength(10)]
         public string MaDonThuoc { get; set; }
-        public DonThuoc donThuoc { get; set; }
+        public DonThuoc DonThuoc { get; set; }
         public DateTime? TGianBDauSD { get; set; }
 
         public DateTime? TGianKThucSD { get; set; }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_HOSOBENHAN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67406f3fc5ead1f94da6966ede051851f7d0c413")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36aa00adee9f37db00cd53cde6e6938611a671de")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_HOSOBENHAN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_HOSOBENHAN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

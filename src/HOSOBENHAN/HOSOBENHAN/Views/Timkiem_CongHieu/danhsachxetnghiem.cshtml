@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý người bệnh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .hsba-image {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .wrapper {
+            background-color: #b9e9e2; /* màu xám nhạt */
+            padding: 100px;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .hsba-container {
+            margin-top: 20px;
+        }
+
+        .hsba-item {
+            border: 1px solid #999;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            background-color: #eaf6ff;
+        }
+
+        .hsba-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .trang-thai {
+            font-weight: bold;
+        }
+
+        .hoan-thanh {
+            color: green;
+        }
+
+        .cap-nhat {
+            color: red;
+        }
+
+        .chi-tiet-link {
+            color: blue;
+            text-decoration: none;
+        }
+
+            .chi-tiet-link:hover {
+                text-decoration: underline;
+            }
+
+        .hsba-body {
+            margin-left: 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>
+            <img src="~/image 107.png" alt="icon" style="height: 60px;width:60px;">
+            Xét nghiệm
+        </h2>
+
+        <h3 style="margin-top: 20px; color: #34495e;">Danh sách xét nghiệm</h3>
+
+        @model List<XetNghiemViewModel>
+
+        <div class="hsba-container">
+            @foreach (var xn in Model)
+            {
+                <div class="hsba-item">
+                    <div class="hsba-header">
+                        <div>Tên xét nghiệm: @xn.TenXetNghiem</div>
+                        <div>Kết quả xét nghiệm: @xn.KetquaXetNghiem</div>
+                    </div>
+                    <div class="hsba-body">
+                        Ngày tạo: @xn.TgianTao.ToString("dd/MM/yyyy")<br />
+                        Bác sĩ xét nghiệm: @xn.BacSyXN
+                    </div>
+                    @if (!string.IsNullOrEmpty(xn.AnhXetNghiem))
+                    {
+                        <div class="hsba-image" style="text-align: center; margin: 50px 0;">
+                            <img src="@xn.AnhXetNghiem" alt="Ảnh xét nghiệm" style="max-width: 700px;" />
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+    </div>
+</body>
+</html>

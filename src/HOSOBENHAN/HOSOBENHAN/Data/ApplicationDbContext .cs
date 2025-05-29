@@ -14,14 +14,22 @@ namespace HOSOBENHAN.Data
         public DbSet<NhanVien> NhanViens { get; set; }
         public DbSet<Khoa> Khoas { get; set; }
         public DbSet<XetNghiem> XetNghiems { get; set; }
+
+
         public DbSet<HSBA_XetNghiem> HSBA_XetNghiems { get; set; }
         public DbSet<DonThuoc> DonThuocs { get; set; }
+
+        public DbSet<Thuoc> Thuocs { get; set; }
+        public DbSet<DonThuocDetal> DonThuocDetals { get; set; }
         public DbSet<DonThuoc_HSBA> DonThuoc_HSBAs { get; set; }
         public DbSet<KhieuNai> KhieuNais { get; set; }
         public DbSet<PhieuChamSoc> PhieuChamSocs { get; set; }
         public DbSet<TTNV_KHOA> TTNV_KHOAs { get; set; }
         public DbSet<TaiKham> TaiKhams { get; set; } // ✅ Thêm DbSet TaiKham
 
+        public DbSet<TTNhapVien> TTNhapViens { get; set; } // ✅ Thêm dòng này nếu thiếu
+
+        public DbSet<ChanDoan> ChanDoans { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -103,6 +111,25 @@ namespace HOSOBENHAN.Data
                 .WithMany(hs => hs.TaiKhams)
                 .HasForeignKey(tk => tk.MaHSBA)
                 .OnDelete(DeleteBehavior.Cascade);
+            // Khóa chính cho DonThuoc
+            modelBuilder.Entity<DonThuoc>()
+                .HasKey(d => d.MaDonThuoc);
+
+            modelBuilder.Entity<DonThuocDetal>()
+    .HasKey(dt => new { dt.MaDonThuoc, dt.IDThuoc });
+
+            modelBuilder.Entity<DonThuocDetal>()
+                .HasOne(dt => dt.DonThuoc)
+                .WithMany(d => d.DonThuocDetals)
+                .HasForeignKey(dt => dt.MaDonThuoc)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<DonThuocDetal>()
+                .HasOne(dt => dt.Thuoc)
+                .WithMany(t => t.DonThuocDetals)
+                .HasForeignKey(dt => dt.IDThuoc)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }

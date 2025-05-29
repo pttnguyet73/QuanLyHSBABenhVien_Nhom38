@@ -218,7 +218,6 @@ D:\HocTap\hocki2nam3\224DAPM\Main2\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_
 D:\HocTap\hocki2nam3\224DAPM\Main2\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\obj\Debug\net8.0\API_HOSOBENHAN.pdb
 D:\HocTap\hocki2nam3\224DAPM\Main2\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\obj\Debug\net8.0\API_HOSOBENHAN.genruntimeconfig.cache
 D:\HocTap\hocki2nam3\224DAPM\Main2\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\obj\Debug\net8.0\ref\API_HOSOBENHAN.dll
-D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\appsettings.Development.json
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\appsettings.json
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\API_HOSOBENHAN.staticwebassets.endpoints.json
@@ -231,6 +230,7 @@ D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HO
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Azure.Identity.dll
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\HocTap\hocki2nam3\224DAPM\top\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll

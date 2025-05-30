@@ -1,8 +1,10 @@
 ﻿using HOSOBENHAN.Data;
-using Microsoft.AspNetCore.Mvc;
 using HOSOBENHAN.Models;
-using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+using System.Linq;
+using System.Text;
 
 namespace HOSOBENHAN.Controllers
 {
@@ -13,6 +15,17 @@ namespace HOSOBENHAN.Controllers
         public Timkiem_CongHieuController(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+
+        public static string RemoveDiacritics(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input)) return input;
+            string normalized = input.Normalize(NormalizationForm.FormD);
+            var chars = normalized
+                .Where(c => CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+                .ToArray();
+            return new string(chars).Normalize(NormalizationForm.FormC).ToLower();
         }
 
         [HttpGet]
@@ -38,38 +51,44 @@ namespace HOSOBENHAN.Controllers
                             TenBenhNhan = bn.HoTen
                         };
 
-            // Áp dụng tìm kiếm
+            var danhSachHSBA = query.ToList(); // Chuyển sang bộ nhớ để xử lý không dấu bằng C#
+
+            // Áp dụng tìm kiếm không dấu
             if (!string.IsNullOrWhiteSpace(search))
             {
-                query = query.Where(x =>
-                    x.MaHSBA.Contains(search) ||
-                    x.TenBenhNhan.Contains(search));
+                string keyword = RemoveDiacritics(search);
+                danhSachHSBA = danhSachHSBA.Where(x =>
+                    RemoveDiacritics(x.MaHSBA).Contains(keyword) ||
+                    RemoveDiacritics(x.TenBenhNhan).Contains(keyword) ||
+                    RemoveDiacritics(x.NguoiTao).Contains(keyword)
+                ).ToList();
             }
 
             // Áp dụng lọc theo khoa
             if (!string.IsNullOrWhiteSpace(selectedKhoa))
             {
-                query = query.Where(x => x.Khoa == selectedKhoa);
+                danhSachHSBA = danhSachHSBA.Where(x => x.Khoa == selectedKhoa).ToList();
             }
 
             // Áp dụng lọc theo trạng thái
             if (!string.IsNullOrWhiteSpace(selectedTrangThai))
             {
-                query = query.Where(x => x.TrangThai == selectedTrangThai);
+                danhSachHSBA = danhSachHSBA.Where(x => x.TrangThai == selectedTrangThai).ToList();
             }
 
-            // Đổ kết quả ra view model
+            // Trả về ViewModel
             var viewModel = new HSBAFilterViewModel
             {
                 Search = search,
                 SelectedKhoa = selectedKhoa,
                 SelectedTrangThai = selectedTrangThai,
                 DanhSachKhoa = danhSachKhoa,
-                DanhSachHSBA = query.ToList()
+                DanhSachHSBA = danhSachHSBA
             };
 
             return View(viewModel);
         }
+
 
         // Các action còn lại nếu chưa dùng thì giữ nguyên để phát triển sau
         public IActionResult Details(string id)

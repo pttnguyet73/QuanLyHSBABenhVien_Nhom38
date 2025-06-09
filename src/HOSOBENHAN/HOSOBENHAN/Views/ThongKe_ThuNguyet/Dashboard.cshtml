@@ -9,6 +9,7 @@
     var labels = Json.Serialize(Model.ColumnChart.Labels);
     var series1 = Json.Serialize(Model.ColumnChart.Series1);
     var series2 = Json.Serialize(Model.ColumnChart.Series2);
+    var listBenhAnData = Html.Raw(JsonSerializer.Serialize(Model.listbaView));
 }
 
 @{
@@ -200,6 +201,15 @@
                     right: 0,
                     bottom: 0,
                     left: 0
+                },
+                events: {
+                    dataPointSelection: function (event, chartContext, config) {
+                        var label = config.w.config.labels[config.dataPointIndex];
+                        var patients = patientLists[label];
+
+                        // Hiển thị danh sách bệnh nhân ra đâu đó (ví dụ div hoặc modal)
+                        showPatientList(label, patients);
+                    }
                 }
             },
             stroke: {
@@ -228,15 +238,17 @@
 
 
         // ================================ Client Payment Status chart End ================================
+        
         var labels1 = @Html.Raw(labels);
         var series1 = @Html.Raw(series1);
         var series2 = @Html.Raw(series2);
+            var listBenhAnData = @listBenhAnData;
         var options = {
             series: [{
-                name: "Net Profit",
+                name: "Nội trú",
                 data: series1
             }, {
-                name: "Free Cash",
+                name: "Ngoại trú",
                 data: series2
             }],
             colors: ["#45B369", "#FF9F29"],
@@ -251,6 +263,60 @@
                 toolbar: {
                     show: false
                 },
+                events: {
+            dataPointSelection: function(event, chartContext, config) {
+ const label = labels1[config.dataPointIndex];  
+    const thang = parseInt(label.replace(/\D/g, ''), 10);
+    const loai = config.seriesIndex === 0 ? "noiTru" : "ngoaiTru";
+
+                const data = listBenhAnData.find(x => x.thang === thang);
+                if (!data) {
+                    document.getElementById("benhanTable").innerHTML = "<p>Không có dữ liệu</p>";
+                    return;
+                }
+
+                const danhSach = data[loai];
+                if (!danhSach || danhSach.length === 0) {
+                    document.getElementById("benhanTable").innerHTML = "<p>Không có bệnh án</p>";
+                    return;
+                }
+
+                        let html = `
+                 <div class="card-body p-0">
+                        <div class="table-responsive scroll-sm" style="overflow-x: auto; max-height: 400px;">
+                          <h5 class="mt-4">Danh sách bệnh án tháng ${thang} (${loai === "noiTru" ? "Nội trú" : "Ngoại trú"})</h5>
+                            <table class="table bordered-table mb-0 rounded-0 border-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="bg-transparent rounded-0">Mã HSBA</th>
+                                        <th scope="col" class="bg-transparent rounded-0">Mã bệnh nhân</th>
+                                        <th scope="col" class="bg-transparent rounded-0">Họ tên bệnh nhân</th>
+                                        <th scope="col" class="bg-transparent rounded-0">Ngày sinh</th>
+                                    </tr>
+                                </thead>
+                                    <tbody id="appointmentTable">`;
+                                   danhSach.forEach(item => {
+                    html += `
+                        <tr>
+                            <td>${item.maHSBA}</td>
+                            <td>${item.maBN}</td>
+                            <td>${item.hoTen}</td>
+                            <td>${item.ngaySinh}</td>
+                        </tr>`;
+                });
+
+                        html += `     
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>`;
+
+
+
+                document.getElementById("benhanTable").innerHTML = html;
+                document.getElementById("benhanTable").scrollIntoView({ behavior: "smooth" });
+            }
+        }
             },
             grid: {
                 show: true,
@@ -451,11 +517,11 @@
                                 </span>
                                 <div>
                                     <h6 class="fw-semibold mb-2">@Model.soLuongChart.BacSiTheoMa</h6>
-                                    <span class="fw-medium text-secondary-light text-sm">Bác sĩ (kể cả bác sĩ chính và bác sĩ xét nghiệm)</span>
+                                    <span class="fw-medium text-secondary-light text-sm">Bác sĩ </span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-sm mb-0"> <span class="text-cyan-600">@Model.soLuongChart.BacSiChinhThuc</span> Bác sĩ chính trong bệnh viện</p>
+                        <p class="text-sm mb-0"> <span class="text-cyan-600">@Model.soLuongChart.BacSiChinhThuc</span> Bác sĩ chính </p>
                     </div>
                 </div>
             </div>
@@ -470,7 +536,7 @@
                                 </span>
                                 <div>
                                     <h6 class="fw-semibold mb-2">@Model.soLuongChart.NhanVienTheoMa</h6>
-                                    <span class="fw-medium text-secondary-light text-sm">Nhân viên y tế trong bệnh viện</span>
+                                    <span class="fw-medium text-secondary-light text-sm">Nhân viên y tế </span>
                                 </div>
                             </div>
                         </div>
@@ -489,7 +555,7 @@
                                 </span>
                                 <div>
                                     <h6 class="fw-semibold mb-2">@Model.soLuongChart.benhnhan</h6>
-                                    <span class="fw-medium text-secondary-light text-sm">Bệnh nhân đăng ký khám trực tiếp</span>
+                                    <span class="fw-medium text-secondary-light text-sm">Bệnh nhân ĐK khám trực tiếp</span>
                                 </div>
                             </div>
                         </div>
@@ -508,7 +574,7 @@
                                 </span>
                                 <div>
                                     <h6 class="fw-semibold mb-2">@Model.soLuongChart.benhnhan2</h6>
-                                    <span class="fw-medium text-secondary-light text-sm">Bệnh nhân đăng ký khám online </span>
+                                    <span class="fw-medium text-secondary-light text-sm">Bệnh nhân ĐK khám online </span>
                                 </div>
                             </div>
                         </div>
@@ -517,6 +583,7 @@
                 </div>
             </div>
 
+      
 
             <!-- Earning Statistic -->
             <div class="col-xxl-12">
@@ -571,7 +638,89 @@
                 </div>
             </div>
             <!-- Earning Statistic -->
+                    <div class="col-xxl-6">
+            <div class="card h-100">
+                <div class="card-header border-bottom-0 pb-0 d-flex align-items-center flex-wrap gap-2 justify-content-between">
+                    <h6 class="mb-2 fw-bold text-lg mb-0">Thống kê số lượng bệnh nhân </h6>
+                    
+                </div>
+                <div class="card-body">
+                    <div class="position-relative h-100 min-h-320-px">
+                       
+                        <div class="row g-3 h-100">
+@{
+    var backgrounds = new[] { "bg-tb-success", "bg-tb-primary", "bg-tb-lilac", "bg-tb-warning" };
+    var circleColors = new[] { "bg-success-600", "bg-primary-600", "bg-lilac-600", "bg-warning-600" };
+    var icons = new[] { "treatment-icon4.png", "treatment-icon5.png", "treatment-icon1.png", "treatment-icon6.png" };
+    int i = 0;
+}
 
+@foreach (var item in Model.bntheokhoa)
+{
+    var bg = backgrounds[i % backgrounds.Length];
+    var circle = circleColors[i % circleColors.Length];
+    var icon = icons[i % icons.Length];
+
+    // Nếu muốn min-height tính theo số lượng bệnh nhân (ví dụ mỗi người = 2px)
+    var minHeight = item.SoLuongBenhNhan * 10; // hoặc đổi thành % nếu cần
+    i++;
+    
+    <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-end">
+        <div class="d-flex flex-column align-items-center p-24 pt-16 rounded-top-4 @bg" style="min-height:@(minHeight)px;">
+            <span class="w-40-px h-40-px d-flex flex-shrink-0 justify-content-center align-items-center @circle rounded-circle mb-12">
+                <img src="@Url.Content("~/images/home-eight/" + icon)" alt="">
+            </span>
+            <span class="text-secondary-light">@item.TenKhoa</span>
+            <h6 class="mb-0">@item.SoLuongBenhNhan</h6>
+        </div>
+    </div>
+}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="col-xxl-6">
+            <div class="card h-100">
+                <div class="card-header border-bottom bg-base py-16 px-24 d-flex align-items-center justify-content-between">
+                    <h6 class="text-lg fw-semibold mb-0">Bệnh nhân ĐK khám nhưng chưa khám</h6>
+                    <a  asp-action="ExportBNChuaCoHSBA" class="text-primary-600 hover-text-primary d-flex align-items-center gap-1">
+                        Xuất excel
+                        <iconify-icon icon="solar:alt-arrow-right-linear" class="icon"></iconify-icon>
+                    </a>
+                </div>
+                <div class="card-body p-0">
+                        <div class="table-responsive scroll-sm" style="overflow-x: auto; max-height: 400px;">
+                            <table class="table bordered-table mb-0 rounded-0 border-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="bg-transparent rounded-0">Mã BN</th>
+                                        <th scope="col" class="bg-transparent rounded-0">Họ tên BN</th>
+                                        <th scope="col" class="bg-transparent rounded-0">Số CCCD</th>
+                                        <th scope="col" class="bg-transparent rounded-0">Ngày tạo</th>
+                                    </tr>
+                                </thead>
+                                    <tbody id="appointmentTable">
+                                    @foreach (var item in Model.bNChuaCoHSBAs)  // Model là danh sách trả về từ controller
+                                    {
+                                        <tr>
+                                            <td>@item.MaBN</td>
+                                            <td>@item.HoTen</td>
+                                            <td>@item.CCCD</td>
+                                            <td>@item.NgayTao.ToString("dd/MM/yyyy")</td>
+                                            
+                                        </tr>
+                                    }
+
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </div>
+        </div>
             <!-- Patient Visited by Depertment -->
             <div class="col-xxl-6">
                 <div class="card h-100">
@@ -607,11 +756,7 @@
                     <div class="card-header">
                         <div class="d-flex align-items-center flex-wrap gap-2 justify-content-between">
                             <h6 class="mb-2 fw-bold text-lg mb-0">Thống kê bệnh nhân nội trú và ngoại trú</h6>
-                            <select class="form-select form-select-sm w-auto bg-base border-0 text-secondary-light">
-                                <option>This Month</option>
-                                <option>This Week</option>
-                                <option>This Year</option>
-                            </select>
+                            
                         </div>
                     </div>
                     <div class="card-body p-24">
@@ -630,11 +775,18 @@
                             </li>
                         </ul>
                         <div id="paymentStatusChart" class="margin-16-minus y-value-left"></div>
+                 
+
                     </div>
                 </div>
             </div>
+                   <div id="benhanTable" class="mt-4"></div>
             <!-- Patient Visit By Gender -->
            
+
+
+
+
             <!-- Top performance Start -->
             <div class="col-xxl-4">
                 <div class="card h-100">
@@ -648,11 +800,11 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-3">
                             <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-success-200 flex-shrink-0">
-                                <img src="{{ asset('assets/images/home-nine/payment1.png') }}" alt="" class="">
+                                <img src="~/images/home-nine/payment1.png" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Chuyển viện</h6>
-                                <span class="text-sm text-secondary-light fw-normal">Số bệnh nhân chuyển đến từ bệnh viện khác</span>
+                                <span class="text-sm text-secondary-light fw-normal">Số bệnh nhân chuyển đến</span>
                             </div>
                         </div>
                         <span class="text-secondary-light text-md fw-medium">@Model.chanDoanChart.SoLuongChuyenVien</span>
@@ -660,7 +812,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-3">
                             <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-info-200 flex-shrink-0">
-                                <img src="{{ asset('assets/images/home-nine/payment2.png') }}" alt="" class="">
+                                <img src="~/images/home-nine/payment2.png" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Cấp cứu</h6>
@@ -672,7 +824,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-3">
                             <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-warning-200 flex-shrink-0">
-                                <img src="{{ asset('assets/images/home-nine/payment3.png') }}" alt="" class="">
+                                <img src="~/images/home-nine/payment3.png" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Phẫu thuật </h6>
@@ -684,7 +836,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-0">
                         <div class="d-flex align-items-center gap-3">
                             <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-lilac-200 flex-shrink-0">
-                                <img src="{{ asset('assets/images/home-nine/payment4.png') }}" alt="" class="">
+                                <img src="~/images/home-nine/payment4.png" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Tái khám</h6>
@@ -698,6 +850,7 @@
             </div>
         </div>
     </div>
+   
             <!-- Top performance End -->
 
             <div class="col-xxl-8">
@@ -712,6 +865,7 @@
                             </select>
 
                         </div>
+                        
                         </div>   
                        
                     <div class="card-body p-0">
@@ -756,6 +910,8 @@
         </div>
     </div>
    
+
+
     <div class="col-xxxl-3">
         <div class="row gy-4">
             <div class="col-xxl-12 col-xl-6">
@@ -763,13 +919,18 @@
                     <div class="card-header border-bottom d-flex align-items-center flex-wrap gap-2 justify-content-between">
                         <h6 class="mb-2 fw-bold text-lg">Tổng HSBA</h6>
                         <div class="">
-                            <select class="form-select form-select-sm w-auto bg-base border-0 text-secondary-light">
-                                <option>Tháng này</option>
-                                <option>Năm này</option>
-                                <option>Tuần này</option>
-                            </select>
+                           <form method="post" asp-action="Dashboard">
+                            <select id="filterSelect" class="form-select form-select-sm w-auto bg-base border-0 text-secondary-light" name="luachon" onchange="this.form.submit()">
+                            <option value="ngay" selected="@(ViewBag.LuaChon == "ngay" ? "selected" : null)">Ngày hôm nay</option>
+                            <option value="thang" selected="@(ViewBag.LuaChon == "thang" ? "selected" : null)">Tháng này</option>
+                            <option value="nam" selected="@(ViewBag.LuaChon == "nam" ? "selected" : null)">Năm nay</option>
+                        </select>
+
+                        </form>
+
+                           
                         </div>
-                    </div>
+                    </div>  
                     <div class="card-body p-24">
 
                         <div class="position-relative">
@@ -805,12 +966,8 @@
                             <div class="d-flex align-items-center flex-wrap gap-2 justify-content-between">
                                 <h6 class="mb-2 fw-bold text-lg">Xét nghiệm</h6>
                                 <div class="">
-                                    <select class="form-select form-select-sm w-auto bg-base border text-secondary-light">
-                                        <option>Tuần này</option>
-                                        <option>Tháng này</option>
-                                        <option>Năm này</option>
-                                        <option>Hôm nay</option>
-                                    </select>
+                                    
+
                                 </div>
                             </div>
 
@@ -921,7 +1078,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                             <div class="d-flex align-items-center gap-12">
                                 <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-lilac-50 d-flex justify-content-center align-items-center">
-                                    <img src="~/images/home-eight/treatment-icon3.png" alt="" class="">
+                                    <img src="~/images/home-eight/treatment-icon5.png" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">@Model.nhansu[1].TenKhoa</h6>
@@ -932,7 +1089,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                             <div class="d-flex align-items-center gap-12">
                                 <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-warning-50 d-flex justify-content-center align-items-center">
-                                    <img src="~/images/home-eight/treatment-icon4.png" alt="" class="">
+                                    <img src="~/images/home-eight/treatment-icon6.png" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">@Model.nhansu[2].TenKhoa</h6>
@@ -943,7 +1100,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                             <div class="d-flex align-items-center gap-12">
                                 <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-danger-50 d-flex justify-content-center align-items-center">
-                                    <img src="~/images/home-eight/treatment-icon5.png" alt="" class="">
+                                    <img src="~/images/home-eight/treatment-icon3.png" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">@Model.nhansu[3].TenKhoa </h6>
@@ -954,7 +1111,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-0">
                             <div class="d-flex align-items-center gap-12">
                                 <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-primary-50 d-flex justify-content-center align-items-center">
-                                    <img src="~/images/home-eight/treatment-icon6.png" alt="" class="">
+                                    <img src="~/images/home-eight/treatment-icon4.png" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">@Model.nhansu[4].TenKhoa</h6>
@@ -968,6 +1125,7 @@
             </div>
           
         </div>
+
     </div>
 </div>
 

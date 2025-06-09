@@ -72,3 +72,10 @@ D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\obj\Debug\net8.0\API_HOSOBENHAN.genruntimeconfig.cache
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\obj\Debug\net8.0\ref\API_HOSOBENHAN.dll
 D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\itext.commons.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\System.Text.Json.dll
+D:\học kì 224 (năm 3)\Đồ án phần mềm\DeTaiQuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\API_HOSOBENHAN\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

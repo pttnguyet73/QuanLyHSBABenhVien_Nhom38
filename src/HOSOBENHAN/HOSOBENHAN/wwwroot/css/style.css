@@ -15092,5 +15092,8 @@ td.fc-header-center {
   background-color: var(--white);
   margin-block-start: auto;
 }
-
+.d-flex {
+    display: flex !important;
+    white-space: nowrap;
+}
 /* === footer css end === */

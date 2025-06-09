@@ -12,5 +12,8 @@
         public List<ThongKeNhanSu> nhansu {  get; set; }
         public ChanDoanChart chanDoanChart { get; set;}
         public SoLuongChart soLuongChart { get; set ; }
+        public List<ThangBenhAn> listbaView { get; set; }
+        public List<BenhNhanTheoKhoa> bntheokhoa { get; set; }
+        public List<BNChuaCoHSBA> bNChuaCoHSBAs { get; set; }
     }
 }

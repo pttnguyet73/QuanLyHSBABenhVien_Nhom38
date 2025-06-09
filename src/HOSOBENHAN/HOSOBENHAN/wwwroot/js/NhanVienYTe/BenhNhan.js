@@ -127,7 +127,7 @@
     $("#ngaySinh").val(benhNhan.ngaySinh?.split('T')[0]);
     $("#tuoi").val(new Date().getFullYear() - new Date(benhNhan.ngaySinh).getFullYear());
 
-    if (benhNhan.gtinh === "Nam") {
+    if (benhNhan.gTinh === "Nam") {
         $("#gtNam").prop("checked", true);
                 } else {
         $("#gtNu").prop("checked", true);
@@ -153,8 +153,8 @@
     $("#tinh").val(diachiParts[4] || "");
      }
 
-     if (benhNhan.diaChiNt) {
-           var diachiParts = benhNhan.diaChiNt.split(",");
+     if (benhNhan.diaChiNT) {
+           var diachiParts = benhNhan.DiaChiNT.split(",");
            $("#soNhaNT").val(diachiParts[0] || "");
            $("#thonPhoNT").val(diachiParts[1] || "");
            $("#xaPhuongNT").val(diachiParts[2] || "");
@@ -168,8 +168,8 @@
     switch (benhNhan.doiTuong) {
                     case "BHYT": {
         $("#dtBHYT").prop("checked", true);
-    $("#soBhyt").val(benhNhan.soBhyt);
-    $("#gitriBhyt").val(benhNhan.gitriBhyt?.split('T')[0]);
+    $("#soBhyt").val(benhNhan.SoBHYT);
+    $("#gitriBhyt").val(benhNhan.GitriBHYT?.split('T')[0]);
                         break; }
     case "Thu phí":
     $("#dtThuPhi").prop("checked", true);
@@ -187,8 +187,8 @@
     $("#soBhyt").closest(".form-group").hide();
                 }
 
-    $("#hoTenNt").val(benhNhan.hoTenNtnhan);
-    $("#sdtNt").val(benhNhan.sdtntnhan);
+    $("#hoTenNt").val(benhNhan.hoTenNTNhan);
+    $("#sdtNt").val(benhNhan.sdtntNhan);
             }
         }).fail(function (xhr, status, error) {
         console.error("Lỗi gọi API:", error);

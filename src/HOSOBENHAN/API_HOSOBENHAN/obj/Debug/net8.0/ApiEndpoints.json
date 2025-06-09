@@ -237,8 +237,28 @@
   },
   {
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetBenhNhanChuaCoHSBA",
+    "RelativePath": "api/ThongKe_ThuNguyet/BenhNhanChuaCoHSBA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetColumnChart",
     "RelativePath": "api/ThongKe_ThuNguyet/ColumnMonth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetColumnChartList",
+    "RelativePath": "api/ThongKe_ThuNguyet/ColumnMonth_List",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -268,8 +288,28 @@
   },
   {
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetHSBA_Date",
+    "RelativePath": "api/ThongKe_ThuNguyet/HSBA_Day",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetHSBA",
-    "RelativePath": "api/ThongKe_ThuNguyet/HSBA",
+    "RelativePath": "api/ThongKe_ThuNguyet/HSBA_Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetHSBA_Year",
+    "RelativePath": "api/ThongKe_ThuNguyet/HSBA_Year",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -306,6 +346,16 @@
     "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
     "Method": "GetTaiKham",
     "RelativePath": "api/ThongKe_ThuNguyet/TaiKham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKeBenhNhan",
+    "RelativePath": "api/ThongKe_ThuNguyet/ThongKeBenhNhanTheoKhoa",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

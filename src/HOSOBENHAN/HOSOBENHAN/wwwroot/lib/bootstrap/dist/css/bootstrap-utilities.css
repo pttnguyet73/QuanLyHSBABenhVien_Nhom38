@@ -316,6 +316,7 @@
 
 .d-flex {
   display: flex !important;
+  white-space: nowrap;
 }
 
 .d-inline-flex {

@@ -90,11 +90,12 @@ div.containsearch {
 .table-container {
     overflow-x: auto;
     height: 100vh;
+    justify-items: center;
     background-color: white;
 }
 
 table {
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     border-radius: 8px;
     overflow: hidden;
@@ -107,7 +108,7 @@ thead {
 }
 
 th, td {
-    text-align: center;
+    text-align: left;
     padding: 10px;
     border: 1px solid #ddd;
 }

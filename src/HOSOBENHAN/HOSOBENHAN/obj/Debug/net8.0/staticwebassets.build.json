@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4krMSofalajpIG6RhCyjOlXTmuz+0Fl8935LejLu0yc=",
+  "Hash": "53hpNZmdRtoCsFbtOWAMW7ZT7zUMMfveqTQw1YD49cA=",
   "Source": "HOSOBENHAN",
   "BasePath": "_content/HOSOBENHAN",
   "Mode": "Default",
@@ -4252,6 +4252,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\prism.js"
+    },
+    {
+      "Identity": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\assets\\js\\scripts.js",
+      "SourceId": "HOSOBENHAN",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\",
+      "BasePath": "_content/HOSOBENHAN",
+      "RelativePath": "assets/js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\scripts.js"
     },
     {
       "Identity": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\assets\\js\\site.js",

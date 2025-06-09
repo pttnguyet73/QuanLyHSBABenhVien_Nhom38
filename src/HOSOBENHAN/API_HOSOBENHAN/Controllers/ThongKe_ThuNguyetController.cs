@@ -36,7 +36,7 @@ namespace HOSOBENHAN.Controllers
                 data => data.Nam,
                 (month, dataGroup) => new
                 {
-                    Nam = "Nam " + month,  // chuyển sang dạng string "Tháng 1"
+                    Nam = "Năm " + month,  // chuyển sang dạng string "Tháng 1"
                     Series1 = dataGroup.Select(d => d.Series1).FirstOrDefault(),
                     Series2 = dataGroup.Select(d => d.Series2).FirstOrDefault()
                 })
@@ -211,9 +211,61 @@ namespace HOSOBENHAN.Controllers
             return Ok(result);
         }
 
+        [HttpGet("ColumnMonth_List")]
+        public async Task<IActionResult> GetColumnChartList()
+        {
+            var currentYear = DateTime.Now.Year;
+
+            var data = await (from hsba in _context.HSBAs
+                              where hsba.NgayTao.HasValue && hsba.NgayTao.Value.Year == currentYear
+                              join ttnv in _context.TTNhapViens
+                                  on hsba.MaHSBA equals ttnv.MaHSBA into gj
+                              from subttnv in gj.DefaultIfEmpty() // left join với TTNhapViens
+                              join bn in _context.BenhNhans
+                                  on hsba.MaBN equals bn.MaBN // join với bảng bệnh nhân
+                              select new
+                              {
+                                  Thang = hsba.NgayTao.Value.Month,
+                                  CoNhapVien = subttnv != null,
+                                  MaHSBA = hsba.MaHSBA,
+                                  MaBN = bn.MaBN,
+                                  HoTen = bn.HoTen,
+                                  NgaySinh = bn.NgaySinh
+                              })
+                              .ToListAsync();
+
+            var thongKe = data
+                .GroupBy(x => x.Thang)
+                .Select(g => new
+                {
+                    Thang = g.Key,
+                    NoiTru = g.Where(x => x.CoNhapVien)
+                              .Select(x => new {
+                                  x.MaHSBA,
+                                  x.MaBN,
+                                  x.HoTen,
+                                  NgaySinh = x.NgaySinh?.ToString("dd/MM/yyyy")
+                              }).ToList(),
+                    NgoaiTru = g.Where(x => !x.CoNhapVien)
+                               .Select(x => new {
+                                   x.MaHSBA,
+                                   x.MaBN,
+                                   x.HoTen,
+                                   NgaySinh = x.NgaySinh?.ToString("dd/MM/yyyy")
+                               }).ToList()
+                })
+                .OrderBy(t => t.Thang)
+                .ToList();
+
+            return Ok(thongKe);
+        }
 
 
-        [HttpGet("HSBA")]
+
+
+
+
+        [HttpGet("HSBA_Month")]
         public async Task<IActionResult> GetHSBA()
         {
 
@@ -221,12 +273,56 @@ namespace HOSOBENHAN.Controllers
             var namHienTai = DateTime.Now.Year;
 
             var data = await _context.HSBAs
-                .Where(hsba => hsba.NgayTao.Value.Month == thangHienTai && hsba.NgayTao.Value.Year == namHienTai)
+                .Where(hsba => hsba.NgayTao.Value.Month == 5 && hsba.NgayTao.Value.Year == namHienTai)
                 .GroupBy(hsba => new { hsba.NgayTao.Value.Year, hsba.NgayTao.Value.Month })
                 .Select(g => new
                 {
                     Nam = g.Key.Year,
                     Thang = g.Key.Month,
+                    DaDieuTriXong = g.Count(x => x.TrangThai == "Đã điều trị xong"),
+                    ChuaDieuTriXong = g.Count(x => x.TrangThai != "Đã điều trị xong")
+                })
+                .ToListAsync();
+
+            return Ok(data);
+        }
+
+        [HttpGet("HSBA_Day")]
+
+        public async Task<IActionResult> GetHSBA_Date()
+        {
+
+           
+
+            var data = await _context.HSBAs
+                .Where(hsba => hsba.NgayTao.Value.Day == DateTime.Now.Day)
+                .GroupBy(hsba => new { hsba.NgayTao.Value.Day })
+                .Select(g => new
+                {
+                    Ngay = g.Key.Day,
+                    DaDieuTriXong = g.Count(x => x.TrangThai == "Đã điều trị xong"),
+                    ChuaDieuTriXong = g.Count(x => x.TrangThai != "Đã điều trị xong"),
+
+                })
+                .ToListAsync();
+
+            return Ok(data);
+        }
+      
+
+
+        [HttpGet("HSBA_Year")]
+        public async Task<IActionResult> GetHSBA_Year()
+        {
+
+            var namHienTai = DateTime.Now.Year;
+
+            var data = await _context.HSBAs
+                .Where(hsba => hsba.NgayTao.Value.Year == namHienTai)
+                .GroupBy(hsba => new { hsba.NgayTao.Value.Year })
+                .Select(g => new
+                {
+                    Nam = g.Key.Year,
                     DaDieuTriXong = g.Count(x => x.TrangThai == "Đã điều trị xong"),
                     ChuaDieuTriXong = g.Count(x => x.TrangThai != "Đã điều trị xong")
                 })
@@ -363,7 +459,41 @@ namespace HOSOBENHAN.Controllers
 
             return Ok(result);
         }
+        [HttpGet("ThongKeBenhNhanTheoKhoa")]
+        public async Task<IActionResult> GetThongKeBenhNhan()
+        {
+            var data = await (from bn in _context.HSBAs
+                              join k in _context.Khoas on bn.Khoa equals k.MaKhoa
+                              group bn by new { bn.Khoa, k.TenKhoa } into g
+                              select new
+                              {
+                                  TenKhoa = g.Key.TenKhoa,
+                                  SoLuongBenhNhan = g.Count()
+                              })
+                              .Take(4)
+                        .ToListAsync();
 
+            return Ok(data);
+        }
+
+
+        [HttpGet("BenhNhanChuaCoHSBA")]
+        public async Task<IActionResult> GetBenhNhanChuaCoHSBA()
+        {
+            var data = await (from bn in _context.BenhNhans
+                              join hsba in _context.HSBAs on bn.MaBN equals hsba.MaBN into gj
+                              from hsba in gj.DefaultIfEmpty()
+                              where hsba == null
+                              select new
+                              {
+                                  bn.MaBN,
+                                  bn.HoTen,
+                                  bn.CCCD,
+                                  bn.NgayTao,
+                              }).ToListAsync();
+
+            return Ok(data);
+        }
     }
 
 }

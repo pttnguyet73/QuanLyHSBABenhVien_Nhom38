@@ -7,17 +7,17 @@
     <meta charset="UTF-8">
     <title>Hồ sơ khám bệnh</title>
     <link rel="stylesheet" href="~/css/Style1.css"> <!-- kết nối file CSS -->
-    
-</head>
-<body>
-<main style="background-color: #f2f6fc; padding: 20px;">
-    <div class="medical-record-container">
-        <h2>
-                <img src="~/image 107.png" alt="icon" style="height: 60px;width:60px;">
-            HỒ SƠ KHÁM BỆNH
-        </h2>
 
-        <h3 style="margin-top: 20px; color: #34495e;">Lịch sử khám bệnh</h3>
+</head>
+<body style="padding=0px">
+    <main style="background-color: #f2f6fc; padding: 20px;">
+        <div class="medical-record-container">
+            <h2>
+                <img src="~/image 107.png" alt="icon" style="height: 60px;width:60px;">
+                HỒ SƠ KHÁM BỆNH
+            </h2>
+
+            <h3 style="margin-top: 20px; color: #34495e;">Lịch sử khám bệnh</h3>
 
 
             @model HSBAFilterViewModel
@@ -94,10 +94,12 @@
                     }
                 </tbody>
             </table>
-            <div class="pagination" id="pagination"></div>
-    </div>
-</main>
 
-<script src="~/assets/js/scripts.js"></script>
+
+            <div class="pagination" id="pagination"></div>
+        </div>
+    </main>
+
+    <script src="~/assets/js/scripts.js"></script>
 </body>
 </html>

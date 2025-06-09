@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý người bệnh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+
+        }
+
+        .wrapper {
+            background-color: #b9e9e2; /* màu xám nhạt */
+            padding: 100px;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .hsba-container {
+            margin-top: 20px;
+        }
+
+        .hsba-item {
+            border: 1px solid #999;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            background-color: #eaf6ff;
+        }
+
+        .hsba-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .trang-thai {
+            font-weight: bold;
+        }
+
+        .hoan-thanh {
+            color: green;
+        }
+
+        .cap-nhat {
+            color: red;
+        }
+
+        .chi-tiet-link {
+            color: blue;
+            text-decoration: none;
+        }
+
+            .chi-tiet-link:hover {
+                text-decoration: underline;
+            }
+
+        .hsba-body {
+            margin-left: 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>
+            <img src="~/medicine.png" alt="icon" style="height: 60px;width:60px;">
+            Đơn thuốc
+        </h2>
+
+        <h3 style="margin-top: 20px; color: #34495e;">Danh sách đơn thuốc</h3>
+
+        <div class="hsba-container">
+            @foreach (var item in Model)
+            {
+                <div class="hsba-item">
+                    <div class="hsba-header">
+                        <div>Mã đơn thuốc: @item.MaDonThuoc</div>
+                        <div>Người tạo: @item.TenNguoiTao</div>
+                        <a href="@Url.Action("thongtindonthuoc", "Timkiem_CongHieu", new { maDonThuoc = item.MaDonThuoc })" class="chi-tiet-link">Chi tiết</a>
+                    </div>
+                    <div class="hsba-body">
+                        Thời gian bắt đầu sử dụng: @item.TGianBatDauSD.ToString("dd/MM/yyyy")<br />
+                        Thời gian kết thúc sử dụng: @item.TGianKetThucSD.ToString("dd/MM/yyyy")<br />
+                        Bác sĩ chính: @item.BacSiChinh
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

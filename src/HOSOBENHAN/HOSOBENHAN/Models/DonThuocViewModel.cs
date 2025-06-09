@@ -3,11 +3,12 @@
 
     public class DonThuocViewModel
     {
-        public string MaHSBA { get; set; }
-        public DateTime NgayTao { get; set; }
-        public DateTime ThoiGianBatDau { get; set; }
-        public DateTime ThoiGianKetThuc { get; set; }
-        public string BacSiPhuTrach { get; set; }
-        public List<ThuocChiTietViewModel> ThuocChiTiets { get; set; }
+        public string MaDonThuoc { get; set; }
+        public string NguoiTao { get; set; }
+        public string TenNguoiTao { get; set; }
+        public string BacSiChinh { get; set; }
+        public DateTime TGianBatDauSD { get; set; }
+        public DateTime TGianKetThucSD { get; set; }
     }
+
 }

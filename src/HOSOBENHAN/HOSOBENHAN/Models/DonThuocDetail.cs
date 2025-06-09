@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace HOSOBENHAN.Models
 {
-    [Table("DonThuoc")]
+    [Table("DonThuocDetal")]
     public class DonThuocDetal
     {
         public string MaDonThuoc { get; set; }

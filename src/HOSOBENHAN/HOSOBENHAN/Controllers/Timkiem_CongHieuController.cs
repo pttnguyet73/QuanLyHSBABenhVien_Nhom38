@@ -1,7 +1,11 @@
 ﻿using HOSOBENHAN.Data;
-using Microsoft.AspNetCore.Mvc;
 using HOSOBENHAN.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 
 namespace HOSOBENHAN.Controllers
 {
@@ -12,6 +16,17 @@ namespace HOSOBENHAN.Controllers
         public Timkiem_CongHieuController(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+
+        public static string RemoveDiacritics(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input)) return input;
+            string normalized = input.Normalize(NormalizationForm.FormD);
+            var chars = normalized
+                .Where(c => CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+                .ToArray();
+            return new string(chars).Normalize(NormalizationForm.FormC).ToLower();
         }
 
         [HttpGet]
@@ -37,38 +52,45 @@ namespace HOSOBENHAN.Controllers
                             TenBenhNhan = bn.HoTen
                         };
 
-            // Áp dụng tìm kiếm
+            var danhSachHSBA = query.ToList(); // Chuyển sang bộ nhớ để xử lý không dấu bằng C#
+
+            // Áp dụng tìm kiếm không dấu
             if (!string.IsNullOrWhiteSpace(search))
             {
-                query = query.Where(x =>
-                    x.MaHSBA.Contains(search) ||
-                    x.TenBenhNhan.Contains(search));
+                string keyword = RemoveDiacritics(search);
+                danhSachHSBA = danhSachHSBA.Where(x =>
+                    RemoveDiacritics(x.MaHSBA).Contains(keyword) ||
+                    RemoveDiacritics(x.TenBenhNhan).Contains(keyword) ||
+                    RemoveDiacritics(x.NguoiTao).Contains(keyword)
+                ).ToList();
             }
 
             // Áp dụng lọc theo khoa
             if (!string.IsNullOrWhiteSpace(selectedKhoa))
             {
-                query = query.Where(x => x.Khoa == selectedKhoa);
+                danhSachHSBA = danhSachHSBA.Where(x => x.Khoa == selectedKhoa).ToList();
             }
 
             // Áp dụng lọc theo trạng thái
             if (!string.IsNullOrWhiteSpace(selectedTrangThai))
             {
-                query = query.Where(x => x.TrangThai == selectedTrangThai);
+                danhSachHSBA = danhSachHSBA.Where(x => x.TrangThai == selectedTrangThai).ToList();
             }
 
-            // Đổ kết quả ra view model
+            // Trả về ViewModel
             var viewModel = new HSBAFilterViewModel
             {
                 Search = search,
                 SelectedKhoa = selectedKhoa,
                 SelectedTrangThai = selectedTrangThai,
                 DanhSachKhoa = danhSachKhoa,
-                DanhSachHSBA = query.ToList()
+                DanhSachHSBA = danhSachHSBA
             };
 
             return View(viewModel);
         }
+
+
 
         // Các action còn lại nếu chưa dùng thì giữ nguyên để phát triển sau
         public IActionResult Details(string id)
@@ -118,76 +140,83 @@ namespace HOSOBENHAN.Controllers
             return View();
         }
 
-        public IActionResult thongtindonthuoc(string maHSBA)
+        public IActionResult thongtindonthuoc(string maDonThuoc)
         {
-            //// Lấy thông tin đơn thuốc và bác sĩ
-            //var thongTinDonThuoc = _context.DonThuoc_HSBAs
-            //    .Where(d => d.MaHSBA == maHSBA)
-            //    .Join(_context.DonThuocs,
-            //          hs => hs.MaDonThuoc,
-            //          dt => dt.MaDonThuoc,
-            //          (hs, dt) => new { hs, dt })
-            //    .Join(_context.NhanViens,
-            //          x => x.dt.NguoiTao,
-            //          nv => nv.MaNV,
-            //          (x, nv) => new
-            //          {
-            //              x.hs.MaHSBA,
-            //              x.dt.NgayTao,
-            //              x.hs.TGianBDauSD,
-            //              x.hs.TGianKThucSD,
-            //              BacSiPhuTrach = nv.HoTen,
-            //              x.hs.MaDonThuoc
-            //          })
-            //    .ToList();
+            if (string.IsNullOrEmpty(maDonThuoc)) return NotFound();
 
-            //var danhSachThuoc = new List<ThuocChiTietViewModel>();
-            //int stt = 1;
+            var donThuoc = _context.DonThuocs.FirstOrDefault(dt => dt.MaDonThuoc == maDonThuoc);
+            if (donThuoc == null) return NotFound();
 
-            //foreach (var item in thongTinDonThuoc)
-            //{
-            //    var thuocChiTiet = _context.DonThuocDetals
-            //        .Where(dtct => dtct.MaDonThuoc == item.MaDonThuoc)
-            //        .Join(_context.Thuocs,
-            //              ct => ct.IDThuoc,
-            //              t => t.IDThuoc,
-            //              (ct, t) => new
-            //              {
-            //                  t.TenThuoc,
-            //                  ct.SoLg,
-            //                  ct.DvTinh,
-            //                  ct.LieuDung,
-            //                  ct.GhiChu
-            //              })
-            //        .ToList()
-            //        .Select(x => new ThuocChiTietViewModel
-            //        {
-            //            STT = stt++,
-            //            TenThuoc = x.TenThuoc,
-            //            SoLuong = x.SoLg,
-            //            DonViTinh = x.DvTinh,
-            //            LieuDung = x.LieuDung,
-            //            GhiChu = x.GhiChu
-            //        }).ToList();
+            var nguoiTao = _context.NhanViens.FirstOrDefault(nv => nv.MaNV == donThuoc.NguoiTao);
 
-            //    danhSachThuoc.AddRange(thuocChiTiet);
-            //}
+            var chiTiet = _context.DonThuocDetals
+                .Where(ct => ct.MaDonThuoc == maDonThuoc)
+                .Join(_context.Thuocs,
+                      ct => ct.IDThuoc,
+                      t => t.IDThuoc,
+                      (ct, t) => new ChiTietThuocViewModel
+                      {
+                          TenThuoc = t.TenThuoc,
+                          SoLuong = ct.SoLg,
+                          DonViTinh = ct.DvTinh,
+                          LieuDung = ct.LieuDung,
+                          GhiChu = ct.GhiChu
+                      })
+                .ToList();
 
-            //var first = thongTinDonThuoc.FirstOrDefault();
+            var viewModel = new DonThuocViewModel2
+            {
+                NgayTao = donThuoc.NgayTao,
+                NguoiTaoHoTen = nguoiTao?.HoTen ?? donThuoc.NguoiTao,
+                ChiTietThuocs = chiTiet
+            };
 
-            //var donThuocVM = new DonThuocViewModel
-            //{
-            //    MaHSBA = maHSBA,
-            //    NgayTao = first?.NgayTao ?? DateTime.MinValue,
-            //    ThoiGianBatDau = first?.TGianBDauSD ?? DateTime.MinValue,
-            //    ThoiGianKetThuc = first?.TGianKThucSD ?? DateTime.MinValue,
-            //    BacSiPhuTrach = first?.BacSiPhuTrach,
-            //    ThuocChiTiets = danhSachThuoc
-            //};
-
-            return View();
+            return View(viewModel);
         }
 
+
+        public IActionResult danhsachdonthuoc(string maHSBA)
+        {
+            var danhSach = (from dt_hsba in _context.DonThuoc_HSBAs
+                            join dt in _context.DonThuocs on dt_hsba.MaDonThuoc equals dt.MaDonThuoc
+                            join nv in _context.NhanViens on dt.NguoiTao equals nv.MaNV
+                            join hsba in _context.HSBAs on dt_hsba.MaHSBA equals hsba.MaHSBA
+                            join bs in _context.NhanViens on hsba.NguoiTao equals bs.MaNV
+                            where dt_hsba.MaHSBA == maHSBA
+                            select new DonThuocViewModel
+                            {
+                                MaDonThuoc = dt.MaDonThuoc,
+                                NguoiTao = nv.MaNV,
+                                TenNguoiTao = nv.HoTen,
+                                BacSiChinh = bs.HoTen,
+                                TGianBatDauSD = dt_hsba.TGianBDauSD,
+                                TGianKetThucSD = dt_hsba.TGianKThucSD
+                            }).ToList();
+
+            return View(danhSach);
+        }
+
+
+        public IActionResult DanhSachXetNghiem(string maHSBA)
+        {
+            var dsXetNghiem = _context.HSBA_XetNghiems
+                .Where(x => x.MaHSBA == maHSBA)
+                .Join(_context.XetNghiems,
+                      hsba => hsba.MaXN,
+                      xn => xn.MaXN,
+                      (hsba, xn) => new XetNghiemViewModel
+                      {
+                          MaXN = hsba.MaXN,
+                          TenXetNghiem = xn.LoaiXN,
+                          KetquaXetNghiem = hsba.KQXetNghiem,
+                          TgianTao = (DateTime)hsba.TgianTao,
+                          BacSyXN = hsba.BacSyXN,
+                          AnhXetNghiem = hsba.AnhXetNghiem
+                      })
+                .ToList();
+
+            return View(dsXetNghiem);
+        }
 
     }
 }

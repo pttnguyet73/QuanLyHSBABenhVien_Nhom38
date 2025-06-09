@@ -3,8 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HOSOBENHAN.Models
 {
-
+    [Table("DonThuoc")]
     public class DonThuoc
+
     {
         [Key]
         public string MaDonThuoc { get; set; }

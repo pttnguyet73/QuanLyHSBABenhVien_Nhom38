@@ -1085,6 +1085,10 @@
       "PackagePath": "staticwebassets\\image3.png"
     },
     {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\Vector.png",
+      "PackagePath": "staticwebassets\\images\\Vector.png"
+    },
+    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\arrow-down.png",
       "PackagePath": "staticwebassets\\images\\arrow-down.png"
     },
@@ -1729,6 +1733,10 @@
       "PackagePath": "staticwebassets\\images\\home-six\\student-img6.png"
     },
     {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\internet.png",
+      "PackagePath": "staticwebassets\\images\\internet.png"
+    },
+    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\kanban\\kanban-1.png",
       "PackagePath": "staticwebassets\\images\\kanban\\kanban-1.png"
     },
@@ -1779,6 +1787,10 @@
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\logohsbn.png",
+      "PackagePath": "staticwebassets\\images\\logohsbn.png"
     },
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\nft\\bitcoin.png",
@@ -1949,6 +1961,26 @@
       "PackagePath": "staticwebassets\\images\\notification\\profile-7.png"
     },
     {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\payment-1.png",
+      "PackagePath": "staticwebassets\\images\\payment-1.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\payment-2.png",
+      "PackagePath": "staticwebassets\\images\\payment-2.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\payment-3.png",
+      "PackagePath": "staticwebassets\\images\\payment-3.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\payment-4.png",
+      "PackagePath": "staticwebassets\\images\\payment-4.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\payment-5.png",
+      "PackagePath": "staticwebassets\\images\\payment-5.png"
+    },
+    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\payment\\payment-gateway1.png",
       "PackagePath": "staticwebassets\\images\\payment\\payment-gateway1.png"
     },
@@ -2019,6 +2051,10 @@
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\product\\product-img5.png",
       "PackagePath": "staticwebassets\\images\\product\\product-img5.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\search.png",
+      "PackagePath": "staticwebassets\\images\\search.png"
     },
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\tabs\\tabs-image1.png",
@@ -2203,6 +2239,14 @@
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\users\\user6.png",
       "PackagePath": "staticwebassets\\images\\users\\user6.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\userthreepeople.png",
+      "PackagePath": "staticwebassets\\images\\userthreepeople.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\usertowpeople.png",
+      "PackagePath": "staticwebassets\\images\\usertowpeople.png"
     },
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\images\\videos\\video-img1.png",

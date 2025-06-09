@@ -22,6 +22,9 @@ namespace HOSOBENHAN.Models
         [MaxLength(100)]
         public string BacSyXN { get; set; }
 
+        public string AnhXetNghiem { get; set; }
+
+
         [ForeignKey("MaHSBA")]
         public HSBA HSBA { get; set; }
 

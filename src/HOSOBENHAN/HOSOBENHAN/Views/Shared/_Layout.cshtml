@@ -21,14 +21,20 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-2">
                     <div class="header__logo">
-                        <a href=""><img src="image-10.png" alt=""></a>
+                        <a href=""><img src="~/image-10.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-7">
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="">Trang chủ</a></li>
-                            <li><a href="@Url.Action("HoSoBenhAn", "NhanVienYTe")">Quản lý</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Quản lý</a>
+                                <ul class="dropdown-content">
+                                    <li><a href="@Url.Action("HoSoBenhNhan", "NhanVienYTe")">QLHS khám bệnh</a></li>
+                                    <li><a href="@Url.Action("HoSoBenhAn", "NhanVienYTe")">QLHS bệnh án</a></li>
+                                </ul>
+                            </li>
                             <li><a href="@Url.Action("Index", "TimKiem_CongHieu")">Tìm kiếm</a></li>
                            
                             <li>
@@ -75,16 +81,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-7">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="./index.html"><img src="image-10.png" alt=""></a>
+                            <a href="./index.html"><img src="~/image-10.png" alt=""></a>
                         </div>
-                        <p>Chăm sóc đúng cách, yêu thương trọn vẹn – Pet Shop dành tất cả cho những người bạn bốn chân..</p>
-                        <div class="footer__payment">
-                            <a href="#"><img src="img/payment/payment-1.png" alt=""></a>
-                            <a href="#"><img src="img/payment/payment-2.png" alt=""></a>
-                            <a href="#"><img src="img/payment/payment-3.png" alt=""></a>
-                            <a href="#"><img src="img/payment/payment-4.png" alt=""></a>
-                            <a href="#"><img src="img/payment/payment-5.png" alt=""></a>
-                        </div>
+                        <p>Bệnh viện Đa khoa Hải Châu - Mang đến sự phục vụ tốt nhất cho người bệnh.</p>
+                        
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-5">
@@ -116,12 +116,12 @@
                             <input type="text" placeholder="Email">
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
-                        <div class="footer__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <div class="footer__payment">
+                            <a href="#"><img src="~/images//payment-1.png" alt=""></a>
+                            <a href="#"><img src="~/images//payment-2.png" alt=""></a>
+                            <a href="#"><img src="~/images//payment-3.png" alt=""></a>
+                            <a href="#"><img src="~/images//payment-4.png" alt=""></a>
+                            <a href="#"><img src="~/images//payment-5.png" alt=""></a>
                         </div>
                     </div>
                 </div>

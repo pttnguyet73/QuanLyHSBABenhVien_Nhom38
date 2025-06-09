@@ -165,3 +165,71 @@
     height: 16.75%;
 }
 */
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #f8f9fa;
+    border-bottom: 2px solid #007bff;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+    .menu > li {
+        position: relative;
+    }
+
+    .menu a {
+        display: block;
+        color: #333;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+        .menu a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 220px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 999;
+    padding: 8px 0;
+}
+
+    .dropdown-content li {
+        border-bottom: 1px solid #eee;
+        width: 100%;
+    }
+
+        .dropdown-content li:last-child {
+            border-bottom: none;
+        }
+
+    .dropdown-content a {
+        padding: 12px 20px;
+        color: #333;
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+            color: #007bff;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

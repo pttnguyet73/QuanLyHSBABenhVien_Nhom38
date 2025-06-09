@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BKTfSxwzIG7ZqN7EzkObhDiZOsgoWPOlPmSLLtCoMis=",
+  "Hash": "OY0ihmYP83P2hjClCuam8CM6XDBVaQlFzCuczCebJ0g=",
   "Source": "HOSOBENHAN",
   "BasePath": "_content/HOSOBENHAN",
   "Mode": "Default",
@@ -5050,6 +5050,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image 107.png",
+      "SourceId": "HOSOBENHAN",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\",
+      "BasePath": "_content/HOSOBENHAN",
+      "RelativePath": "image 107.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image 107.png"
     },
     {
       "Identity": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image0.png",
@@ -12631,6 +12650,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\medicine.png",
+      "SourceId": "HOSOBENHAN",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\",
+      "BasePath": "_content/HOSOBENHAN",
+      "RelativePath": "medicine.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\medicine.png"
+    },
+    {
+      "Identity": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\search.png",
+      "SourceId": "HOSOBENHAN",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\",
+      "BasePath": "_content/HOSOBENHAN",
+      "RelativePath": "search.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\search.png"
     }
   ]
 }

@@ -1057,6 +1057,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image 107.png",
+      "PackagePath": "staticwebassets\\image 107.png"
+    },
+    {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\image-10.png",
       "PackagePath": "staticwebassets\\image-10.png"
     },
@@ -2651,6 +2655,14 @@
     {
       "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\medicine.png",
+      "PackagePath": "staticwebassets\\medicine.png"
+    },
+    {
+      "Id": "D:\\học kì 224 (năm 3)\\Đồ án phần mềm\\DeTaiQuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\HOSOBENHAN\\wwwroot\\search.png",
+      "PackagePath": "staticwebassets\\search.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HOSOBENHAN.Microsoft.AspNetCore.StaticWebAssets.props",

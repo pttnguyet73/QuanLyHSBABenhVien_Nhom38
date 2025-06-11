@@ -4,7 +4,7 @@ namespace API_HOSOBENHAN.ClassModels
 {
     public class BenhNhan2
     {
-        public string Mabn { get; set; }
+        public string? Mabn { get; set; }
         public string DoiTuong { get; set; }
         public string? SoBHYT { get; set; }
         public DateTime? GitriBHYT { get; set; }

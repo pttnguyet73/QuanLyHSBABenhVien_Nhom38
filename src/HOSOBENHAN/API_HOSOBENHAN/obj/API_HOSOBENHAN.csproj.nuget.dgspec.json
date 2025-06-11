@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {}
+    "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {
+    "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+        "projectUniqueName": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
         "projectName": "API_HOSOBENHAN",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+        "projectPath": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\obj\\",
+        "outputPath": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

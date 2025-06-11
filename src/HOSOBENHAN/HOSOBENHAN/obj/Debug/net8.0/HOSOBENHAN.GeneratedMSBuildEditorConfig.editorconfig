@@ -17,97 +17,97 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HOSOBENHAN
 build_property.RootNamespace = HOSOBENHAN
-build_property.ProjectDir = C:\Users\ADMIN\Downloads\src1\src\HOSOBENHAN\HOSOBENHAN\
+build_property.ProjectDir = D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Downloads\src1\src\HOSOBENHAN\HOSOBENHAN
+build_property.MSBuildProjectDirectory = D:\HSBA\QuanLyHSBABenhVien_Nhom38\src\HOSOBENHAN\HOSOBENHAN
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Home/Index.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Home/Privacy.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/BenhNhan.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/BenhNhan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcQmVuaE5oYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/DonThuoc.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/DonThuoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcRG9uVGh1b2MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/HoSoBenhAn.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/HoSoBenhAn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcSG9Tb0JlbmhBbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/HoSoBenhNhan.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/HoSoBenhNhan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcSG9Tb0JlbmhOaGFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/PhieuChamSoc.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/PhieuChamSoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcUGhpZXVDaGFtU29jLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/QLChung.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/QLChung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcUUxDaHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/QLDonThuoc.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/QLDonThuoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcUUxEb25UaHVvYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/QLNguoiBenh.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/QLNguoiBenh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcUUxOZ3VvaUJlbmguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/TaoHoSoKhamBenh.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/NhanVienYTe/TaoHoSoKhamBenh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5ZVGVcVGFvSG9Tb0toYW1CZW5oLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Shared/Error.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/ThongKe_ThuNguyet/Dashboard.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/ThongKe_ThuNguyet/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdLZV9UaHVOZ3V5ZXRcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/Details.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlta2llbV9Db25nSGlldVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/Index.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlta2llbV9Db25nSGlldVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/ketquaxetnghiem.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/ketquaxetnghiem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlta2llbV9Db25nSGlldVxrZXRxdWF4ZXRuZ2hpZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/thongtindonthuoc.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Timkiem_CongHieu/thongtindonthuoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlta2llbV9Db25nSGlldVx0aG9uZ3RpbmRvbnRodW9jLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/_ViewImports.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/_ViewStart.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/src1/src/HOSOBENHAN/HOSOBENHAN/Views/Shared/_Layout.cshtml]
+[D:/HSBA/QuanLyHSBABenhVien_Nhom38/src/HOSOBENHAN/HOSOBENHAN/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uxjc2td321

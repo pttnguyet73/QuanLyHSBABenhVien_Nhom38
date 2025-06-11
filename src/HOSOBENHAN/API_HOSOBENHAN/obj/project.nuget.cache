@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoQSXHG+L+E=",
+  "dgSpecHash": "J/4sDGtXmvw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+  "projectFilePath": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

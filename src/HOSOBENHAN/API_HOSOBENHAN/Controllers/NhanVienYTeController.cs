@@ -315,6 +315,7 @@ namespace API_HOSOBENHAN.Controllers
                 {
                     return NotFound(new { success = false, message = "Không tìm thấy bệnh nhân để cập nhật" });
                 }
+                // Cập nhật thông tin bệnh nhân
                 benhNhanCu.DoiTuong = model.DoiTuong;
                 benhNhanCu.SoBHYT = model.SoBHYT;
                 benhNhanCu.GitriBHYT = model.GitriBHYT;

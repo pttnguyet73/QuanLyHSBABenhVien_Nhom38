@@ -1,8 +1,8 @@
 ﻿ $(document).ready(function () {
         $.get("https://localhost:7015/api/NhanVienYTe/ListHSBenhNhan", {}, function (kq) {
             var dulieu = kq.data;
-            var sl1 = kq.r1;
-            var sl2 = kq.r2;
+            var slg1 = kq.r1;
+            var slg2 = kq.r2;
           
             if(dulieu && dulieu.length > 0) {
                 var html = "";
@@ -26,7 +26,7 @@
  
                     html1 += ` <div>
                     <img src="/images/internet.png" alt="Online Icon" />
-                    <h3>${sl1}</h3>
+                    <h3>${slg1}</h3>
                 </div>
                  <p>Hồ sơ bệnh nhân đăng ký online</p>
                 `;
@@ -38,7 +38,7 @@
 
                     html2 += `<div>
                     <img src="/images/usertowpeople.png" alt="Offline Icon" />
-                    <h3>${sl2}</h3>
+                    <h3>${slg2}</h3>
                 </div>
                 <p>Hồ sơ bệnh nhân offline</p>
                 `;
@@ -49,7 +49,7 @@
 
             html3 += ` <div>
                     <img src="/images/userthreepeople.png" alt="Total Icon" />
-                    <h3>${Number(sl1) + Number(sl2)}</h3>
+                    <h3>${Number(slg1) + Number(slg2)}</h3>
                 </div>
                 <p>Tổng hồ sơ bệnh nhân đã đăng ký</p>
             </div>
@@ -85,7 +85,8 @@
                       <td>${item.dantoc}</td>
                       <td>${item.ngoaiKieu}</td>
                 </tr>`;
-                });
+    });
+
 
     $("#tr_addtext").html(html);
 
@@ -97,7 +98,5 @@
     alert("Không tìm thấy hồ sơ!");
     });
     });
+ });
 
-   
-   
-    });

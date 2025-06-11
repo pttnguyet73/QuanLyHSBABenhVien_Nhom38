@@ -10,6 +10,8 @@
     - newtonsoft.json\13.0.3
     - swashbuckle.aspnetcore\6.4.0
     - system.diagnostics.tools\4.3.0
+    - epplus\7.0.5
+    - EntityFrameworkCore.design\8.0.5
 2. Cấu hình chạy đa project
    - Chuột phải solution → Set Startup Projects
    - Chọn Multiple startup projects

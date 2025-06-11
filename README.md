@@ -1,7 +1,7 @@
 Đề tài: Quản lý hồ sơ bệnh án tại bệnh viện
 ## Hướng dẫn cài đặt thêm sau khi clone về
  1.Cài đặt nuget
-  + Tool -> Nuget Package Manager -> Packages Nuget Manager for solution -> Browser
+  + Tool(Thanh công cụ nằm trên cùng màn hình) -> Nuget Package Manager -> Packages Nuget Manager for solution -> Browser
   + Tìm kiếm và install từng các nullget sau vào project
     - text7.bouncy-castle-adapter\9.2.0
     - microsoft.aspnetcore.http\2.3.0

@@ -11,9 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddDbContext<QUANLYBENHAN01Context>(options =>
+builder.Services.AddDbContext<HSBADBContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 var app = builder.Build();

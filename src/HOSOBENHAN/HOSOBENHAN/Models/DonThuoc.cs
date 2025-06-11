@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HOSOBENHAN.Data
+namespace HOSOBENHAN.Models
 {
-    public partial class DonThuoc
+
+    public class DonThuoc
     {
-        public DonThuoc()
-        {
-            DonThuocDetals = new HashSet<DonThuocDetal>();
-            DonThuocHsbas = new HashSet<DonThuocHsba>();
-        }
+        [Key]
+        public string MaDonThuoc { get; set; }
+        public DateTime NgayTao { get; set; }
+        public string NguoiTao { get; set; }
 
-        public string MaDonThuoc { get; set; } = null!;
-        public DateTime? NgayTao { get; set; }
-        public string? NguoiTao { get; set; }
-
-        public virtual ICollection<DonThuocDetal> DonThuocDetals { get; set; }
-        public virtual ICollection<DonThuocHsba> DonThuocHsbas { get; set; }
+        public ICollection<DonThuocDetal> DonThuocDetals { get; set; }
+        public ICollection<DonThuoc_HSBA> DonThuoc_HSBAs { get; set; }
     }
+
 }

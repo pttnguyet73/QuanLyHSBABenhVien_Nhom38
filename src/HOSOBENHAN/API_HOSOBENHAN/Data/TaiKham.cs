@@ -1,14 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HOSOBENHAN.Data
 {
-    public partial class TaiKham
+    [Table("TaiKham")]
+    public class TaiKham
     {
-        public string MaHsba { get; set; } = null!;
-        public DateTime? TgtaiKham { get; set; }
-        public string? TrangThai { get; set; }
+     
+        // Khóa ngoại liên kết với bảng HSBA
+        [Key, ForeignKey("HSBA")]
+        [MaxLength(10)]
+        public string MaHSBA { get; set; }
 
-        public virtual Hsba MaHsbaNavigation { get; set; } = null!;
+        // Mối quan hệ với đối tượng HSBA
+        public HSBA HSBA { get; set; }
+
+        // Thông tin thời gian tái khám
+        public DateTime? TGTaiKham { get; set; }
+
+        // Trạng thái tái khám
+        [MaxLength(50)]
+        public string TrangThai { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-namespace API_HOSOBENHAN.Data
+namespace HOSOBENHAN.Models
 {
     public class ErrorViewModel
     {

@@ -1,22 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 namespace HOSOBENHAN.Data
 {
-    public partial class Thuoc
+    [Table("Thuoc")]
+    public class Thuoc
     {
-        public Thuoc()
-        {
-            DonThuocDetals = new HashSet<DonThuocDetal>();
-        }
+        [Key, MaxLength(10)]
+        public string IDThuoc { get; set; }
 
-        public string Idthuoc { get; set; } = null!;
-        public string? TenThuoc { get; set; }
-        public DateTime? Nsx { get; set; }
-        public DateTime? Hsd { get; set; }
-        public bool? Bh { get; set; }
+        [MaxLength(100)]
+        public string TenThuoc { get; set; }
 
-        public virtual ICollection<DonThuocDetal> DonThuocDetals { get; set; }
+        public DateTime? NSX { get; set; }
+
+        public DateTime? HSD { get; set; }
+
+        public bool? BH { get; set; }
+
+        public ICollection<DonThuoc> DonThuocs { get; set; }
     }
+
 }

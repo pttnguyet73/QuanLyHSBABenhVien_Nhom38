@@ -1,11 +1,14 @@
 ﻿div.divmain {
     font-family: Arial, sans-serif;
-    background-color: #d3d3d3;
-    height: 100vh;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 50px;
 }
 
 .wrapper {
-    background-color: #ffffff;
+    background-color: white;
     width: 100%;
     margin-top: 10px;
     height: 100vh;
@@ -91,10 +94,11 @@ div.containsearch {
     overflow-x: auto;
     height: 100vh;
     background-color: white;
+    justify-items: center;
 }
 
 table {
-    width: 100%;
+    width: 70%;
     border-collapse: collapse;
     border-radius: 8px;
     overflow: hidden;

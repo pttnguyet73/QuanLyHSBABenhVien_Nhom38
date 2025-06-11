@@ -21,7 +21,7 @@
                         <td>${item.cccd}</td>
                         <td>${item.hoten}</td>
                         <td>${new Date(item.ngaysinh).getFullYear()}</td>
-                        <td><a href="NhanVienYTe/BenhNhan?ma=${item.mabn}&mahsba=${item.mahsba}">Cập nhật</a></td>
+                        <td><a href="BenhNhan?ma=${item.mabn}&mahsba=${item.mahsba}">Cập nhật</a></td>
                     </tr>`;
                         i++;
                     });
@@ -40,13 +40,15 @@
             });
         });
 
+     const baseUrl = "BenhNhan";
 
-    $.get("https://localhost:7015/api/NhanVienYTe/ListHoSoBenhAn", { }, function (kq) {
+     $.get("https://localhost:7015/api/NhanVienYTe/ListHoSoBenhAn", { }, function (kq) {
         var dulieu = kq.data;
         if (dulieu && dulieu.length > 0) {
             var html = "";
     var i = 1;
-    dulieu.forEach(function (item) {
+            dulieu.forEach(function (item) {
+                const url = `${baseUrl}?ma=${item.mabn}&mahsba=${item.mahsba}`;
         html += `
                     <tr>
                         <td>${i}</td>
@@ -54,9 +56,9 @@
                         <td>${item.cccd}</td>
                         <td>${item.hoten}</td>
                         <td>${new Date(item.ngaysinh).getFullYear()}</td>
-                        <td><a href="NhanVienYTe/BenhNhan?ma=${item.mabn}&mahsba=${item.mahsba}">Cập nhật</a></td>
+                        <td><a href="${url}">Cập nhật</a></td>
                     </tr>`;
-    i++;
+            i++;
             });
 
     // Xóa các dòng cũ (trừ dòng header và dòng nhập)

@@ -1,4 +1,6 @@
-﻿  $(document).ready(function () {
+﻿$(document).ready(function () {
+      
+
       $("#addhoso").on("click", function (event) {
             event.preventDefault();
             const cccd = $("#textidcccd").text();

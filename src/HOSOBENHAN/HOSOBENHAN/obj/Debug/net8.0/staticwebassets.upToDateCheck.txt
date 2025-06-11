@@ -228,6 +228,7 @@ wwwroot\assets\webfonts\fa-solid-900.ttf
 wwwroot\assets\webfonts\fa-solid-900.woff2
 wwwroot\assets\webfonts\fa-v4compatibility.ttf
 wwwroot\assets\webfonts\fa-v4compatibility.woff2
+wwwroot\css\details.css
 wwwroot\css\lib\apexcharts.css
 wwwroot\css\lib\audioplayer.css
 wwwroot\css\lib\BenhNhan.css
@@ -256,6 +257,8 @@ wwwroot\css\main.css.map
 wwwroot\css\remixicon.css
 wwwroot\css\site.css
 wwwroot\css\style.css
+wwwroot\css\Style1.css
+wwwroot\css\style2.css
 wwwroot\favicon.ico
 wwwroot\image0.png
 wwwroot\image1.png
@@ -549,6 +552,7 @@ wwwroot\images\users\user5.png
 wwwroot\images\users\user6.png
 wwwroot\images\usertowpeople.png
 wwwroot\images\userthreepeople.png
+wwwroot\images\Vector.png
 wwwroot\images\videos\video-img1.png
 wwwroot\images\videos\video-img2.png
 wwwroot\images\videos\video-img3.png
@@ -572,6 +576,7 @@ wwwroot\js\lib\audioplayer.js
 wwwroot\js\lib\bootstrap.bundle.min.js
 wwwroot\js\lib\dataTables.min.js
 wwwroot\js\lib\file-upload.js
+wwwroot\js\lib\filter.js
 wwwroot\js\lib\iconify-icon.min.js
 wwwroot\js\lib\jquery-3.7.1.min.js
 wwwroot\js\lib\jquery-jvectormap-2.0.5.min.js

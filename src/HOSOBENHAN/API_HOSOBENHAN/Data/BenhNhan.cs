@@ -1,41 +1,75 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HOSOBENHAN.Data
 {
-    public partial class BenhNhan
+    [Table("BenhNhan")]
+    public class BenhNhan
     {
-        public BenhNhan()
-        {
-            Hsbas = new HashSet<Hsba>();
-            KhieuNais = new HashSet<KhieuNai>();
-        }
+        [Key, MaxLength(10)]
+        public string MaBN { get; set; }
 
-        public string MaBn { get; set; } = null!;
-        public string? Cccd { get; set; }
-        public string HoTen { get; set; } = null!;
+        [MaxLength(12)]
+        public string CCCD { get; set; }
+
+        [Required, MaxLength(100)]
+        public string HoTen { get; set; }
+
         public DateTime? NgaySinh { get; set; }
-        public string? Gtinh { get; set; }
-        public string? NgheNghiep { get; set; }
-        public string? DanToc { get; set; }
+
+        [MaxLength(10)]
+        public string GTinh { get; set; }
+
+        [MaxLength(50)]
+        public string NgheNghiep { get; set; }
+
+        [MaxLength(50)]
+        public string DanToc { get; set; }
+
+        [MaxLength(50)]
         public string? NgoaiKieu { get; set; }
-        public string DiaChi { get; set; } = null!;
-        public string? NoiLamViec { get; set; }
-        public string DoiTuong { get; set; } = null!;
-        public string? SoBhyt { get; set; }
-        public DateTime? GitriBhyt { get; set; }
-        public string? HoTenNtnhan { get; set; } = null!;
-        public string? DiaChiNt { get; set; } = null!;
-        public string? Sdtntnhan { get; set; } = null!;
-        public string MatKhau { get; set; } = null!;
-        public int? Stt { get; set; }
-        public string? TrieuChung { get; set; }
-        public string? Khoa { get; set; }
+
+        [Required, MaxLength(200)]
+        public string DiaChi { get; set; }
+
+        [MaxLength(200)]
+        public string NoiLamViec { get; set; }
+
+        [Required, MaxLength(50)]
+        public string DoiTuong { get; set; }
+
+        [MaxLength(20)]
+        public string? SoBHYT { get; set; }
+
+        public DateTime? GitriBHYT { get; set; }
+
+        [Required, MaxLength(100)]
+        public string? HoTenNTNhan { get; set; }
+
+        [Required, MaxLength(200)]
+        public string? DiaChiNT { get; set; }
+
+        [Required, MaxLength(15)]
+        [Phone]
+        public string? SDTNTNhan { get; set; }
+
+        [Required, MaxLength(100)]
+        public string MatKhau { get; set; }
+
+        public int? STT { get; set; }
+
+        [MaxLength(200)]
+        public string TrieuChung { get; set; }
+
+        [MaxLength(50)]
+        public string Khoa { get; set; }
+
+        [MaxLength(50)]
         public string? TaiKham { get; set; }
         public DateTime? TgKham { get; set; }
-        public DateTime? NgayTao { get; set; }
 
-        public virtual ICollection<Hsba> Hsbas { get; set; }
-        public virtual ICollection<KhieuNai> KhieuNais { get; set; }
+        public DateTime? NgayTao { get; set; }
     }
 }

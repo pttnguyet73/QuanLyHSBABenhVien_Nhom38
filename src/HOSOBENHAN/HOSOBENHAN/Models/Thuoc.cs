@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace HOSOBENHAN.Data
+namespace HOSOBENHAN.Models
 {
-    public partial class Thuoc
+    public class Thuoc
     {
-        public Thuoc()
-        {
-            DonThuocDetals = new HashSet<DonThuocDetal>();
-        }
+        [Key]
+        public string IDThuoc { get; set; }
+        public string TenThuoc { get; set; }
+        public DateTime NSX { get; set; }
+        public DateTime HSD { get; set; }
+        public bool BH { get; set; }
 
-        public string Idthuoc { get; set; } = null!;
-        public string? TenThuoc { get; set; }
-        public DateTime? Nsx { get; set; }
-        public DateTime? Hsd { get; set; }
-        public bool? Bh { get; set; }
-
-        public virtual ICollection<DonThuocDetal> DonThuocDetals { get; set; }
+        public ICollection<DonThuocDetal> DonThuocDetals { get; set; }
     }
 }

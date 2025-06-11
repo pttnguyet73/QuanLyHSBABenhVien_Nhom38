@@ -1,19 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-
-namespace HOSOBENHAN.Data
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace HOSOBENHAN.Models
 {
-    public partial class KhieuNai
+    [Table("KhieuNai")]
+    public class KhieuNai
     {
-        public string Idknai { get; set; } = null!;
-        public string IdbenhNhan { get; set; } = null!;
-        public string? LyDo { get; set; }
-        public DateTime? NgayKn { get; set; }
-        public string? TrangThai { get; set; }
-        public string? XuLyKn { get; set; }
-        public string? MaNv { get; set; }
+        [Key, Column(Order = 0), MaxLength(10)]
+        public string IDKNai { get; set; }
 
-        public virtual BenhNhan IdbenhNhanNavigation { get; set; } = null!;
-        public virtual NhanVien? MaNvNavigation { get; set; }
+        [Key, Column(Order = 1), MaxLength(10)]
+        public string IDBenhNhan { get; set; }
+
+        [MaxLength(200)]
+        public string LyDo { get; set; }
+
+        public DateTime? NgayKN { get; set; }
+
+        [MaxLength(50)]
+        public string TrangThai { get; set; }
+
+        [MaxLength(200)]
+        public string XuLyKN { get; set; }
+
+        [MaxLength(10)]
+        public string MaNV { get; set; }
+
+        [ForeignKey("IDBenhNhan")]
+        public BenhNhan BenhNhan { get; set; }
+
+        [ForeignKey("MaNV")]
+        public NhanVien NhanVien { get; set; }
     }
 }

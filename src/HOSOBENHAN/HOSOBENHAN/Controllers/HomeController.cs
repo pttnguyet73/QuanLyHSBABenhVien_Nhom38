@@ -1,4 +1,4 @@
-using API_HOSOBENHAN.Data;
+using HOSOBENHAN.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

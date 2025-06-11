@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {}
+    "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {}
   },
   "projects": {
-    "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {
+    "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
         "projectName": "API_HOSOBENHAN",
-        "projectPath": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\API_HOSOBENHAN.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HSBA\\QuanLyHSBABenhVien_Nhom38\\src\\HOSOBENHAN\\API_HOSOBENHAN\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Downloads\\src1\\src\\HOSOBENHAN\\API_HOSOBENHAN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,29 +51,33 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.36, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.36, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.36, )"
+              "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.36, )"
+              "version": "[8.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

@@ -1,27 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using HOSOBENHAN.Models;
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HOSOBENHAN.Data
+namespace HOSOBENHAN.Models
 {
-    public partial class NhanVien
+
+    [Table("NhanVien")]
+    public class NhanVien
     {
-        public NhanVien()
-        {
-            KhieuNais = new HashSet<KhieuNai>();
-        }
+        [Key]
+        [MaxLength(10)]
+        public string MaNV { get; set; }
 
-        public string MaNv { get; set; } = null!;
-        public string HoTen { get; set; } = null!;
+        [Required]
+        [MaxLength(100)]
+        public string HoTen { get; set; }
+
         public DateTime? NgaySinh { get; set; }
-        public string? DiaChi { get; set; }
-        public string? Cccd { get; set; }
-        public string Sdt { get; set; } = null!;
-        public string? ChucVu { get; set; }
-        public string? GioiTinh { get; set; }
-        public string TaiKhoan { get; set; } = null!;
-        public string MatKhau { get; set; } = null!;
-        public string? Khoa { get; set; }
 
-        public virtual ICollection<KhieuNai> KhieuNais { get; set; }
+        [MaxLength(200)]
+        public string DiaChi { get; set; }
+
+        [MaxLength(12)]
+        public string CCCD { get; set; }
+
+        [Required]
+        [MaxLength(15)]
+        public string SDT { get; set; }
+
+        [MaxLength(50)]
+        public string ChucVu { get; set; }
+
+        [MaxLength(10)]
+        public string GioiTinh { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string TaiKhoan { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string MatKhau { get; set; }
+
+        [MaxLength(50)]
+        public string Khoa { get; set; }
+
+        // Navigation property
+        public ICollection<KhieuNai> KhieuNais { get; set; }
     }
 }

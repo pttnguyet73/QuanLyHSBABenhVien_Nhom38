@@ -1,14 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-
-namespace HOSOBENHAN.Data
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace HOSOBENHAN.Models
 {
-    public partial class TaiKham
+    [Table("TaiKham")]
+    public class TaiKham
     {
-        public string MaHsba { get; set; } = null!;
-        public DateTime? TgtaiKham { get; set; }
-        public string? TrangThai { get; set; }
+        [Key, Column(Order = 0)]
+        [MaxLength(10)]
+        public string MaBN { get; set; }
 
-        public virtual Hsba MaHsbaNavigation { get; set; } = null!;
+        [Key, Column(Order = 1)]
+        [MaxLength(10)]
+        public string MaHSBA { get; set; }
+
+        public DateTime? TGTaiKham { get; set; }
+
+        [MaxLength(50)]
+        public string TrangThai { get; set; }
+
+        [ForeignKey("MaBN")]
+        public BenhNhan BenhNhan { get; set; }
+
+        [ForeignKey("MaHSBA")]
+        public HSBA HSBA { get; set; }
     }
 }

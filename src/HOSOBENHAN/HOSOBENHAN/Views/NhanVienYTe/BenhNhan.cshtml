@@ -14,7 +14,7 @@
 
             </span>
             <span class="context" id="div_a">
-                
+
             </span>
         </div>
     </div>
@@ -22,70 +22,64 @@
     <!-- Form nội dung -->
     <div style="flex-grow: 1; padding: 20px; background-color: #f0f4fa;">
         <div style="background-color: white; padding: 40px; border-radius: 10px; max-width: 950px; margin: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-            <h2 style="text-align: center; margin-bottom: 30px; color: black;">THÔNG TIN BỆNH NHÂN</h2>
+            <h3 style="text-align: center; margin-bottom: 30px; color: black;">THÔNG TIN BỆNH NHÂN</h3>
 
             <form>
+
                 <div class="form-row">
                     <div class="form-group" style="flex: 2;">
                         <label>Họ và tên (In hoa):</label>
-                        <input type="text" id="hoTen">
+                        <label id="hoTen" class="label-field">Nguyễn VĂN A</label>
                     </div>
                     <div class="form-group">
                         <label>Sinh ngày:</label>
-                        <input type="date" id="ngaySinh">
+                        <label id="ngaySinh" class="label-field">01/01/1980</label>
                     </div>
                     <div class="form-group" style="max-width: 100px;">
                         <label>Tuổi:</label>
-                        <input type="text" id="tuoi" readonly>
+                        <label id="tuoi" class="label-field">45</label>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label>Giới tính:</label>
-                        <div style="display: flex; gap: 30px;align-items:center;padding: 8px 12px">
-                            <input class="input_rdo" type="radio" id="gtNam" name="fav_language" value="HTML">
-                            <label class="input_rdo" style=" margin: 0px;" for="gtNam" >Nam</label><br>
-                            <input class = "input_rdo"  type="radio" id="gtNu" name="fav_language" value="CSS">
-                            <label class="input_rdo" style=" margin: 0px;" for="gtNu">Nữ</label><br>
-                        </div>
+                        <label id="gioiTinh" class="label-field">Nam</label>
                     </div>
                     <div class="form-group" style="flex: 2;">
                         <label>Nghề nghiệp:</label>
-                        <input type="text" id="ngheNghiep">
+                        <label id="ngheNghiep" class="label-field">Giáo viên</label>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label>Dân tộc:</label>
-                        <input type="text" id="danToc">
+                        <label id="danToc" class="label-field">Kinh</label>
                     </div>
                     <div class="form-group">
                         <label>Ngoại kiều:</label>
-                        <select id="ngoaiKieu">
-                            <option value="Không">Không</option>
-                            <option value="Có">Có</option>
-                        </select>
+                        <label id="ngoaiKieu" class="label-field">Không</label>
                     </div>
                 </div>
 
                 <div class="form-section">
                     <label>Địa chỉ:</label>
                     <div class="form-row">
-                        <div class="form-group"><input type="text" id="soNha" placeholder="Số nhà"></div>
-                        <div class="form-group"><input type="text" id="thonPho" placeholder="Thôn, phố"></div>
-                        <div class="form-group"><input type="text" id="xaPhuong" placeholder="Xã, phường"></div>
-                        <div class="form-group"><input type="text" id="huyen" placeholder="Huyện (Q,tx)"></div>
-                        <div class="form-group"><input type="text" id="tinh" placeholder="Tỉnh, thành phố"></div>
+                        <label id="soNha" class="label-field" style="min-width: 100px;">123</label>
+                        <label id="thonPho" class="label-field" style="min-width: 150px;">Thôn Phú Lâm</label>
+                        <label id="xaPhuong" class="label-field" style="min-width: 150px;">Phường 5</label>
+                        <label id="huyen" class="label-field" style="min-width: 150px;">Quận 3</label>
+                        <label id="tinh" class="label-field" style="min-width: 150px;">TP Hồ Chí Minh</label>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label>Nơi làm việc:</label>
-                        <input type="text" id="noiLamViec">
+                        <label id="noiLamViec" class="label-field">Trường THPT Nguyễn Trãi</label>
                     </div>
+                    <!-- Giữ nguyên phần đối tượng nếu cần nhập chọn -->
                     <div class="form-group" style="flex: 2;">
                         <label>Đối tượng:</label>
                         <div style="display: flex; gap: 20px; flex-wrap: wrap;padding:8px 12px; margin-left : 20px;align-items:center;">
@@ -142,4 +136,5 @@
         </div>
     </div>
 </div>
-<script src="~/js/nhanvienyte/benhnhan.js?v=12345"></script>
+
+<script src="~/js/nhanvienyte/BenhNhan.js?v=123"></script>

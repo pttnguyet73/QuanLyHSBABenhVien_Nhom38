@@ -1,0 +1,96 @@
+﻿/* Container chính */
+.record-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+    /* Tiêu đề */
+    .record-detail-container h2 {
+        color: #2c3e50;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+.centered-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icon-large {
+    width: 60px;
+    margin-right: 10px;
+}
+
+/* Box thông tin */
+.record-box {
+    background-color: #c9f3f7;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+    /* Tiêu đề nhỏ */
+    .record-box h3 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #111;
+        margin-bottom: 5px;
+    }
+
+/* Mã hồ sơ */
+.record-id {
+    color: red;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Grid 2 cột */
+.record-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 30px;
+    margin-bottom: 20px;
+}
+
+/* Lưu ý */
+.note {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Nhóm nút */
+.button-group {
+    display: flex;
+    justify-content: center; /* Căn giữa các nút */
+    gap: 15px; /* Khoảng cách giữa các nút */
+    margin-top: 20px;
+}
+
+/* Nút chung */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+    .btn.gray {
+        background-color: #7f8c8d;
+    }
+    /* Màu nút */
+    .btn.yellow {
+        background-color: #f7f18a;
+        color: #333;
+    }
+
+    .btn.blue {
+        background-color: #9edbfc;
+        color: #000;
+    }
+
+    .btn.green {
+        background-color: #90ee90;
+        color: #000;
+    }

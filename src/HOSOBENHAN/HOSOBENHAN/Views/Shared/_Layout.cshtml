@@ -7,27 +7,65 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style2.css" asp-append-version="true" />
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    
+    <script src="~/assets/js/lineChartPageChart.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
   
 </head>
 <body>
-   <header>
-        <div class="header text-center">
-            <div class="frame-22">
-                <img class="image-1 img-fluid" src="~/image-10.png" alt="Logo" />
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-lg-2">
+                    <div class="header__logo">
+                        <a href=""><img src="image-10.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="">Trang chủ</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Quản lý</a>
+                                <ul class="dropdown-content">
+                                    <li><a href="@Url.Action("HoSoBenhNhan", "NhanVienYTe")">QLHS khám bệnh</a></li>
+                                    <li><a href="@Url.Action("HoSoBenhAn", "NhanVienYTe")">QLHS bệnh án</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="@Url.Action("Index", "TimKiem_CongHieu")">Tìm kiếm</a></li>
+                           
+                            <li>
+                                <a href="@Url.Action("Dashboard", "ThongKe_ThuNguyet")">Thống kê</a>
+                                
+                            </li>
+                            <li>
+                                <a href="./blog-details.html">Tôi</a>
+                                <ul class="dropdown">
+                                    <li><a href="@Url.Action("Index", "Toi")">Trang cá nhân</a></li>
+                                    <li><a href="@Url.Action("Index", "DangNhap")">Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xl-3 col-lg-2">
+                    <div class="header__right">
+                        <div class="header__right__auth">
+                            <a href="@Url.Action("Index", "DangNhap")">Log In</a>
+                            <a href="@Url.Action("DangKy", "DangKy")">Sign Up</a>
+                        </div>
+                        <ul class="header__right__widget">
+                            <li><span class="icon_search search-switch"></span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="ph-n-m-m-qu-n-l-b-nh-n-i-n-t">
-                Phần mềm quản lí bệnh án điện tử
+            <div class="canvas__open">
+                <i class="fa fa-bars"></i>
             </div>
-            <div class="s-c-kh-e-c-a-b-n-t-t-l-ni-m-vui-c-a-ch-ng-t-i">
-                Sức khỏe của bạn tốt
-                <br />
-                là niềm vui của chúng tôi
-            </div>
-            <img class="image img-fluid" src="~/image0.png" alt="Image" />
         </div>
     </header>
 
@@ -37,25 +75,71 @@
         </main>
     </main>
 
-    <footer class="border-top footer text-muted">
-         <div class="footer text-center">
-             <div class="frame-22">
-                 <img class="image-1 img-fluid" src="~/image-10.png" alt="Logo" />
-             </div>
-             <div class="hotline-19001001-t-ng-i-vi-n">
-                 <span>
-                     <span class="hotline-19001001-t-ng-i-vi-n-span">Hotline:</span>
-                     <span class="hotline-19001001-t-ng-i-vi-n-span2">19001001</span>
-                     <span class="hotline-19001001-t-ng-i-vi-n-span">(Tổng đài viên)</span>
-                 </span>
-             </div>
-             <div class="a-ch-48-cao-th-ng-thanh-b-nh-n-ng">
-                 Địa chỉ: 48 Cao Thắng, Thanh Bình, Đà Nẵng
-             </div>
-             
-             <img class="image img-fluid" src="~/image0.png" alt="Footer Image" />
-         </div>
-     </footer> 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="./index.html"><img src="image-10.png" alt=""></a>
+                        </div>
+                        <p>Chăm sóc đúng cách, yêu thương trọn vẹn – Pet Shop dành tất cả cho những người bạn bốn chân..</p>
+                        <div class="footer__payment">
+                            <a href="#"><img src="img/payment/payment-1.png" alt=""></a>
+                            <a href="#"><img src="img/payment/payment-2.png" alt=""></a>
+                            <a href="#"><img src="img/payment/payment-3.png" alt=""></a>
+                            <a href="#"><img src="img/payment/payment-4.png" alt=""></a>
+                            <a href="#"><img src="img/payment/payment-5.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5">
+                    <div class="footer__widget">
+                        <h6>Quick links</h6>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="footer__widget">
+                        <h6>Account</h6>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Orders Tracking</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-8">
+                    <div class="footer__newslatter">
+                        <h6>NEWSLETTER</h6>
+                        <form action="#">
+                            <input type="text" placeholder="Email">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                        <div class="footer__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace HOSOBENHAN.Data
 {
-    public partial class XetNghiem
+    [Table("XetNghiem")]
+    public class XetNghiem
     {
-        public XetNghiem()
-        {
-            HsbaXetNghiems = new HashSet<HsbaXetNghiem>();
-        }
+        [Key]
+        [MaxLength(10)]
+        public string MaXN { get; set; }
 
-        public string MaXn { get; set; } = null!;
-        public string? LoaiXn { get; set; }
+        [MaxLength(100)]
+        public string LoaiXN { get; set; }
 
-        public virtual ICollection<HsbaXetNghiem> HsbaXetNghiems { get; set; }
+        // Navigation property
+        public ICollection<HSBA_XetNghiem> HSBA_XetNghiems { get; set; }
     }
 }

@@ -1,24 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
-
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace HOSOBENHAN.Data
 {
-    public partial class ChanDoan
+    [Table("ChanDoan")]
+    public class ChanDoan
     {
-        public string MaHsba { get; set; } = null!;
+           [Key, ForeignKey("HSBA")]
+            [MaxLength(10)]
+            public string MaHSBA { get; set; }
+            public HSBA HSBA { get; set; }
+
+        [MaxLength(100)]
         public string? NoiChuyenDen { get; set; }
-        public string? KkbCapCuu { get; set; }
-        public string? TtbanDau { get; set; }
+
+        [MaxLength(100)]
+        public string? KKB_CapCuu { get; set; }
+
+        [MaxLength(100)]
+        public string TTBanDau { get; set; }
+
+        [MaxLength(100)]
         public string? PhauThuat { get; set; }
-        public string? BenhChinh { get; set; }
-        public string? BenhKemTheo { get; set; }
-        public string? TaiBien { get; set; }
-        public string? BienChung { get; set; }
-        public string? NoiTru { get; set; }
-        public string? NgoaiTru { get; set; }
+
+        [MaxLength(100)]
+        public string BenhChinh { get; set; }
+
+        [MaxLength(100)]
+        public string BenhKemTheo { get; set; }
+
+        [MaxLength(100)]
+        public string TaiBien { get; set; }
+
+        [MaxLength(100)]
+        public string BienChung { get; set; }
+
+        [MaxLength(100)]
+        public string NoiTru { get; set; }
+
+        [MaxLength(100)]
+        public string NgoaiTru { get; set; }
+
+        [MaxLength(100)]
         public string? TaiKham { get; set; }
+
         public DateTime? NgayTaiKham { get; set; }
 
-        public virtual Hsba MaHsbaNavigation { get; set; } = null!;
+    
     }
+
 }
+
+

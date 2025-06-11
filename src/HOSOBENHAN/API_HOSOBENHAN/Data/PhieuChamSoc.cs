@@ -1,16 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HOSOBENHAN.Data
 {
-    public partial class PhieuChamSoc
+    [Table("PhieuChamSoc")]
+    public class PhieuChamSoc
     {
-        public string MaHsba { get; set; } = null!;
-        public DateTime Ngay { get; set; }
-        public string? DienBienBenh { get; set; }
-        public string? Ylenh { get; set; }
-        public string? TenDieuDuong { get; set; }
+        [MaxLength(10)]
+        public string MaHSBA { get; set; }
 
-        public virtual Hsba? MaHsbaNavigation { get; set; } = null!;
+        [ForeignKey("MaHSBA")]
+        public HSBA HSBA { get; set; }
+
+        public DateTime Ngay { get; set; }
+
+        [MaxLength(200)]
+        public string DienBienBenh { get; set; }
+
+        [MaxLength(200)]
+        public string YLenh { get; set; }
+
+        [MaxLength(100)]
+        public string TenDieuDuong { get; set; }
     }
 }

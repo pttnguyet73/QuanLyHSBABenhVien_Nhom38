@@ -1,5 +1,4 @@
-﻿using HOSOBENHAN.Data;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -13,9 +12,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-// Đổi namespace DbContext nếu cần
+using HOSOBENHAN.Data; // Đổi namespace DbContext nếu cần
 
-namespace API_HOSOBENHAN
+namespace HOSOBENHAN
 {
     public class Startup
     {
@@ -31,9 +30,9 @@ namespace API_HOSOBENHAN
         {
             services.AddControllers();
 
-            services.AddDbContext<QUANLYBENHAN01Context>(options =>
+            services.AddDbContext<HSBADBContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("MyDB"));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
             services.AddSwaggerGen(c =>

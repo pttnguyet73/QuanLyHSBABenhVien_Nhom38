@@ -41,11 +41,11 @@ input[type="radio"] {
 }
 
 .text4 {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-    color : black;
+    color: black;
 }
 
 label {
@@ -66,6 +66,10 @@ input[type="text"], input[type="date"], select {
     box-sizing: border-box;
 }
 
+input {
+    font-weight: bold;
+}
+
 input[type="radio"], input[type="checkbox"] {
     margin-right: 6px;
     transform: scale(1.2);
@@ -79,6 +83,19 @@ input[type="radio"], input[type="checkbox"] {
     margin-bottom: 20px;
 }
 
+.label-field {
+    display: block;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    min-height: 38px; /* tương đương input */
+    box-sizing: border-box;
+    color: #333;
+}
+
+
 .form-group {
     flex: 1;
     min-width: 200px;
@@ -91,5 +108,3 @@ input[type="radio"], input[type="checkbox"] {
 input.input_rdo {
     align-items: center;
 }
-
-

@@ -28,10 +28,10 @@
                         // Hiển thị thông tin bệnh nhân
                         $(".info-box").html(`
                             <div>Mã cccd : ${tt.cccd || ''}</div>
-                            <div>Giới tính : ${tt.gtinh || ''}</div>
+                            <div>Giới tính : ${tt.gTinh || ''}</div>
                             <div>Họ tên : ${tt.hoTen || ''}</div>
                             <div>Năm sinh : ${namSinh}</div>
-                            <div>Số điện thoại : ${tt.sdtntnhan || ''}</div>
+                            <div>Địa chỉ : ${tt.diaChi || ''}</div>
                             <label id="textidcccd" style="display:none">${tt.cccd}</label>
                         `);
                     } else {
@@ -97,25 +97,25 @@
 
     $.get("https://localhost:7015/api/NhanVienYTe/ListTaoHoSo", { }, function (kq) {
             var dulieu = kq.data;
-    var bs = kq.data2;
-
+            var bs = kq.data2;
+        
             // Load khoa
             if (dulieu && dulieu.length > 0) {
                 var html = '<option value="">-- Chọn khoa --</option>';
-    dulieu.forEach(function (item) {
-        html += `<option value="${item.maKhoa}">${item.tenKhoa}</option>`;
+                dulieu.forEach(function (item) {
+                   html += `<option value="${item.maKhoa}">${item.tenKhoa}</option>`;
                 });
-    $("#khoa").not("#div_kt").html(html); // Gán option mới
+               $("#khoa").not("#div_kt").html(html); // Gán option mới
             }
 
-            // Load bác sĩ
-            if (bs && bs.length > 0) {
-                var html = '<option value="">-- Chọn bác sĩ --</option>';
-    bs.forEach(function (item) {
-        html += `<option value="${item.maBs}">${item.tenBs}</option>`;
-                });
-    $("#doctor").not("#div_kt").html(html); // Gán option mới
-            }
+    //        // Load bác sĩ
+    //        if (bs && bs.length > 0) {
+    //            var html = '<option value="">-- Chọn bác sĩ --</option>';
+    //            bs.forEach(function (item) {
+    //            html += `<option value="${item.maBs}">${item.tenBs}</option>`;
+    //            });
+    //$("#doctor").not("#div_kt").html(html); // Gán option mới
+    //        }
         }).fail(function (xhr, status, error) {
         console.error("Lỗi gọi API:", error);
         });

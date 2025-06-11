@@ -61,20 +61,21 @@ function formatDate(date) {
     const datetime = $("#td_getdatetime").text();
     const da = parseCustomDate(datetime);
 
-        alert("Thời gian: " + formatDate(da));
 
     if (!tddb || !ylenh || !dd) {
         alert("Vui lòng nhập đầy đủ thông tin.");
     return;
             }
 
-    const data = {
-        mahsba: mahsba,
-        ngay: formatDate(da),
-        dienBienBenh: tddb,
-        ylenh: ylenh,
-        tenDieuDuong: dd
-     };
+        const data = {
+            MaHSBA: mahsba,
+            Ngay: formatDate(da),
+            DienBienBenh: tddb,
+            YLenh: ylenh,
+            TenDieuDuong: dd
+        };
+
+
 
 
     $.ajax({

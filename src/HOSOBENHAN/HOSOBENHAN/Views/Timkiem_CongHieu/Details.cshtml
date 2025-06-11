@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin khám bệnh</title>
+    <link rel="stylesheet" href="~/css/details.css">
+    <script src="~/js/lib/filter.js"></script>
+
+</head>
+<body>
+    <!-- Phần header bạn có thể giữ nguyên -->
+
+    <main style="background-color: #f2f6fc; padding: 20px;">
+        <div class="record-detail-container">
+            <h2>
+                <img src="~/image 107.png" alt="icon" class="icon-large">
+                HỒ SƠ KHÁM BỆNH
+            </h2>
+                @model HSBA_DetailViewModel
+
+                <div class="record-box">
+                    <div class="centered-header">
+                        <h3>Thông tin khám bệnh</h3>
+                        <p class="record-id">Mã HSBA : <span>@Model.MaHSBA</span></p>
+                    </div>
+
+                    <div class="record-grid">
+                        <div><strong>Mã nhập viện:</strong> @Model.MaNhapVien</div>
+                        <div><strong>Bệnh nhân:</strong> @Model.HoTenBenhNhan</div>
+                        <div><strong>Giới tính:</strong> @Model.GioiTinh</div>
+                        <div><strong>CCCD:</strong> @Model.CCCD</div>
+                        <div><strong>SDT:</strong> @Model.SDT</div>
+                        <div><strong>Chẩn đoán:</strong> @Model.ChanDoan</div>
+                        <div><strong>Thời gian vào viện:</strong> @Model.TgianVaoVien.ToString("dd/MM/yyyy")</div>
+                        <div><strong>Lý do vào viện:</strong> @Model.LyDoVaoVien</div>
+                        <div><strong>Thời gian ra viện:</strong> @(Model.TgianRaVien?.ToString("dd/MM/yyyy") ?? "Chưa ra viện")</div>
+                        <div><strong>Lý do ra viện:</strong> @Model.LyDoRaVien</div>
+                        <div><strong>Nơi giới thiệu :</strong> @Model.NoiGT</div>
+                        <div><strong>Buồng:</strong> @Model.Buong</div>
+                        <div><strong>Giường:</strong> @Model.Giuong</div>
+                        <div><strong>Bác sĩ phụ trách:</strong> @Model.BacSiPhuTrach</div>
+                    </div>
+
+                    <div class="note">
+                        <strong>Trạng thái:</strong> @Model.TrangThai
+                    </div>
+
+                    <div class="button-group">
+                        <a href="@Url.Action("thongtindonthuoc", "Timkiem_CongHieu", new { id = Model.MaHSBA })" class="btn yellow">Đơn thuốc</a>
+                        <a href="@Url.Action("ketquaxetnghiem", "Timkiem_CongHieu", new { id = Model.MaHSBA })" class="btn blue">Kết quả xét nghiệm</a>
+                        <a href="javascript:history.back()" class="btn green">Quay lại</a>
+                    </div>
+                </div>
+
+
+            @*     <div class="record-grid">
+                    <div><strong>Mã nhập viện:</strong> Trần Công Hiếu</div>
+                    <div><strong>Bệnh nhân:</strong> Trần Công Hiếu</div>
+                    <div><strong>Giới tính:</strong> Nam</div>
+                    <div><strong>CCCD:</strong> 123456789</div>
+                    <div><strong>SDT:</strong> 0123456789</div>
+                    <div><strong>Chẩn đoán:</strong> Sốt siêu vi</div>              
+                    <div><strong>Thời gian vào viện:</strong> 01/01/2025</div>
+                    <div><strong>Lý do vào viện:</strong>Khám và điều trị viêm phổi</div>                 
+                    <div><strong>Thời gian ra viện:</strong> 15/01/2025</div>
+                    <div><strong>Lý do vào viện:</strong>Đã xuất viện</div>
+                    <div><strong>Nơi giới thiệu :</strong>Khoa Nội</div>
+                    <div><strong>Buồng:</strong> Buồng 1</div>
+                    <div><strong>Giường:</strong> Giuong 1</div>
+                    <div><strong>Bác sĩ phụ trách:</strong> Phạm Thị Thu</div>
+                </div>
+
+                <div class="note">
+                    <strong>Trạng thái:</strong> Đang điều trị
+                </div>
+
+                <div class="button-group">
+                    <a href="@Url.Action("thongtindonthuoc", "Timkiem_CongHieu")" class="btn yellow">Đơn thuốc</a>
+                    <a href="@Url.Action("ketquaxetnghiem", "Timkiem_CongHieu")" class="btn blue">Kết quả xét nghiệm</a>
+                    <a href="javascript:history.back()" class="btn green">Quay lại</a>
+                </div>
+
+            </div> *@
+        </div>
+    </main>
+
+    <!-- Footer giữ nguyên -->
+</body>
+</html>

@@ -136,17 +136,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PhieuChamSoc"
+                "$ref": "#/components/schemas/PhieuChamSocMD"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PhieuChamSoc"
+                "$ref": "#/components/schemas/PhieuChamSocMD"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PhieuChamSoc"
+                "$ref": "#/components/schemas/PhieuChamSocMD"
               }
             }
           }
@@ -360,41 +360,162 @@
         }
       }
     },
-    "/WeatherForecast": {
+    "/api/ThongKe_ThuNguyet/Year": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "ThongKe_ThuNguyet"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/Month": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "parameters": [
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/Date": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "parameters": [
+          {
+            "name": "month",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/Top3Khoa": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/ColumnMonth": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/HSBA": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/XetNghiem": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/TaiKham": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/ThongKeNhanSu": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/ThongKeChanDoan": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongKe_ThuNguyet/SoLuong": {
+      "get": {
+        "tags": [
+          "ThongKe_ThuNguyet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
@@ -402,123 +523,6 @@
   },
   "components": {
     "schemas": {
-      "BenhNhan": {
-        "type": "object",
-        "properties": {
-          "maBn": {
-            "type": "string",
-            "nullable": true
-          },
-          "cccd": {
-            "type": "string",
-            "nullable": true
-          },
-          "hoTen": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngaySinh": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "gtinh": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngheNghiep": {
-            "type": "string",
-            "nullable": true
-          },
-          "danToc": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngoaiKieu": {
-            "type": "string",
-            "nullable": true
-          },
-          "diaChi": {
-            "type": "string",
-            "nullable": true
-          },
-          "noiLamViec": {
-            "type": "string",
-            "nullable": true
-          },
-          "doiTuong": {
-            "type": "string",
-            "nullable": true
-          },
-          "soBhyt": {
-            "type": "string",
-            "nullable": true
-          },
-          "gitriBhyt": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "hoTenNtnhan": {
-            "type": "string",
-            "nullable": true
-          },
-          "diaChiNt": {
-            "type": "string",
-            "nullable": true
-          },
-          "sdtntnhan": {
-            "type": "string",
-            "nullable": true
-          },
-          "matKhau": {
-            "type": "string",
-            "nullable": true
-          },
-          "stt": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "trieuChung": {
-            "type": "string",
-            "nullable": true
-          },
-          "khoa": {
-            "type": "string",
-            "nullable": true
-          },
-          "taiKham": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgKham": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "ngayTao": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "hsbas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Hsba"
-            },
-            "nullable": true
-          },
-          "khieuNais": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/KhieuNai"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "BenhNhan1": {
         "type": "object",
         "properties": {
@@ -541,38 +545,6 @@
         "type": "object",
         "properties": {
           "mabn": {
-            "type": "string",
-            "nullable": true
-          },
-          "hoTen": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngaySinh": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "gTinh": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngheNghiep": {
-            "type": "string",
-            "nullable": true
-          },
-          "danToc": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngoaiKieu": {
-            "type": "string",
-            "nullable": true
-          },
-          "diaChi": {
-            "type": "string",
-            "nullable": true
-          },
-          "noiLamViec": {
             "type": "string",
             "nullable": true
           },
@@ -604,375 +576,6 @@
         },
         "additionalProperties": false
       },
-      "ChanDoan": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
-            "type": "string",
-            "nullable": true
-          },
-          "noiChuyenDen": {
-            "type": "string",
-            "nullable": true
-          },
-          "kkbCapCuu": {
-            "type": "string",
-            "nullable": true
-          },
-          "ttbanDau": {
-            "type": "string",
-            "nullable": true
-          },
-          "phauThuat": {
-            "type": "string",
-            "nullable": true
-          },
-          "benhChinh": {
-            "type": "string",
-            "nullable": true
-          },
-          "benhKemTheo": {
-            "type": "string",
-            "nullable": true
-          },
-          "taiBien": {
-            "type": "string",
-            "nullable": true
-          },
-          "bienChung": {
-            "type": "string",
-            "nullable": true
-          },
-          "noiTru": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngoaiTru": {
-            "type": "string",
-            "nullable": true
-          },
-          "taiKham": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngayTaiKham": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "maHsbaNavigation": {
-            "$ref": "#/components/schemas/Hsba"
-          }
-        },
-        "additionalProperties": false
-      },
-      "DateOnly": {
-        "type": "object",
-        "properties": {
-          "year": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "month": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "day": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "dayOfWeek": {
-            "$ref": "#/components/schemas/DayOfWeek"
-          },
-          "dayOfYear": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "dayNumber": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "DayOfWeek": {
-        "enum": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "DonThuoc": {
-        "type": "object",
-        "properties": {
-          "maDonThuoc": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngayTao": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "nguoiTao": {
-            "type": "string",
-            "nullable": true
-          },
-          "donThuocDetals": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DonThuocDetal"
-            },
-            "nullable": true
-          },
-          "donThuocHsbas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DonThuocHsba"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "DonThuocDetal": {
-        "type": "object",
-        "properties": {
-          "maDonThuoc": {
-            "type": "string",
-            "nullable": true
-          },
-          "idthuoc": {
-            "type": "string",
-            "nullable": true
-          },
-          "soLg": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "dvTinh": {
-            "type": "string",
-            "nullable": true
-          },
-          "lieuDung": {
-            "type": "string",
-            "nullable": true
-          },
-          "ghiChu": {
-            "type": "string",
-            "nullable": true
-          },
-          "idthuocNavigation": {
-            "$ref": "#/components/schemas/Thuoc"
-          },
-          "maDonThuocNavigation": {
-            "$ref": "#/components/schemas/DonThuoc"
-          }
-        },
-        "additionalProperties": false
-      },
-      "DonThuocHsba": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
-            "type": "string",
-            "nullable": true
-          },
-          "maDonThuoc": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgianBdauSd": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "tgianKthucSd": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "maDonThuocNavigation": {
-            "$ref": "#/components/schemas/DonThuoc"
-          },
-          "maHsbaNavigation": {
-            "$ref": "#/components/schemas/Hsba"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Hsba": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngayTao": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "trangThai": {
-            "type": "string",
-            "nullable": true
-          },
-          "khoa": {
-            "type": "string",
-            "nullable": true
-          },
-          "nguoiTao": {
-            "type": "string",
-            "nullable": true
-          },
-          "maBn": {
-            "type": "string",
-            "nullable": true
-          },
-          "maBnNavigation": {
-            "$ref": "#/components/schemas/BenhNhan"
-          },
-          "chanDoan": {
-            "$ref": "#/components/schemas/ChanDoan"
-          },
-          "taiKham": {
-            "$ref": "#/components/schemas/TaiKham"
-          },
-          "donThuocHsbas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DonThuocHsba"
-            },
-            "nullable": true
-          },
-          "hsbaXetNghiems": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HsbaXetNghiem"
-            },
-            "nullable": true
-          },
-          "phieuChamSocs": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PhieuChamSoc"
-            },
-            "nullable": true
-          },
-          "ttnhapViens": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/TtnhapVien"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "HsbaXetNghiem": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
-            "type": "string",
-            "nullable": true
-          },
-          "maXn": {
-            "type": "string",
-            "nullable": true
-          },
-          "kqxetNghiem": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgianTao": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "bacSyXn": {
-            "type": "string",
-            "nullable": true
-          },
-          "maHsbaNavigation": {
-            "$ref": "#/components/schemas/Hsba"
-          },
-          "maXnNavigation": {
-            "$ref": "#/components/schemas/XetNghiem"
-          }
-        },
-        "additionalProperties": false
-      },
-      "KhieuNai": {
-        "type": "object",
-        "properties": {
-          "idknai": {
-            "type": "string",
-            "nullable": true
-          },
-          "idbenhNhan": {
-            "type": "string",
-            "nullable": true
-          },
-          "lyDo": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngayKn": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "trangThai": {
-            "type": "string",
-            "nullable": true
-          },
-          "xuLyKn": {
-            "type": "string",
-            "nullable": true
-          },
-          "maNv": {
-            "type": "string",
-            "nullable": true
-          },
-          "idbenhNhanNavigation": {
-            "$ref": "#/components/schemas/BenhNhan"
-          },
-          "maNvNavigation": {
-            "$ref": "#/components/schemas/NhanVien"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Khoa": {
-        "type": "object",
-        "properties": {
-          "maKhoa": {
-            "type": "string",
-            "nullable": true
-          },
-          "tenKhoa": {
-            "type": "string",
-            "nullable": true
-          },
-          "ttnvKhoas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/TtnvKhoa"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "LocBacSyRequest": {
         "type": "object",
         "properties": {
@@ -983,68 +586,10 @@
         },
         "additionalProperties": false
       },
-      "NhanVien": {
+      "PhieuChamSocMD": {
         "type": "object",
         "properties": {
-          "maNv": {
-            "type": "string",
-            "nullable": true
-          },
-          "hoTen": {
-            "type": "string",
-            "nullable": true
-          },
-          "ngaySinh": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "diaChi": {
-            "type": "string",
-            "nullable": true
-          },
-          "cccd": {
-            "type": "string",
-            "nullable": true
-          },
-          "sdt": {
-            "type": "string",
-            "nullable": true
-          },
-          "chucVu": {
-            "type": "string",
-            "nullable": true
-          },
-          "gioiTinh": {
-            "type": "string",
-            "nullable": true
-          },
-          "taiKhoan": {
-            "type": "string",
-            "nullable": true
-          },
-          "matKhau": {
-            "type": "string",
-            "nullable": true
-          },
-          "khoa": {
-            "type": "string",
-            "nullable": true
-          },
-          "khieuNais": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/KhieuNai"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PhieuChamSoc": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
+          "maHSBA": {
             "type": "string",
             "nullable": true
           },
@@ -1056,72 +601,12 @@
             "type": "string",
             "nullable": true
           },
-          "ylenh": {
+          "yLenh": {
             "type": "string",
             "nullable": true
           },
           "tenDieuDuong": {
             "type": "string",
-            "nullable": true
-          },
-          "maHsbaNavigation": {
-            "$ref": "#/components/schemas/Hsba"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TaiKham": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgtaiKham": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "trangThai": {
-            "type": "string",
-            "nullable": true
-          },
-          "maHsbaNavigation": {
-            "$ref": "#/components/schemas/Hsba"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Thuoc": {
-        "type": "object",
-        "properties": {
-          "idthuoc": {
-            "type": "string",
-            "nullable": true
-          },
-          "tenThuoc": {
-            "type": "string",
-            "nullable": true
-          },
-          "nsx": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "hsd": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "bh": {
-            "type": "boolean",
-            "nullable": true
-          },
-          "donThuocDetals": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DonThuocDetal"
-            },
             "nullable": true
           }
         },
@@ -1132,141 +617,6 @@
         "properties": {
           "cccd": {
             "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "TtnhapVien": {
-        "type": "object",
-        "properties": {
-          "maHsba": {
-            "type": "string",
-            "nullable": true
-          },
-          "maNhapVien": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgianVnVien": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "buong": {
-            "type": "string",
-            "nullable": true
-          },
-          "giuong": {
-            "type": "string",
-            "nullable": true
-          },
-          "lyDoVao": {
-            "type": "string",
-            "nullable": true
-          },
-          "noiGtieu": {
-            "type": "string",
-            "nullable": true
-          },
-          "nvienLanThu": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "chuyenVien": {
-            "type": "string",
-            "nullable": true
-          },
-          "bvchuyenDen": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgraVien": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "lyDoRaVien": {
-            "type": "string",
-            "nullable": true
-          },
-          "maHsbaNavigation": {
-            "$ref": "#/components/schemas/Hsba"
-          },
-          "ttnvKhoas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/TtnvKhoa"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "TtnvKhoa": {
-        "type": "object",
-        "properties": {
-          "maNhapVien": {
-            "type": "string",
-            "nullable": true
-          },
-          "maKhoa": {
-            "type": "string",
-            "nullable": true
-          },
-          "tgChuyenDen": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "maKhoaNavigation": {
-            "$ref": "#/components/schemas/Khoa"
-          },
-          "maNhapVienNavigation": {
-            "$ref": "#/components/schemas/TtnhapVien"
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "$ref": "#/components/schemas/DateOnly"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "XetNghiem": {
-        "type": "object",
-        "properties": {
-          "maXn": {
-            "type": "string",
-            "nullable": true
-          },
-          "loaiXn": {
-            "type": "string",
-            "nullable": true
-          },
-          "hsbaXetNghiems": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HsbaXetNghiem"
-            },
             "nullable": true
           }
         },

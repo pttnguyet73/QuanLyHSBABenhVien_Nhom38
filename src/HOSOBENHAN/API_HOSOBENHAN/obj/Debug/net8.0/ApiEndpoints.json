@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "HOSOBENHAN.Data.PhieuChamSoc",
+        "Type": "API_HOSOBENHAN.ClassModels.PhieuChamSocMD",
         "IsRequired": true
       }
     ],
@@ -236,24 +236,130 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API_HOSOBENHAN.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetColumnChart",
+    "RelativePath": "api/ThongKe_ThuNguyet/ColumnMonth",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetWeek",
+    "RelativePath": "api/ThongKe_ThuNguyet/Date",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_HOSOBENHAN.WeatherForecast, API_HOSOBENHAN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetHSBA",
+    "RelativePath": "api/ThongKe_ThuNguyet/HSBA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKe",
+    "RelativePath": "api/ThongKe_ThuNguyet/Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetChiTietBacSiVaNhanVien",
+    "RelativePath": "api/ThongKe_ThuNguyet/SoLuong",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetTaiKham",
+    "RelativePath": "api/ThongKe_ThuNguyet/TaiKham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKeChanDoan",
+    "RelativePath": "api/ThongKe_ThuNguyet/ThongKeChanDoan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKeNhanSu",
+    "RelativePath": "api/ThongKe_ThuNguyet/ThongKeNhanSu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetTop3Khoa",
+    "RelativePath": "api/ThongKe_ThuNguyet/Top3Khoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetXetNghiem",
+    "RelativePath": "api/ThongKe_ThuNguyet/XetNghiem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HOSOBENHAN.Controllers.ThongKe_ThuNguyetController",
+    "Method": "GetThongKe",
+    "RelativePath": "api/ThongKe_ThuNguyet/Year",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

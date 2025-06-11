@@ -1,3 +1,5 @@
+Link Video báo cáo: https://drive.google.com/drive/folders/1DDtx8u7Yk53obhV7SlEA1lKUwij3-SAY?usp=sharing
+
 Đề tài: Quản lý hồ sơ bệnh án tại bệnh viện
 ## Hướng dẫn cài đặt thêm sau khi clone về
  1.Cài đặt nuget
